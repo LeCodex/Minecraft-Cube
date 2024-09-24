@@ -18,35 +18,35 @@
 	        }
 	    },
 	    {
-	        "name": "Fire Aspect",
+	        "name": "Flaming Weapons",
 	        "rarity": "uncommon",
 	        "mana_cost": "{1}{R}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Enchantment",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Fire Aspect.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Flaming Weapons.png"
 	        }
 	    },
 	    {
-	        "name": "Punch",
+	        "name": "Full Set",
 	        "rarity": "common",
-	        "mana_cost": "{U}",
-	        "type": "Enchantment — Aura ",
+	        "mana_cost": "{1}{U}",
+	        "type": "Instant",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Punch.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Full Set.png"
 	        }
 	    },
 	    {
-	        "name": "Fortune",
+	        "name": "Fortune Pickaxe",
 	        "rarity": "common",
 	        "mana_cost": "{1}{R}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Fortune.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Fortune Pickaxe.png"
 	        }
 	    },
 	    {
 	        "name": "Respawn and Collect",
-	        "rarity": "rare",
+	        "rarity": "common",
 	        "mana_cost": "{2}{R}",
 	        "type": "Instant",
 	        "image_uris": {
@@ -54,30 +54,30 @@
 	        }
 	    },
 	    {
-	        "name": "Piercing",
+	        "name": "Piercing Crossbow",
 	        "rarity": "common",
 	        "mana_cost": "{1}{R}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Piercing.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Piercing Crossbow.png"
 	        }
 	    },
 	    {
-	        "name": "Thorns",
+	        "name": "Thorns Chestplate",
 	        "rarity": "uncommon",
 	        "mana_cost": "{1}{B}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Thorns.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Thorns Chestplate.png"
 	        }
 	    },
 	    {
-	        "name": "Impaling",
+	        "name": "Impaling Trident",
 	        "rarity": "rare",
 	        "mana_cost": "{2}{B}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Impaling.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Impaling Trident.png"
 	        }
 	    },
 	    {
@@ -99,12 +99,12 @@
 	        }
 	    },
 	    {
-	        "name": "Allay",
+	        "name": "Floating Allay",
 	        "rarity": "rare",
 	        "mana_cost": "{1}{W}{U}{B}",
 	        "type": "Creature — Spirit ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Allay.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Floating Allay.png"
 	        }
 	    },
 	    {
@@ -540,30 +540,30 @@
 	        }
 	    },
 	    {
-	        "name": "Multishot",
+	        "name": "Multishot Crossbow",
 	        "rarity": "common",
 	        "mana_cost": "{1}{B}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Multishot.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Multishot Crossbow.png"
 	        }
 	    },
 	    {
-	        "name": "Swift Sneak",
+	        "name": "Swift Sneak Leggings",
 	        "rarity": "common",
-	        "mana_cost": "{2}{U}",
-	        "type": "Enchantment — Aura ",
+	        "mana_cost": "{1}{U}",
+	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Swift Sneak.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Swift Sneak Leggings.png"
 	        }
 	    },
 	    {
-	        "name": "Soul Speed",
+	        "name": "Soul Speed Boots",
 	        "rarity": "uncommon",
 	        "mana_cost": "{R}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Soul Speed.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Soul Speed Boots.png"
 	        }
 	    },
 	    {
@@ -1064,7 +1064,7 @@
 	    {
 	        "name": "Wither Skeleton",
 	        "rarity": "uncommon",
-	        "mana_cost": "{3}{B}",
+	        "mana_cost": "{2}{B}",
 	        "type": "Creature — Skeleton Warrior ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Wither Skeleton.png"
@@ -1126,7 +1126,7 @@
 	    },
 	    {
 	        "name": "Trial Raid",
-	        "rarity": "common",
+	        "rarity": "uncommon",
 	        "mana_cost": "{2}{R}",
 	        "type": "Instant",
 	        "image_uris": {
@@ -1568,7 +1568,7 @@
 	    {
 	        "name": "Snow Golem",
 	        "rarity": "uncommon",
-	        "mana_cost": "{1}{U}",
+	        "mana_cost": "{1}{W}",
 	        "type": "Snow Artifact Creature — Golem ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Snow Golem.png"
@@ -1712,7 +1712,7 @@
 	    {
 	        "name": "Gather Experience",
 	        "rarity": "common",
-	        "mana_cost": "{1}{U}",
+	        "mana_cost": "{2}{U}",
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Gather Experience.png"
@@ -1989,12 +1989,12 @@
 	        }
 	    },
 	    {
-	        "name": "Trusty Companion",
+	        "name": "Faithful Companion",
 	        "rarity": "common",
 	        "mana_cost": "{W}",
 	        "type": "Creature — Dog ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Trusty Companion.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Faithful Companion.png"
 	        }
 	    },
 	    {
@@ -2036,7 +2036,7 @@
 	    {
 	        "name": "Golden Sword",
 	        "rarity": "rare",
-	        "mana_cost": "{3}{R}",
+	        "mana_cost": "{2}{R}",
 	        "type": "Artifact — Equipment ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Golden Sword.png"
@@ -2304,12 +2304,12 @@
 	        }
 	    },
 	    {
-	        "name": "Mending",
+	        "name": "Pillager Horn",
 	        "rarity": "uncommon",
 	        "mana_cost": "{1}{B}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Artifact",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Mending.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Pillager Horn.png"
 	        }
 	    },
 	    {
@@ -2322,12 +2322,12 @@
 	        }
 	    },
 	    {
-	        "name": "Depth Strider",
+	        "name": "Depth Strider Boots",
 	        "rarity": "uncommon",
 	        "mana_cost": "{U}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Depth Strider.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Depth Strider Boots.png"
 	        }
 	    },
 	    {
@@ -2340,12 +2340,12 @@
 	        }
 	    },
 	    {
-	        "name": "Projectile Protection",
+	        "name": "Protection Chestplate",
 	        "rarity": "common",
 	        "mana_cost": "{1}{U}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Projectile Protection.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Protection Chestplate.png"
 	        }
 	    },
 	    {
@@ -2477,7 +2477,7 @@
 	    {
 	        "name": "Jeb Door",
 	        "rarity": "uncommon",
-	        "mana_cost": "{2}{W}",
+	        "mana_cost": "{2}{U}",
 	        "type": "Artifact",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Jeb Door.png"
@@ -2872,7 +2872,7 @@
 	    },
 	    {
 	        "name": "Prepared Incursion",
-	        "rarity": "uncommon",
+	        "rarity": "rare",
 	        "mana_cost": "{2}{R}",
 	        "type": "Enchantment",
 	        "image_uris": {
@@ -3241,10 +3241,9 @@
 	    }
 	]
 	[CubeSlot(15)]
-		1 Respawn and Collect
-		1 Impaling
+		1 Impaling Trident
 		1 Sunken Stronghold
-		1 Allay
+		1 Floating Allay
 		1 Village Shepherd
 		1 Amplified Terrain
 		1 Far Lands
@@ -3295,6 +3294,7 @@
 		1 Iceologer
 		1 Trail Ruins
 		1 Equipped Spawn
+		1 Prepared Incursion
 		1 Brewing Stand
 		1 Herd Spawning
 		1 Hardcore Mode
@@ -3314,8 +3314,8 @@
 		1 The Wither
 		1 The End Fountain
 		1 Village Fountain
-		1 Fire Aspect
-		1 Thorns
+		1 Flaming Weapons
+		1 Thorns Chestplate
 		1 Copper Golem
 		1 Village Bell
 		1 Pillager's Capture
@@ -3349,7 +3349,7 @@
 		1 Illusioner
 		1 Zombified Piglin
 		1 Raid Captain
-		1 Soul Speed
+		1 Soul Speed Boots
 		1 Totem Of Undying
 		1 Composter
 		1 Silverfish
@@ -3371,6 +3371,7 @@
 		1 Village Butcher
 		1 Jungle Parrot
 		1 Banished Witch
+		1 Trial Raid
 		1 Time Command
 		1 Void Command
 		1 Ink Squid
@@ -3410,8 +3411,8 @@
 		1 Teleport Out
 		1 Zoglin
 		1 Unpleasant Surprise
-		1 Mending
-		1 Depth Strider
+		1 Pillager Horn
+		1 Depth Strider Boots
 		1 11 Music Disc
 		1 Pigstep Music Disc
 		1 Far Music Disc
@@ -3443,7 +3444,6 @@
 		1 Diamond Gear
 		1 Wooden Shield
 		1 Grindstone
-		1 Prepared Incursion
 		1 Awaited Hatching
 		1 Bedrock Wall
 		1 Blast Furnace
@@ -3468,15 +3468,16 @@
 		1 Iron Stockpile
 		1 Unlit Cave
 		1 Crafting Bench
-		1 Punch
-		1 Fortune
-		1 Piercing
+		1 Full Set
+		1 Fortune Pickaxe
+		1 Respawn and Collect
+		1 Piercing Crossbow
 		1 Wooly Sheep
 		1 Grazing Grounds
 		1 Unloaded Chunk
 		1 Iron Anvil
-		1 Multishot
-		1 Swift Sneak
+		1 Multishot Crossbow
+		1 Swift Sneak Leggings
 		1 Sculk Spread
 		1 Scurrying Bats
 		1 Tamed Cat
@@ -3512,7 +3513,6 @@
 		1 Polar Bear
 		1 Husk
 		1 Meadow Cow
-		1 Trial Raid
 		1 Sea Dolphin
 		1 Kick
 		1 Critical Strike
@@ -3558,7 +3558,7 @@
 		1 Fire Charge
 		1 Tadpole Knot
 		1 Desert Camel
-		1 Trusty Companion
+		1 Faithful Companion
 		1 Explore
 		1 Wind Charge
 		1 Forest Fire
@@ -3577,7 +3577,7 @@
 		1 Illager Patrol
 		1 Pyromania
 		1 Curse of Binding
-		1 Projectile Protection
+		1 Protection Chestplate
 		1 Skeleton Bowman
 		1 Act of Preservation
 		1 Debug World

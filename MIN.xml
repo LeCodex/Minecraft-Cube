@@ -20,8 +20,8 @@
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Unlit Cave enters or leaves the battlefield, create a Den token for a 2/2 black Zombie. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related>Zombie Den MIN</related>
+      <text>When Unlit Cave enters or leaves the battlefield, spawn menace twice. (To spawn menace, put a +1/+1 or menace counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Crafting Bench</name>
@@ -38,53 +38,51 @@
       <related>Tool MIN</related>
     </card>
     <card>
-      <name>Fire Aspect</name>
+      <name>Flaming Weapons</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>R</colors>
         <manacost>1R</manacost>
         <cmc>2</cmc>
-        <type>Enchantment - Aura </type>
+        <type>Enchantment</type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “{R}: Equipped creature gets +1/+0 until end of turn.” and “When equipped creature dies, it deals damage equal to its power to any target.”</text>
-      <related>Equipment MIN</related>
+      <text>When Flaming Weapons enters, gear up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)
+1R: Modified creatures you control get +1/+0 until end of turn. (Equipment, Auras you control, and counters are modifications.)</text>
     </card>
     <card>
-      <name>Punch</name>
+      <name>Full Set</name>
       <set rarity="common">MIN</set>
       <prop>
         <colors>U</colors>
-        <manacost>U</manacost>
-        <cmc>1</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
       </prop>
-      <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Whenever equipped creature blocks or becomes blocked by a creature, tap that creature and put a stun counter on it.”</text>
-      <related>Equipment MIN</related>
+      <tablerow>3</tablerow>
+      <text>Create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
+Gear up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
+      <related>Tool MIN</related>
     </card>
     <card>
-      <name>Fortune</name>
+      <name>Fortune Pickaxe</name>
       <set rarity="common">MIN</set>
       <prop>
         <colors>R</colors>
         <manacost>1R</manacost>
         <cmc>2</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Equipped creature gets +2/+2. Whenever it attacks, create a Treasure token.”</text>
-      <related>Equipment MIN</related>
+      <text>Equipped creature gets +2/+2. Whenever it attacks, create a Treasure token.
+Equip {2}</text>
     </card>
     <card>
       <name>Respawn and Collect</name>
-      <set rarity="rare">MIN</set>
+      <set rarity="common">MIN</set>
       <prop>
         <colors>R</colors>
         <manacost>2R</manacost>
@@ -93,53 +91,51 @@ Enchanted Equipment has “Equipped creature gets +2/+2. Whenever it attacks, cr
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Create a 2/2 red Human creature token. Until end of turn, spells and abilities you control that target it cost {1} less to cast or activate.</text>
+      <text>Create a 2/2 red Human creature token. Gear up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
       <related>Human MIN</related>
     </card>
     <card>
-      <name>Piercing</name>
+      <name>Piercing Crossbow</name>
       <set rarity="common">MIN</set>
       <prop>
         <colors>R</colors>
         <manacost>1R</manacost>
         <cmc>2</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Equipped creature gets +2/+0 and has trample and first strike as long as it’s your turn.”</text>
-      <related>Equipment MIN</related>
+      <text>Equipped creature gets +2/+0 and has trample and first strike as long as it’s your turn.
+Equip {2}</text>
     </card>
     <card>
-      <name>Thorns</name>
+      <name>Thorns Chestplate</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>B</colors>
         <manacost>1B</manacost>
         <cmc>2</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Equipped creature gets +1/+1 and has deathtouch and ward—Pay 3 life.”</text>
-      <related>Equipment MIN</related>
+      <text>Equipped creature gets +1/+1 and has deathtouch and ward—Pay 3 life.
+Equip {2}</text>
     </card>
     <card>
-      <name>Impaling</name>
+      <name>Impaling Trident</name>
       <set rarity="rare">MIN</set>
       <prop>
         <colors>B</colors>
         <manacost>2B</manacost>
         <cmc>3</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Whenever a creature dies, exile it, then put a sharp counter on this artifact. Equipped creature gets +1/+1 for each sharp counter on this artifact.”</text>
-      <related>Equipment MIN</related>
+      <text>Whenever a creature dies, exile it, then put a sharp counter on Impaling Trident.
+Equipped creature gets +1/+1 for each sharp counter on Impaling Trident.
+Equip {2}</text>
     </card>
     <card>
       <name>Wooly Sheep</name>
@@ -169,14 +165,12 @@ Enchanted Equipment has “Whenever a creature dies, exile it, then put a sharp 
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Sunken Stronghold enters, create a Den token for a 2/2 black Zombie, a 3/1 red Creeper with trample, or a 1/2 green Spider with reach. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)
-At the beginning of your end step, put a +1/+1 on each Den you control, then transform them.</text>
-      <related>Zombie Den MIN</related>
-      <related>Creeper Den MIN</related>
-      <related>Spider Den MIN</related>
+      <text>When Sunken Stronghold enters, spawn menace, then spawn trample, then spawn reach. (To spawn menace, put a +1/+1 or menace counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
+At the beginning of your end step, transform a Den you control.</text>
+      <related>Den MIN</related>
     </card>
     <card>
-      <name>Allay</name>
+      <name>Floating Allay</name>
       <set rarity="rare">MIN</set>
       <prop>
         <colors>WUB</colors>
@@ -188,8 +182,8 @@ At the beginning of your end step, put a +1/+1 on each Den you control, then tra
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
-Your Function costs {1} less to activate for each permanent you control with function.
-Function — Each opponent discards a card and you draw a card. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Your Function costs {2} less to activate.
+Function — Each opponent discards a card and you draw a card. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Alex, Ready for Battle</name>
@@ -349,7 +343,7 @@ Function — Each opponent discards a card and you draw a card. ({7}: Trigger an
       <tablerow>1</tablerow>
       <text>Flash
 When Village Bell enters, create two 1/1 white Villager creature tokens. You gain 2 life.
-Function — Create a 3/3 colorless Golem artifact creature token with vigilance. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Create a 3/3 colorless Golem artifact creature token with vigilance. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
       <related count="2">Villager MIN</related>
     </card>
     <card>
@@ -864,9 +858,9 @@ When Combat Arena enters untapped, up to one target creature gets +2/+2 until en
       <tablerow>0</tablerow>
       <cipt>1</cipt>
       <text>Woodland Mansion enters tapped unless you control a Swamp, a Mountain, and a Forest.
-When Woodland Mansion enters untapped, create a Den token for a 2/2 black Zombie. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)
+When Woodland Mansion enters untapped, spawn menace twice. (To spawn menace, put a +1/+1 or menace counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
 {T}: Add {B}, {R}, or {G}.</text>
-      <related>Zombie Den MIN</related>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Cherry Grove</name>
@@ -1002,49 +996,46 @@ When Iron Anvil enters, if it was kicked, it deals 2 damage to any target.
 {T}: Add {C}.</text>
     </card>
     <card>
-      <name>Multishot</name>
+      <name>Multishot Crossbow</name>
       <set rarity="common">MIN</set>
       <prop>
         <colors>B</colors>
         <manacost>1B</manacost>
         <cmc>2</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Equipped creature gets +2/+0 and has menace.”</text>
-      <related>Equipment MIN</related>
+      <text>Equipped creature gets +2/+0 and has menace.
+Equip {2}</text>
     </card>
     <card>
-      <name>Swift Sneak</name>
+      <name>Swift Sneak Leggings</name>
       <set rarity="common">MIN</set>
       <prop>
         <colors>U</colors>
-        <manacost>2U</manacost>
-        <cmc>3</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Equipped creature can’t be blocked. Whenever it deals combat damage to a player, draw a card.”</text>
-      <related>Equipment MIN</related>
+      <text>Equipped creature can’t be blocked. Whenever it deals combat damage to a player, draw a card.
+Equip {2}</text>
     </card>
     <card>
-      <name>Soul Speed</name>
+      <name>Soul Speed Boots</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>R</colors>
         <manacost>R</manacost>
         <cmc>1</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Equipped creature has haste. Whenever you cast a noncreature spell, put a +1/+1 counter on it.”</text>
-      <related>Equipment MIN</related>
+      <text>Equipped creature has haste. Whenever you cast a noncreature spell, put a +1/+1 counter on it.
+Equip {1}</text>
     </card>
     <card>
       <name>Totem Of Undying</name>
@@ -1074,10 +1065,10 @@ When Totem Of Undying enters, until end of turn, target creature gets +1/+0 and 
       </prop>
       <tablerow>1</tablerow>
       <text>You may cast Herobrine, Never Removed from your graveyard by sacrificing two artifacts and/or creatures in addition to its other costs.
-[0]: Create a Den token for a black 2/2 Zombie.
+[0]: Spawn menace twice. (To spawn menace, put a +1/+1 or menace counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
 [-2]: Destroy target nonland permanent.
 </text>
-      <related>Zombie Den MIN</related>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Sculk Spread</name>
@@ -1106,9 +1097,9 @@ If you control three or more creatures, draw a card.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Reach, deathtouch
-When Cave Spider enters, create a Den token for a 1/2 green Spider with reach. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)
+When Cave Spider enters, spawn reach twice. (To spawn reach, put a +1/+1 or reach counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
 Creature tokens you control have deathtouch.</text>
-      <related>Spider Den MIN</related>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Composter</name>
@@ -1153,7 +1144,7 @@ When Scurrying Bats dies, create a tapped 1/1 white Bat creature token with flyi
       </prop>
       <tablerow>1</tablerow>
       <text>When Closed Server enters, if you cast it, exile all creatures.
-Function — Return all cards you own exiled by Closed Server to the battlefield under your control. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Return all cards you own exiled by Closed Server to the battlefield under your control. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Silverfish</name>
@@ -1305,8 +1296,8 @@ Enchanted permanent is all colors and has all abilities of lands you control and
       </prop>
       <tablerow>3</tablerow>
       <text>Surprise Explosion deals 2 damage to each creature.
-Create a Den token for a 3/1 red Creeper with trample. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related>Creeper Den MIN</related>
+Spawn trample twice. (To spawn trample, put a +1/+1 or trample counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Kill for Drops</name>
@@ -1334,7 +1325,7 @@ Destroy target creature with power X or less. Surveil X. (Look at the top X card
       </prop>
       <tablerow>1</tablerow>
       <text>When Respawn Anchor enters, return up to two target creature cards from your graveyard to your hand.
-Function — Target player loses 2 life and you gain 2 life. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Target player loses 2 life and you gain 2 life. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Lightning Strike</name>
@@ -1360,8 +1351,8 @@ Function — Target player loses 2 life and you gain 2 life. ({7}: Trigger any n
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target artifact. If you controlled that artifact, create two Den tokens for a 3/1 red Creeper with trample. (They’re artifacts. When a player casts no spells on their turn, they transform into creatures.)</text>
-      <related count="2">Creeper Den MIN</related>
+      <text>Destroy target artifact. If you controlled that artifact, spawn trample four times. (To spawn trample, put a +1/+1 or trample counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Mob Farm</name>
@@ -1374,7 +1365,7 @@ Function — Target player loses 2 life and you gain 2 life. ({7}: Trigger any n
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your end step, transform target Den you control.
+      <text>At the beginning of your end step, spawn menace. (To spawn menace, put a +1/+1 or menace counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
 {1}, {T}, Sacrifice a creature: Draw a card.</text>
     </card>
     <card>
@@ -1490,9 +1481,9 @@ Apex — If you control a creature with the greatest power among creatures on th
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>If you would create one or more tokens, create twice that many tokens instead.
-At the beginning of your end step, create a Den token for a 1/2 green Spider with reach. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related count="2">Spider Den MIN</related>
+      <text>If you would put counters on a creature or Den you control, put twice that many counters instead.
+At the beginning of your end step, spawn reach. (To spawn reach, put a +1/+1 or reach counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Potion of Harming</name>
@@ -1636,11 +1627,11 @@ As long as you’re an explorer, other creatures you control have trample.</text
         <cmc>3</cmc>
         <type>Creature - Villager Cleric </type>
         <maintype>Creature</maintype>
-        <pt>2/2</pt>
+        <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Deathtouch
-Function — Each opponent loses X life and you gain X life, where X is the number of Function abilities that triggered this turn. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Create a 1/1 white Villager creature token. It gains this ability. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Village Nitwit</name>
@@ -1668,8 +1659,7 @@ Function — Each opponent loses X life and you gain X life, where X is the numb
         <pt>2/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Vigilance
-1U, Exile Village Fisherman from your graveyard: Create a 1/1 blue Fish creature token with “This creature can’t be blocked.”</text>
+      <text>1U, Exile Village Fisherman from your graveyard: Create a 1/1 blue Fish creature token with “This creature can’t be blocked.”</text>
       <related>Fish MIN</related>
     </card>
     <card>
@@ -1684,8 +1674,8 @@ Function — Each opponent loses X life and you gain X life, where X is the numb
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Zombie Villager dies, create a Den token for a 2/2 black Zombie. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related>Zombie Den MIN</related>
+      <text>When Zombie Villager dies, spawn menace twice. (To spawn menace, put a +1/+1 or menace counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Village Cartographer</name>
@@ -1845,7 +1835,7 @@ When Turn to Data enters, create a tapped Tool token. (It’s an artifact with �
       </prop>
       <tablerow>1</tablerow>
       <text>When Iron Hopper enters, choose one — Draw a card, then discard a card; or create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
-Function — Draw a card. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Draw a card. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
       <related>Tool MIN</related>
     </card>
     <card>
@@ -1861,23 +1851,23 @@ Function — Draw a card. ({7}: Trigger any number of Function abilities you con
       </prop>
       <tablerow>2</tablerow>
       <text>Deathtouch
-When Husk enters, create a Den token for a 2/2 black Zombie. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related>Zombie Den MIN</related>
+When Husk enters, spawn menace twice. (To spawn menace, put a +1/+1 or menace counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Wither Skeleton</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>B</colors>
-        <manacost>3B</manacost>
-        <cmc>4</cmc>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
         <type>Creature - Skeleton Warrior </type>
         <maintype>Creature</maintype>
-        <pt>3/3</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Deathtouch
-Whenever a creature you control dies, put a +1/+1 counter on Wither Skeleton.</text>
+When Wither Skeleton enters, gear up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
     </card>
     <card>
       <name>Enter the Cave</name>
@@ -1890,9 +1880,9 @@ Whenever a creature you control dies, put a +1/+1 counter on Wither Skeleton.</t
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Enter the Cave enters, create a Den token for a 1/2 Spider with reach. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)
+      <text>When Enter the Cave enters, spawn reach twice. (To spawn reach, put a +1/+1 or reach counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
 Creature tokens you control get +1/+1.</text>
-      <related>Spider Den MIN</related>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Village Butcher</name>
@@ -1971,7 +1961,7 @@ Apex — Whenever Vindicator attacks, if you control a creature with the greates
     </card>
     <card>
       <name>Trial Raid</name>
-      <set rarity="common">MIN</set>
+      <set rarity="uncommon">MIN</set>
       <prop>
         <colors>R</colors>
         <manacost>2R</manacost>
@@ -1997,7 +1987,7 @@ Raid — If you attacked this turn, put a +1/+1 counter on all creature tokens y
       </prop>
       <tablerow>2</tablerow>
       <text>{2}: Target creature you control gains flying until end of turn.
-Function — Creatures you control gain flying until end of turn. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Creatures you control can’t be blocked this turn. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Victory Celebration</name>
@@ -2123,7 +2113,7 @@ Apex — If you control a creature with the greatest power among creatures on th
       <text>Enchant creature
 Enchanted creature has defender.
 Prevent all damage that would be dealt by enchanted creature.
-Function — Exile enchanted creature. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Exile enchanted creature. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Void Command</name>
@@ -2166,7 +2156,7 @@ Exile target creature.</text>
       </prop>
       <tablerow>1</tablerow>
       <text>When Wither Rose enters, target creature gets -2/-2 until end of turn.
-Function — Target creature gets -2/-2 until end of turn. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Target creature gets -2/-2 until end of turn. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Turtle</name>
@@ -2177,7 +2167,7 @@ Function — Target creature gets -2/-2 until end of turn. ({7}: Trigger any num
         <cmc>3</cmc>
         <type>Creature - Turtle </type>
         <maintype>Creature</maintype>
-        <pt>1/3</pt>
+        <pt>1/4</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Defender
@@ -2272,7 +2262,7 @@ Whenever Wild Fox attacks, you may discard a card. If you do, draw a card. If yo
       </prop>
       <tablerow>2</tablerow>
       <text>Menace
-Function — Return Frost Stray from your graveyard to the battlefield. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Return Frost Stray from your graveyard to the battlefield. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Fish Bucket</name>
@@ -2301,8 +2291,8 @@ Function — Return Frost Stray from your graveyard to the battlefield. ({7}: Tr
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your upkeep, you lose 1 life and create a Den token for a 2/2 black Zombie. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related>Zombie Den MIN</related>
+      <text>At the beginning of your upkeep, you lose 1 life and spawn menace twice. (To spawn menace, put a +1/+1 or menace counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Mangrove Frog</name>
@@ -2546,8 +2536,8 @@ Whenever you play a land or cast a spell from anywhere but your hand, Nether Por
       <tablerow>3</tablerow>
       <text>Choose one —
 • Sacrifice an artifact or creature. If you do, return target creature card from your graveyard to the battlefield.
-• Create two Den tokens for a 2/2 black Zombie. (They’re artifacts. When a player casts no spells on their turn, they transform into creatures.)</text>
-      <related count="2">Zombie Den MIN</related>
+• Spawn menace four times. (To spawn menace, put a +1/+1 or menace counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Dragon&apos;s Breath</name>
@@ -2665,8 +2655,8 @@ Other creatures and artifacts you control have ward {1}.</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target artifact or enchantment. Create a Den token for a 1/2 green Spider with reach. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related>Spider Den MIN</related>
+      <text>Destroy target artifact or enchantment. Spawn reach twice. (To spawn reach, put a +1/+1 or reach counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Swoop Down</name>
@@ -2693,15 +2683,15 @@ Other creatures and artifacts you control have ward {1}.</text>
       </prop>
       <tablerow>3</tablerow>
       <text>Charging Strike deals 3 damage to any target.
-Create a Den token with a +1/+1 counter on it for a 3/1 red Creeper with trample. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related>Creeper Den MIN</related>
+Spawn trample three times. (To spawn trample, put a +1/+1 or trample counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Snow Golem</name>
       <set rarity="uncommon">MIN</set>
       <prop>
-        <colors>U</colors>
-        <manacost>1U</manacost>
+        <colors>W</colors>
+        <manacost>1W</manacost>
         <cmc>2</cmc>
         <type>Snow Artifact Creature - Golem </type>
         <maintype>Creature</maintype>
@@ -2939,13 +2929,13 @@ Whenever one or more lands enter under your control, build. This ability only tr
       <set rarity="common">MIN</set>
       <prop>
         <colors>U</colors>
-        <manacost>1U</manacost>
-        <cmc>2</cmc>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Draw two cards, then discard a card unless you control a modified creature. (Equipment, Auras you control, and counters are modifications.)</text>
+      <text>Draw two cards. You may discard a card. If you do, gear up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
     </card>
     <card>
       <name>Village Librarian</name>
@@ -3059,7 +3049,7 @@ When Hoglin leaves the battlefield, sacrifice a Mountain.</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the end of each player’s turn, if that player cast no spells this turn, put a charge counter on Daylight Sensor.
+      <text>When Daylight Sensor enters and at the end of each player’s turn, if that player cast no spells this turn, put a charge counter on Daylight Sensor.
 {T}, Remove a charge counter from Daylight Sensor: Choose one —
 • Untap target creature or artifact.
 • Draw a card, then discard a card.</text>
@@ -3104,8 +3094,8 @@ When Bogged Skeleton dies, it deals 1 damage to any target.</text>
       </prop>
       <tablerow>3</tablerow>
       <text>Target creature gets +1/+2 and gains reach until end of turn. Untap it.
-Create a Den token for a 1/2 green Spider with reach. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related>Spider Den MIN</related>
+Spawn reach twice. (To spawn reach, put a +1/+1 or reach counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Don&apos;t Look</name>
@@ -3224,7 +3214,7 @@ When Magma Cube dies, create a 1/1 red Elemental creature token.</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Function — Put a border counter on Shrinking Worldborder, then each opponent loses life equal to twice the number of border counters on it. You gain that much life. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+      <text>Function — Put a border counter on Shrinking Worldborder, then each opponent loses life equal to twice the number of border counters on it. You gain that much life. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Village Armorer</name>
@@ -3239,7 +3229,7 @@ When Magma Cube dies, create a 1/1 red Elemental creature token.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>First strike
-Function — Creatures you control get +1/+1 until end of turn. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Creatures you control get +1/+1 until end of turn. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Wild Rabbit</name>
@@ -3298,7 +3288,7 @@ Draw two cards and create a tapped Tool token. (It’s an artifact with “{T}: 
       </prop>
       <tablerow>1</tablerow>
       <text>When Equipping Station enters, create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
-Function — Put your choice of a +1/+1, deathtouch, lifelink, or menace counter on target creature. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Put your choice of a +1/+1, deathtouch, lifelink, or menace counter on target creature. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
       <related>Tool MIN</related>
     </card>
     <card>
@@ -3390,7 +3380,7 @@ When Desert Camel enters, search your library for a basic land card, put it onto
 Desert Camel gets +1/+1 for each land you control.</text>
     </card>
     <card>
-      <name>Trusty Companion</name>
+      <name>Faithful Companion</name>
       <set rarity="common">MIN</set>
       <prop>
         <colors>W</colors>
@@ -3402,7 +3392,7 @@ Desert Camel gets +1/+1 for each land you control.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance
-Whenever an artifact enters under your control, Trusty Companion gets +2/+2 until end of turn.</text>
+Whenever an artifact enters under your control, Faithful Companion gets +2/+2 until end of turn.</text>
     </card>
     <card>
       <name>Explore</name>
@@ -3459,21 +3449,21 @@ Draw a card.</text>
       <tablerow>1</tablerow>
       <text>When Ender Chest enters, draw two cards, then discard a card.
 Whenever you discard a card, exile that card from your graveyard.
-Function — Put each card exiled with Ender Chest into your hand. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Put each card exiled with Ender Chest into your hand. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Golden Sword</name>
       <set rarity="rare">MIN</set>
       <prop>
         <colors>R</colors>
-        <manacost>3R</manacost>
-        <cmc>4</cmc>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
         <type>Artifact - Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
       <text>Equipped creature gets +3/+1.
-Spells you cast that target Golden Sword or equipped creature cost {1} less to cast.
+Spells you cast that equipped creature cost {1} less to cast.
 Equip {1}</text>
     </card>
     <card>
@@ -3548,8 +3538,8 @@ Whenever Rascal deals combat damage to a player, choose one —
         <pt>6/6</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Zombie Giant dies, create three Den tokens, each for a 2/2 black Zombie. (They’re artifacts. When a player casts no spells on their turn, they transform into creatures.)</text>
-      <related count="3">Zombie Den MIN</related>
+      <text>When Zombie Giant dies, spawn menace six times. (To spawn menace, put a +1/+1 or menace counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Mooshroom Herd</name>
@@ -3652,7 +3642,8 @@ Whenever a creature you control deals combat damage to enchanted player, you may
         <pt>1/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Function — Pufferfish has base power and toughness 5/5 until end of turn. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+      <text>Whenever one or more creatures attack you, target creature gets -1/-0 until end of turn.
+Function — Pufferfish has base power and toughness 6/6 until end of turn. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Mushroom Soup</name>
@@ -3695,8 +3686,8 @@ Whenever another artifact enters under your control, untap Observer.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Reach
-When Spider Jockey dies, create a Den token for a 1/2 green Spider with reach. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related>Spider Den MIN</related>
+When Spider Jockey dies, spawn reach twice. (To spawn reach, put a +1/+1 or reach counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Territorial Anger</name>
@@ -3768,7 +3759,7 @@ As long as you are an explorer, artifacts you control are 3/3 Golem creatures wi
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{7}: Trigger any number of Function abilities you control.
+      <text>{6}: Trigger any number of Function abilities you control.
 Function — Choose one —
 • Copy target spell. You may choose new targets for the copy.
 • Draw two cards.
@@ -3844,8 +3835,8 @@ Raid — If you attacked this turn, instead search your library for a card, put 
       </prop>
       <tablerow>3</tablerow>
       <text>Discard your hand, then draw three cards.
-Create a Den token for a 3/1 red Creeper with trample. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)</text>
-      <related>Creeper Den MIN</related>
+Spawn trample twice. (To spawn trample, put a +1/+1 or trample counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Elytras</name>
@@ -3905,20 +3896,19 @@ If you control two or more artifacts, draw a card.</text>
       <text>Target creature gets +4/+0 until end of turn. Whenever a creature dies this turn, exile the top card of your library. You may play it until the end of your next turn.</text>
     </card>
     <card>
-      <name>Mending</name>
+      <name>Pillager Horn</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>B</colors>
         <manacost>1B</manacost>
         <cmc>2</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Equipped creature has lifelink.”
-Equip abilities of enchanted Equipment cost {1} less to activate. This effect can’t reduce the mana in that cost to less than one mana.</text>
-      <related>Equipment MIN</related>
+      <text>When Pillager Horn enters, amass Villagers 2. (Put two +1/+1 counters on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)
+{2}, Sacrifice Pillager Horn: Gear up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
+      <related>Villager Army MIN</related>
     </card>
     <card>
       <name>Curse of Binding</name>
@@ -3935,19 +3925,18 @@ Equip abilities of enchanted Equipment cost {1} less to activate. This effect ca
 Enchanted permanent can’t attack or block, and its activated abilities can’t be activated.</text>
     </card>
     <card>
-      <name>Depth Strider</name>
+      <name>Depth Strider Boots</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>U</colors>
         <manacost>U</manacost>
         <cmc>1</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Equipped creature gets +1/+1 and has vigilance. Whenever it attacks, scry 1.”</text>
-      <related>Equipment MIN</related>
+      <text>Equipped creature gets +1/+1 and has vigilance. Whenever it attacks, scry 1.
+Equip {1}</text>
     </card>
     <card>
       <name>Escalating Raid</name>
@@ -3964,19 +3953,18 @@ Enchanted Equipment has “Equipped creature gets +1/+1 and has vigilance. Whene
       <related>Villager Army MIN</related>
     </card>
     <card>
-      <name>Projectile Protection</name>
+      <name>Protection Chestplate</name>
       <set rarity="common">MIN</set>
       <prop>
         <colors>U</colors>
         <manacost>1U</manacost>
         <cmc>2</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchanted weapon (This enchants Equipments. As you cast this spell, you may create an Equipment artifact token with equip {2}. If you do, this must target it.)
-Enchanted Equipment has “Equipped creature gets +1/+2 and has ward {2}.”</text>
-      <related>Equipment MIN</related>
+      <text>Equipped creature gets +1/+2 and has ward {2}.
+Equip {2}</text>
     </card>
     <card>
       <name>Exponential Growth</name>
@@ -4035,7 +4023,7 @@ When Lightning Rod enters, counter target instant or sorcery spell.
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{3}, Sacrifice 11 Music Disc: Choose a nonland card type. Each opponent loses 1 life for each permanent you control of that type. Draw a card. Activate only as a sorcery.</text>
+      <text>{3}, Sacrifice 11 Music Disc: Gear up. You lose 1 life. Draw a card. Activate only as a sorcery. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
     </card>
     <card>
       <name>Pigstep Music Disc</name>
@@ -4048,7 +4036,7 @@ When Lightning Rod enters, counter target instant or sorcery spell.
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{3}, Sacrifice Pigstep Music Disc: Put a +1/+1 counter on each creature and Den you control. Draw a card. Activate only as a sorcery.</text>
+      <text>{3}, Sacrifice Pigstep Music Disc: Double the number of +1/+1 counters on target creature or Den. Draw a card. Activate only as a sorcery.</text>
     </card>
     <card>
       <name>Far Music Disc</name>
@@ -4101,7 +4089,7 @@ When Lightning Rod enters, counter target instant or sorcery spell.
       </prop>
       <tablerow>1</tablerow>
       <text>{X}, {T}: Exile target artifact, enchantment, instant, or sorcery card from an opponent’s graveyard with mana value X.
-Function — Copy each card exiled with Jukebox. You may cast the copies without paying their mana cost. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Copy each card exiled with Jukebox. You may cast the copies without paying their mana cost. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Suspicious Stew</name>
@@ -4170,22 +4158,22 @@ At the beginning each player’s upkeep, that player sacrifices a permanent.</te
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your end step, scry 2, then draw a card if Debug World entered this turn.
-Function — You scry 3 and gain 3 life. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+      <text>When Debug World enters, you scry 3 and gain 3 life.
+Function — Scry 2, then draw a card. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Jeb Door</name>
       <set rarity="uncommon">MIN</set>
       <prop>
-        <colors>W</colors>
-        <manacost>2W</manacost>
+        <colors>U</colors>
+        <manacost>2U</manacost>
         <cmc>3</cmc>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your upkeep, you may tap target creature or artifact.
-Function — Exile up to two artifacts and/or creatures, then return those cards to the battlefield under their owner’s control. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+      <text>When Jeb Door enters, untap up to two artifacts and/or lands.
+Function — Exile up to two artifacts and/or creatures, then return those cards to the battlefield under their owner’s control. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Evoker&apos;s Transmutation</name>
@@ -4240,7 +4228,7 @@ Equip {4}</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>2G: Put a +1/+1 counter on target token you control, then create a token that’s a copy of it.</text>
+      <text>2G: Spawn reach. For each counter on target creature, put an additional counter of that type. (To spawn reach, put a +1/+1 or reach counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
     </card>
     <card>
       <name>Planned for It</name>
@@ -4438,7 +4426,7 @@ Equip {1}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>When Iron Farm enters, create a 3/3 colorless Golem artifact creature token with vigilance.
-Function — Create two Treasure tokens. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Create two Treasure tokens. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
       <related>Golem MIN</related>
     </card>
     <card>
@@ -4535,8 +4523,8 @@ At the end of the first combat phase on each of your turns, if a permanent you c
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever an artifact enters under your control, you may have Clone Command become a copy of it until end of turn, except it has the following ability.
-Function — Create a token that’s a copy of another target artifact. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+      <text>When Clone Command enters, create a token that’s a copy of target creature, except it’s a 1/1 artifact creature.
+Function — Create a token that’s a copy of another target artifact. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Poison Throw</name>
@@ -4681,7 +4669,7 @@ When a creature you control deals combat damage to a player, you may return Stri
       </prop>
       <tablerow>1</tablerow>
       <text>Whenever a creature an opponent controls dies, its controller gets a score counter and you gain 1 life.
-Function — Each opponent loses life equal to the number of score counters they have. ({7}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Each opponent loses life equal to the number of score counters they have. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>World Eater</name>
@@ -4800,12 +4788,12 @@ Equip {1}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}, Pay 3 life: Attach target Equipment you control to target creature you control. Activate only as a sorcery.
+      <text>{T}, Pay 2 life: Attach target Equipment you control to target creature you control. Activate only as a sorcery.
 Whenever a modified creature you control dies, you gain life equal to its power. (Equipment, Auras you control, and counters are modifications.)</text>
     </card>
     <card>
       <name>Prepared Incursion</name>
-      <set rarity="uncommon">MIN</set>
+      <set rarity="rare">MIN</set>
       <prop>
         <colors>R</colors>
         <manacost>2R</manacost>
@@ -5054,7 +5042,7 @@ Attacking creatures you control get +1/+0 for each gear counter on Netherite Exc
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy all artifacts with mana value X or less.</text>
+      <text>Destroy up to X artifacts with mana value X or less.</text>
     </card>
     <card>
       <name>Herd Spawning</name>
@@ -5139,9 +5127,9 @@ When Shy Armadillo dies, put its counters on target creature you control.</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Trial Spawner enters, create a Den token for a 3/1 red Creeper with trample. (It’s an artifact. When a player casts no spells on their turn, it transforms into that creature.)
+      <text>When Trial Spawner enters, spawn trample twice. (To spawn trample, put a +1/+1 or trample counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
 Whenever a Den you control transforms, exile the top card of your library. Until your next end step, you may play it.</text>
-      <related>Creeper Den MIN</related>
+      <related>Den MIN</related>
     </card>
     <card>
       <name>Beacon Platform</name>
@@ -5400,8 +5388,8 @@ When Stasis Chamber enters, return target creature to its owner’s hand.
     <!-->Tokens</-->
 
     <card>
-      <name>Zombie Den MIN</name>
-      <set rarity="common">MIN</set>
+      <name>Den MIN</name>
+      <set>MIN</set>
       <prop>
         <colors></colors>
         <manacost></manacost>
@@ -5412,92 +5400,24 @@ When Stasis Chamber enters, return target creature to its owner’s hand.
       <tablerow>1</tablerow>
       <text>At the end of each player’s turn, if that player cast no spells this turn, transform this.
 ---
-(Back): Zombie</text>
-      <related attach="transform">Den Zombie MIN</related>
+(Back): Army</text>
       <token>1</token>
+      <related attach="transform">Den Army MIN</related>
     </card>
     <card>
-      <name>Den Zombie MIN</name>
-      <set rarity="common">MIN</set>
+      <name>Den Army MIN</name>
+      <set>MIN</set>
       <prop>
-        <colors>B</colors>
+        <colors></colors>
         <manacost></manacost>
         <cmc>0</cmc>
-        <type>Token Creature - Zombie </type>
-        <pt>2/2</pt>
+        <type>Token Creature - Army </type>
+        <pt>0/0</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>(This doesn’t transform back.)
 ---
-(Front): Zombie Den MIN</text>
-      <token>1</token>
-    </card>
-    <card>
-      <name>Spider Den MIN</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Token Artifact - Den </type>
-        <maintype>Artifact</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>At the end of each player’s turn, if that player cast no spells this turn, transform this.
----
-(Back): Spider</text>
-      <related attach="transform">Den Spider MIN</related>
-      <token>1</token>
-    </card>
-    <card>
-      <name>Den Spider MIN</name>
-      <set>MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Token Creature - Spider </type>
-        <pt>1/2</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Reach
-(This doesn’t transform back.)
----
-(Front): Spider Den MIN</text>
-      <token>1</token>
-    </card>
-    <card>
-      <name>Creeper Den MIN</name>
-      <set>MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Token Artifact - Den </type>
-        <maintype>Artifact</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>At the end of each player’s turn, if that player cast no spells this turn, transform this.
----
-(Back): Creeper</text>
-      <related attach="transform">Den Creeper MIN</related>
-      <token>1</token>
-    </card>
-    <card>
-      <name>Den Creeper MIN</name>
-      <set>MIN</set>
-      <prop>
-        <colors>R</colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Token Creature - Creeper </type>
-        <pt>3/1</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Trample
-(This doesn’t transform back.)
----
-(Front): Creeper Den MIN</text>
+(Front): Den MIN</text>
       <token>1</token>
     </card>
     <card>
@@ -5579,7 +5499,7 @@ This creature can’t be blocked.</text>
       UB SABOTEURS Use evasive creatures to deal damage over time and get extra value.
 UBR COMBAT Enchant your Equipments to subdue your opponents in combat.
       BR RAID Be relentless in your attacks to close the game quickly and gain benefits.
-BRG MONSTERS Spawn an army of monsters for cheap, then wait for night to fall to overwhelm your opponent with them.
+BRG MONSTERS Grow an army of monsters for cheap, then wait for night to fall to overwhelm your opponent with them.
       RG GREATEST POWER Buff your creatures to have the biggest, baddest one on the battlefield.
 RGW EXPLORATION Collect lands in play and in your graveyard, as fast as possible.
       GW GO-WIDE Create tokens and power them up using counters and anthems. 
@@ -5766,18 +5686,6 @@ When this creature dies, it deals 1 damage to any target.</text>
       </prop>
       <tablerow>2</tablerow>
       <text></text>
-      <token>1</token>
-    </card>
-    <card>
-      <name>Equipment MIN</name>
-      <set>MIN</set>
-      <prop>
-        <colors></colors>
-        <type>Token Artifact - Equipment </type>
-        <maintype>Artifact</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)</text>
       <token>1</token>
     </card>
     <card>

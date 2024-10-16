@@ -29,7 +29,7 @@
 	    {
 	        "name": "Full Set",
 	        "rarity": "common",
-	        "mana_cost": "{1}{U}",
+	        "mana_cost": "{1}{W}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Full Set.png"
@@ -74,7 +74,7 @@
 	    {
 	        "name": "Impaling Trident",
 	        "rarity": "rare",
-	        "mana_cost": "{2}{B}",
+	        "mana_cost": "{1}{B}",
 	        "type": "Artifact — Equipment ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Impaling Trident.png"
@@ -110,7 +110,7 @@
 	    {
 	        "name": "Alex, Ready for Battle",
 	        "rarity": "mythic",
-	        "mana_cost": "{1}{U}{B}{R}",
+	        "mana_cost": "{1}{R}{W}{B}",
 	        "type": "Legendary Planeswalker — Alex ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Alex, Ready for Battle.png"
@@ -128,7 +128,7 @@
 	    {
 	        "name": "Village Shepherd",
 	        "rarity": "rare",
-	        "mana_cost": "{1}{R}{G}{W}",
+	        "mana_cost": "{2}{R}{W}{B}",
 	        "type": "Creature — Villager Peasant ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Village Shepherd.png"
@@ -165,7 +165,7 @@
 	        "name": "Pillager's Capture",
 	        "rarity": "uncommon",
 	        "mana_cost": "{2}{B}",
-	        "type": "Enchantment — Aura ",
+	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Pillager's Capture.png"
 	        }
@@ -549,12 +549,12 @@
 	        }
 	    },
 	    {
-	        "name": "Swift Sneak Leggings",
-	        "rarity": "common",
-	        "mana_cost": "{1}{U}",
+	        "name": "Efficiency Pickaxe",
+	        "rarity": "rare",
+	        "mana_cost": "{1}{W}",
 	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Swift Sneak Leggings.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Efficiency Pickaxe.png"
 	        }
 	    },
 	    {
@@ -1361,7 +1361,7 @@
 	    {
 	        "name": "Small Chicken",
 	        "rarity": "uncommon",
-	        "mana_cost": "{1}{W}",
+	        "mana_cost": "{1}{U}",
 	        "type": "Creature — Bird ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Small Chicken.png"
@@ -1388,7 +1388,7 @@
 	    {
 	        "name": "Armored Horse",
 	        "rarity": "common",
-	        "mana_cost": "{2}{W}{W}",
+	        "mana_cost": "{2}{U}{U}",
 	        "type": "Creature — Horse ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Armored Horse.png"
@@ -1485,12 +1485,12 @@
 	        }
 	    },
 	    {
-	        "name": "Strength in Group",
+	        "name": "Creaking",
 	        "rarity": "uncommon",
-	        "mana_cost": "{2}{W}",
-	        "type": "Instant",
+	        "mana_cost": "{2}{U}",
+	        "type": "Creature — Plant Illusion ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Strength in Group.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Creaking.png"
 	        }
 	    },
 	    {
@@ -1568,7 +1568,7 @@
 	    {
 	        "name": "Snow Golem",
 	        "rarity": "uncommon",
-	        "mana_cost": "{1}{W}",
+	        "mana_cost": "{1}{U}",
 	        "type": "Snow Artifact Creature — Golem ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Snow Golem.png"
@@ -1611,12 +1611,12 @@
 	        }
 	    },
 	    {
-	        "name": "Optimized Production",
-	        "rarity": "rare",
-	        "mana_cost": "{3}{U}",
-	        "type": "Enchantment",
+	        "name": "Third Shriek",
+	        "rarity": "uncommon",
+	        "mana_cost": "{1}{U}",
+	        "type": "Sorcery",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Optimized Production.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Third Shriek.png"
 	        }
 	    },
 	    {
@@ -1712,7 +1712,7 @@
 	    {
 	        "name": "Gather Experience",
 	        "rarity": "common",
-	        "mana_cost": "{2}{U}",
+	        "mana_cost": "{1}{U}",
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Gather Experience.png"
@@ -2009,8 +2009,8 @@
 	    {
 	        "name": "Wind Charge",
 	        "rarity": "common",
-	        "mana_cost": "{1}{U}",
-	        "type": "Instant",
+	        "mana_cost": "{U}",
+	        "type": "Artifact — Tool ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Wind Charge.png"
 	        }
@@ -2151,12 +2151,12 @@
 	        }
 	    },
 	    {
-	        "name": "Mushroom Soup",
-	        "rarity": "common",
+	        "name": "Iron Shovel",
+	        "rarity": "uncommon",
 	        "mana_cost": "{1}{W}",
-	        "type": "Artifact — Food ",
+	        "type": "Artifact — Equipment ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Mushroom Soup.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Iron Shovel.png"
 	        }
 	    },
 	    {
@@ -2189,7 +2189,7 @@
 	    {
 	        "name": "Brown Mooshroom",
 	        "rarity": "common",
-	        "mana_cost": "{1}{W}",
+	        "mana_cost": "{2}{W}",
 	        "type": "Creature — Fungus Ox ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Brown Mooshroom.png"
@@ -2198,7 +2198,7 @@
 	    {
 	        "name": "Ancient Etchings",
 	        "rarity": "uncommon",
-	        "mana_cost": "{3}{G}",
+	        "mana_cost": "{2}{G}{G}",
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Ancient Etchings.png"
@@ -2207,7 +2207,7 @@
 	    {
 	        "name": "For the Herd",
 	        "rarity": "common",
-	        "mana_cost": "{G}",
+	        "mana_cost": "{X}{G}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/For the Herd.png"
@@ -2324,7 +2324,7 @@
 	    {
 	        "name": "Depth Strider Boots",
 	        "rarity": "uncommon",
-	        "mana_cost": "{U}",
+	        "mana_cost": "{W}",
 	        "type": "Artifact — Equipment ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Depth Strider Boots.png"
@@ -2333,7 +2333,7 @@
 	    {
 	        "name": "Escalating Raid",
 	        "rarity": "rare",
-	        "mana_cost": "{1}{U}",
+	        "mana_cost": "{1}{W}",
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Escalating Raid.png"
@@ -2342,7 +2342,7 @@
 	    {
 	        "name": "Protection Chestplate",
 	        "rarity": "common",
-	        "mana_cost": "{1}{U}",
+	        "mana_cost": "{1}{W}",
 	        "type": "Artifact — Equipment ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Protection Chestplate.png"
@@ -2628,12 +2628,12 @@
 	        }
 	    },
 	    {
-	        "name": "Bedrock Bed",
-	        "rarity": "rare",
-	        "mana_cost": "{1}{W}",
-	        "type": "Enchantment",
+	        "name": "Collect",
+	        "rarity": "common",
+	        "mana_cost": "{U}",
+	        "type": "Sorcery",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Bedrock Bed.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Collect.png"
 	        }
 	    },
 	    {
@@ -2709,12 +2709,12 @@
 	        }
 	    },
 	    {
-	        "name": "Poison Throw",
+	        "name": "Potion Throw",
 	        "rarity": "uncommon",
 	        "mana_cost": "{2}{B}",
 	        "type": "Enchantment",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Poison Throw.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Potion Throw.png"
 	        }
 	    },
 	    {
@@ -2738,7 +2738,7 @@
 	    {
 	        "name": "Sculk Sensor",
 	        "rarity": "uncommon",
-	        "mana_cost": "{1}{U}",
+	        "mana_cost": "{2}{U}",
 	        "type": "Artifact",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Sculk Sensor.png"
@@ -2810,7 +2810,7 @@
 	    {
 	        "name": "Iceologer",
 	        "rarity": "rare",
-	        "mana_cost": "{2}{U}{B}{R}",
+	        "mana_cost": "{1}{G}{U}{R}",
 	        "type": "Creature — Villager Wizard ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Iceologer.png"
@@ -2819,7 +2819,7 @@
 	    {
 	        "name": "Trail Ruins",
 	        "rarity": "rare",
-	        "mana_cost": "{R}{G}{W}",
+	        "mana_cost": "{G}{U}{R}",
 	        "type": "Artifact",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Trail Ruins.png"
@@ -2864,7 +2864,7 @@
 	    {
 	        "name": "Grindstone",
 	        "rarity": "uncommon",
-	        "mana_cost": "{2}{B}",
+	        "mana_cost": "{1}{B}",
 	        "type": "Artifact",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Grindstone.png"
@@ -2970,12 +2970,12 @@
 	        }
 	    },
 	    {
-	        "name": "Lectern",
+	        "name": "Mesa Wolf",
 	        "rarity": "common",
 	        "mana_cost": "{1}{W}",
-	        "type": "Artifact",
+	        "type": "Creature — Wolf ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Lectern.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Mesa Wolf.png"
 	        }
 	    },
 	    {
@@ -3253,6 +3253,7 @@
 		1 Cherry Grove
 		1 Impressive Build
 		1 The Nether
+		1 Efficiency Pickaxe
 		1 Cave Spider
 		1 Closed Server
 		1 Pillager Raid
@@ -3267,7 +3268,6 @@
 		1 Skeleton Horse
 		1 Zombie's Bite
 		1 Village Farmer
-		1 Optimized Production
 		1 The Killer Bunny
 		1 Compacting Resources
 		1 No Return
@@ -3287,7 +3287,6 @@
 		1 Evoker's Transmutation
 		1 Ominous Banner
 		1 The Parrots and the Bats
-		1 Bedrock Bed
 		1 Village Leatherworker
 		1 Clone Command
 		1 World Eater
@@ -3381,11 +3380,12 @@
 		1 Frost Stray
 		1 Small Chicken
 		1 Bee Hive
-		1 Strength in Group
+		1 Creaking
 		1 Drowned
 		1 Elder Guardian
 		1 Snow Golem
 		1 Temple Guardian
+		1 Third Shriek
 		1 Clear Space
 		1 Pink Sheep
 		1 Acid Fireball
@@ -3405,6 +3405,7 @@
 		1 Mooshroom Herd
 		1 Village Fletcher
 		1 Tuff Golem
+		1 Iron Shovel
 		1 Observer
 		1 Territorial Anger
 		1 Ancient Etchings
@@ -3432,7 +3433,7 @@
 		1 New Professions
 		1 Cartography Table
 		1 Hired Help
-		1 Poison Throw
+		1 Potion Throw
 		1 Pilfer the Bastion
 		1 Warden
 		1 Sculk Sensor
@@ -3477,7 +3478,6 @@
 		1 Unloaded Chunk
 		1 Iron Anvil
 		1 Multishot Crossbow
-		1 Swift Sneak Leggings
 		1 Sculk Spread
 		1 Scurrying Bats
 		1 Tamed Cat
@@ -3568,7 +3568,6 @@
 		1 Bad Omen
 		1 Shipwreck
 		1 Pufferfish
-		1 Mushroom Soup
 		1 Spider Jockey
 		1 Brown Mooshroom
 		1 For the Herd
@@ -3586,6 +3585,7 @@
 		1 Pig Herd
 		1 Copper Brush
 		1 Spyglass
+		1 Collect
 		1 Wild Ocelot
 		1 Return To Sender
 		1 Stone Sword
@@ -3595,7 +3595,7 @@
 		1 Fake Abandon
 		1 Recovery Compass
 		1 A Complete Catalogue
-		1 Lectern
+		1 Mesa Wolf
 		1 Pick Back Up
 		1 Chicken Jockey
 		1 Precarious Structure

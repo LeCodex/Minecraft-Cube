@@ -136,9 +136,9 @@ Equip {2}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Impaling Trident enters, put a sharp counter on it and attach it to target creature you control.
+      <text>When Impaling Trident enters, attach it to target creature you control.
 Whenever a creature dies, put a sharp counter on Impaling Trident.
-Equipped creature gets +1/+1 for each sharp counter on Impaling Trident.
+Equipped creature gets +1/+1, plus an additional +1/+1 for each sharp counter on Impaling Trident.
 Equip {2}</text>
     </card>
     <card>
@@ -388,7 +388,7 @@ Whenever you gain or lose life during your turn, amass Villagers 1. (Put a +1/+1
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}: Add {U}, {B}, or {R}.
+      <text>{T}: Add {W}, {R}, or {B}.
 {T}, Sacrifice Armor Stand: Add CC.</text>
     </card>
     <card>
@@ -416,7 +416,7 @@ Whenever you gain or lose life during your turn, amass Villagers 1. (Put a +1/+1
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}: Add {R}, {G}, or {W}.
+      <text>{T}: Add {G}, {U}, or {R}.
 {T}, Sacrifice Warm Campfire: Add CC.</text>
     </card>
     <card>
@@ -841,7 +841,7 @@ When Redstone Contraption enters untapped, create a tapped Tool token. (It’s a
       </prop>
       <tablerow>0</tablerow>
       <cipt>1</cipt>
-      <text>Combat Arena enters tapped unless you control an Island, a Swamp, and a Mountain.
+      <text>Combat Arena enters tapped unless you control an Mountain, a Plains, and a Swamp.
 When Combat Arena enters untapped, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)
 {T}: Add {R}, {W}, or {B}.</text>
     </card>
@@ -874,7 +874,7 @@ When Woodland Mansion enters untapped, spawn menace 2. (Put a menace and/or two 
       </prop>
       <tablerow>0</tablerow>
       <cipt>1</cipt>
-      <text>Cherry Grove enters tapped unless you control a Mountain, a Forest, and a Plains.
+      <text>Cherry Grove enters tapped unless you control a Forest, an Island, and a Mountain.
 When Cherry Grove enters untapped, draw two cards, then discard two cards.
 {T}: Add {G}, {U},  or {R}.</text>
     </card>
@@ -2472,7 +2472,7 @@ When Lava Strider dies, if you’re an explorer, it deals 2 damage to any target
       <set rarity="mythic">MIN</set>
       <prop>
         <colors>WUBRG</colors>
-        <manacost>W/BB/GG/UU/RR/W</manacost>
+        <manacost>U/RU/BB/GG/WR/W</manacost>
         <cmc>5</cmc>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
@@ -2567,7 +2567,7 @@ Apex — When Dragon’s Breath enters, if you control a creature with the great
       </prop>
       <tablerow>2</tablerow>
       <text>Travel (If there are eight or more lands among your battlefield and graveyard, you’re an explorer for the rest of the game.)
-Whenever Creaking becomes the target of a spell or ability, unless you’re an explorer, tap it. It doesn’t untap during its controller’s next untap step.</text>
+Whenever Creaking becomes the target of a spell or ability, unless you’re an explorer, tap it and put a stun counter on it if it doesn’t have one.</text>
       <related>Explorer MIN</related>
     </card>
     <card>
@@ -3356,7 +3356,7 @@ Apex — If you control a creature with the greatest power among creatures on th
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Gather — Whenever you cast a noncreature spell, create a 1/1 blue Fish creature token with “This creature can’t be blocked.”</text>
+      <text>Whenever you cast a noncreature spell, create a 1/1 blue Fish creature token with “This creature can’t be blocked.”</text>
       <related>Fish MIN</related>
     </card>
     <card>
@@ -3610,7 +3610,7 @@ Apex — If you control a creature with the greatest power among creatures on th
       </prop>
       <tablerow>1</tablerow>
       <text>Enchant player
-Whenever a creature you control deals combat damage to enchanted player, you may sacrifice Bad Omen. If you do, amass Villagers 3. (Put three +1/+1 counters on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
+When a creature you control deals combat damage to enchanted player, sacrifice Bad Omen and amass Villagers 3. (Put three +1/+1 counters on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
       <related>Villager Army MIN</related>
     </card>
     <card>
@@ -4226,7 +4226,7 @@ Equip {4}</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>2G: Spawn reach 1. For each counter on target creature, put an additional counter of that type. (Put a reach and/or a +1/+1 counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <text>2G: Spawn reach 1. For each counter on target creature, put an additional counter of that type on the spawned Den. (Put a reach and/or a +1/+1 counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
     </card>
     <card>
       <name>Planned for It</name>
@@ -4699,7 +4699,7 @@ Activated abilities of nonland permanents your opponents control cost an additio
       </prop>
       <tablerow>2</tablerow>
       <text>When Iceologer enters, mill four cards. When you do, choose one for each land card in your graveyard. You may choose the same mode more than once.
-• Tap target nonland permanent. It doesn’t untap during its controller’s next untap step.
+• Tap target nonland permanent and put a stun counter on it.
 • Exile the top card of your library. You may play it until the end of your next turn.</text>
     </card>
     <card>
@@ -5313,8 +5313,8 @@ Whenever you build, unlock an additional available Construction ability. This ab
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
-Whenever Blowing Breeze attacks, reveal cards from the top of your library until you reveal a land card, then put those cards into your graveyard.
-Whenever a land card is put into your graveyard, tap target creature. That creature doesn’t untap during its controller’s next untap step.</text>
+Whenever Blowing Breeze attacks, mill three cards.
+Whenever a land card is put into your graveyard from anywhere, tap target creature and put a stun counter on it.</text>
     </card>
     <card>
       <name>TNT Block</name>
@@ -5327,8 +5327,7 @@ Whenever a land card is put into your graveyard, tap target creature. That creat
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Flash
-{6}, {T}, Sacrifice TNT Block: Destroy target permanent.</text>
+      <text>{T}: TNT Block gains “When this artifact untaps, sacrifice it and destroy target nonland permanent you don’t control.” Activate only as a sorcery.</text>
     </card>
     <card>
       <name>The Dragon Egg</name>
@@ -5341,7 +5340,7 @@ Whenever a land card is put into your graveyard, tap target creature. That creat
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}, Shuffle The Dragon Egg into your library: Exile target spell you control. Exile cards from the top of your library until you reveal a card that shares a card type with it. You may cast this card without paying its mana cost. Then put the other cards exiled this way on the bottom of your library in a random order.</text>
+      <text>{T}, Put The Dragon Egg on the bottom of your library: Exile target spell you control. Exile cards from the top of your library until you reveal a card that shares a card type with it. You may cast this card without paying its mana cost. Then put the other cards exiled this way on the bottom of your library in a random order.</text>
     </card>
     <card>
       <name>Stasis Chamber</name>
@@ -5386,12 +5385,9 @@ When Stasis Chamber enters, return target creature to its owner’s hand.
       <text>Whenever an artifact enters under your control, put a +1/+1 counter on Iron Stockpile.
 {2}: Iron Stockpile becomes a 1/1 Golem artifact creature with vigilance until end of turn.</text>
     </card>
-
-    <!-->Tokens</-->
-
     <card>
       <name>Den MIN</name>
-      <set>MIN</set>
+      <set rarity="common" splitterPath="/Den MIN.png" >MIN</set>
       <prop>
         <colors></colors>
         <manacost></manacost>
@@ -5403,12 +5399,11 @@ When Stasis Chamber enters, return target creature to its owner’s hand.
       <text>At the end of each player’s turn, if that player cast no spells this turn, transform this.
 ---
 (Back): Army</text>
-      <related attach="transform">Den Army MIN</related>
-      <token>1</token>
+      <related attach="transform">Army</related>
     </card>
     <card>
-      <name>Den Army MIN</name>
-      <set>MIN</set>
+      <name>Army</name>
+      <set rarity="common" splitterPath="/Army.png" >MIN</set>
       <prop>
         <colors>B</colors>
         <manacost></manacost>
@@ -5420,8 +5415,10 @@ When Stasis Chamber enters, return target creature to its owner’s hand.
       <text>(This doesn’t transform back.)
 ---
 (Front): Den MIN</text>
-      <token>1</token>
     </card>
+
+    <!-->Tokens</-->
+
     <card>
       <name>Fish MIN</name>
       <set>MIN</set>
@@ -5819,7 +5816,7 @@ When this creature dies, it deals 1 damage to any target.</text>
       </prop>
       <tablerow>1</tablerow>
       <text>WUB TECHNICAL Control the board and combo cards to amass value, all in one run of your Function.
-      WB LIFE Gain or lose life during your turn to slowly drain your opponents.
+      WB LIFE Gain or lose life during your turn to slowly drain your enemies.
 RWB COMBAT Gear up with counters and Equipment to best your opponent in battle.
       BR RAID Be relentless in your attacks to close the game quickly and gain benefits.
 BRG MONSTERS Grow an army of monsters for cheap, then wait for night to fall to overwhelm your opponent with them.

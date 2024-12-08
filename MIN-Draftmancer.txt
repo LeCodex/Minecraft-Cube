@@ -1433,7 +1433,7 @@
 	    {
 	        "name": "Unite the Villagers",
 	        "rarity": "mythic",
-	        "mana_cost": "{W/B}{B/G}{G/U}{U/R}{R/W}",
+	        "mana_cost": "{U/R}{U/B}{B/G}{G/W}{R/W}",
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Unite the Villagers.png"

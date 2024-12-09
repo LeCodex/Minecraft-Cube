@@ -3197,7 +3197,7 @@
 	    {
 	        "name": "TNT Block",
 	        "rarity": "common",
-	        "mana_cost": "{1}",
+	        "mana_cost": "{4}",
 	        "type": "Artifact",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/TNT Block.png"

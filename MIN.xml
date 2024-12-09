@@ -388,7 +388,7 @@ Whenever you gain or lose life during your turn, amass Villagers 1. (Put a +1/+1
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}: Add {W}, {R}, or {B}.
+      <text>{T}: Add {R}, {W}, or {B}.
 {T}, Sacrifice Armor Stand: Add CC.</text>
     </card>
     <card>
@@ -5321,8 +5321,8 @@ Whenever a land card is put into your graveyard from anywhere, tap target creatu
       <set rarity="common">MIN</set>
       <prop>
         <colors></colors>
-        <manacost>1</manacost>
-        <cmc>1</cmc>
+        <manacost>4</manacost>
+        <cmc>4</cmc>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
       </prop>

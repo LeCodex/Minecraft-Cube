@@ -78,7 +78,7 @@ Suit up. (You may reveal an Equipment you own from outside the game and put it i
       </prop>
       <tablerow>1</tablerow>
       <text>When Fortune Pickaxe enters, attach it to target creature you control.
-Equipped creature gets +2/+2. Whenever it attacks, create a Treasure token.
+Equipped creature gets +2/+1. Whenever it attacks, create a Treasure token.
 Equip {2}</text>
     </card>
     <card>
@@ -202,24 +202,8 @@ Function — Each opponent discards a card and you draw a card. ({6}: Trigger an
       </prop>
       <tablerow>1</tablerow>
       <text>[+1]: Up to one target creature gains trample, menace, and haste until end of turn. Create a Treasure token.
-[-2]: Until end of turn, Alex becomes a 5/5 Human Warrior creature with indestructible. Attach any number of Equipment you control to her. (She doesn’t lose loyalty while she isn’t a planeswalker.)
-</text>
+[-2]: Until end of turn, Alex becomes a 5/5 Human Warrior creature with indestructible. Attach any number of Equipment you control to her. (She doesn’t lose loyalty while she isn’t a planeswalker.)</text>
       <related>Treasure MIN</related>
-    </card>
-    <card>
-      <name>Copper Golem</name>
-      <set rarity="uncommon">MIN</set>
-      <prop>
-        <colors>W</colors>
-        <manacost>2W</manacost>
-        <cmc>3</cmc>
-        <type>Artifact Creature - Golem </type>
-        <maintype>Creature</maintype>
-        <pt>1/1</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Copper Golem enters with two +1/+1 counters on it.
-{T}, Remove a +1/+1 counter from Copper Golem: Untap another target artifact or creature. If it’s not an artifact, put a +1/+1 counter on it. Activate only outside combat.</text>
     </card>
     <card>
       <name>Village Shepherd</name>
@@ -250,8 +234,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <tablerow>1</tablerow>
       <text>[0]: Proliferate.
 [-2]: Build. (Unlock an available Construction ability, then trigger an unlocked ability.)
-[-7]: Choose a permanent type. For each permanent of that type you control, create a token that’s a copy of it. For each kind of counter on that permanent, put that many counters of that kind on the token.
-</text>
+[-7]: Choose a permanent type. For each permanent of that type you control, create a token that’s a copy of it. For each kind of counter on that permanent, put that many counters of that kind on the token.</text>
       <related>Construction MIN</related>
     </card>
     <card>
@@ -420,20 +403,6 @@ Whenever you gain or lose life during your turn, amass Villagers 1. (Put a +1/+1
 {T}, Sacrifice Warm Campfire: Add CC.</text>
     </card>
     <card>
-      <name>Shulker Box</name>
-      <set rarity="uncommon">MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost>3</manacost>
-        <cmc>3</cmc>
-        <type>Artifact</type>
-        <maintype>Artifact</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>{T}: Add {G}, {W}, or {U}.
-{T}, Sacrifice Shulker Box: Add CC.</text>
-    </card>
-    <card>
       <name>Flower Forest</name>
       <set rarity="uncommon">MIN</set>
       <prop>
@@ -496,22 +465,6 @@ When Mushroom Island enters, you gain 1 life.</text>
       <text>({T}: Add {W} or {B}.)
 Badlands Desert enters tapped.
 When Badlands Desert enters, you gain 1 life.</text>
-    </card>
-    <card>
-      <name>Wooded Mountains</name>
-      <set rarity="uncommon">MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Land - Mountain Forest </type>
-        <maintype>Land</maintype>
-      </prop>
-      <tablerow>0</tablerow>
-      <cipt>1</cipt>
-      <text>({T}: Add {R} or {G}.)
-Wooded Mountains enters tapped.
-When Wooded Mountains enters, you gain 1 life.</text>
     </card>
     <card>
       <name>Dark Forest</name>
@@ -622,21 +575,6 @@ As Amplified Terrain enters, choose two colors.
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
 {T}: Far Lands gains the basic land type of your choice. (This effect lasts indefinitely.)</text>
-    </card>
-    <card>
-      <name>Village Toolsmith</name>
-      <set rarity="uncommon">MIN</set>
-      <prop>
-        <colors>WG</colors>
-        <manacost>1GW</manacost>
-        <cmc>3</cmc>
-        <type>Creature - Villager Artificer </type>
-        <maintype>Creature</maintype>
-        <pt>*/4</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Vigilance
-Village Toolsmith’s power is equal to the number of creatures you control.</text>
     </card>
     <card>
       <name>Unloaded Chunk</name>
@@ -779,7 +717,7 @@ When Ocean Monument enters, surveil 1.</text>
       <cipt>1</cipt>
       <text>({T}: Add {R} or {W}.)
 Abandoned Mineshaft enters tapped.
-When Abandoned Mineshaft enters, surveil 1.</text>
+When Abandoned Mineshaft enters, you gain 1 life.</text>
     </card>
     <card>
       <name>Desert Well</name>
@@ -814,22 +752,6 @@ Pillager Outpost enters tapped.
 When Pillager Outpost enters, surveil 1.</text>
     </card>
     <card>
-      <name>Redstone Contraption</name>
-      <set rarity="rare">MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Land</type>
-        <maintype>Land</maintype>
-      </prop>
-      <tablerow>0</tablerow>
-      <cipt>1</cipt>
-      <text>Redstone Contraption enters tapped unless you control a Plains, an Island, and a Swamp.
-When Redstone Contraption enters untapped, create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
-{T}: Add {W}, {U}, or {B}.</text>
-    </card>
-    <card>
       <name>Combat Arena</name>
       <set rarity="rare">MIN</set>
       <prop>
@@ -841,26 +763,9 @@ When Redstone Contraption enters untapped, create a tapped Tool token. (It’s a
       </prop>
       <tablerow>0</tablerow>
       <cipt>1</cipt>
-      <text>Combat Arena enters tapped unless you control an Mountain, a Plains, and a Swamp.
+      <text>Combat Arena enters tapped unless you control a Mountain, a Plains, and a Swamp.
 When Combat Arena enters untapped, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)
 {T}: Add {R}, {W}, or {B}.</text>
-    </card>
-    <card>
-      <name>Woodland Mansion</name>
-      <set rarity="rare">MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Land</type>
-        <maintype>Land</maintype>
-      </prop>
-      <tablerow>0</tablerow>
-      <cipt>1</cipt>
-      <text>Woodland Mansion enters tapped unless you control a Swamp, a Mountain, and a Forest.
-When Woodland Mansion enters untapped, spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
-{T}: Add {B}, {R}, or {G}.</text>
-      <related>Den MIN</related>
     </card>
     <card>
       <name>Cherry Grove</name>
@@ -876,24 +781,7 @@ When Woodland Mansion enters untapped, spawn menace 2. (Put a menace and/or two 
       <cipt>1</cipt>
       <text>Cherry Grove enters tapped unless you control a Forest, an Island, and a Mountain.
 When Cherry Grove enters untapped, draw two cards, then discard two cards.
-{T}: Add {G}, {U},  or {R}.</text>
-    </card>
-    <card>
-      <name>Impressive Build</name>
-      <set rarity="rare">MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Land</type>
-        <maintype>Land</maintype>
-      </prop>
-      <tablerow>0</tablerow>
-      <cipt>1</cipt>
-      <text>Impressive Build enters tapped unless you control a Forest, a Plains, and an Island.
-When Impressive Build enters untapped, trigger an unlocked Construction ability.
-{T}: Add {G}, {W}, or {U}. </text>
-      <related>Construction MIN</related>
+{T}: Add {G}, {U}, or {R}.</text>
     </card>
     <card>
       <name>The End, Dragon&apos;s Realm</name>
@@ -915,12 +803,14 @@ When Impressive Build enters untapped, trigger an unlocked Construction ability.
         <colors></colors>
         <manacost></manacost>
         <cmc>0</cmc>
-        <type>Land</type>
+        <type>Legendary Enchantment Land - Saga </type>
         <maintype>Land</maintype>
       </prop>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{4}: The Nether becomes a 3/3 Spirit creature with flying until end of turn. It’s still a land.</text>
+      <text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — The Nether deals 1 damage to you and gains “{T}: Add {C}.”
+II — At the beginning of the next end step, if a creature died this turn, create a Treasure token.
+III — You may pay {1}. If you do, search your library for a land card, put it onto the battlefield, then shuffle.</text>
     </card>
     <card>
       <name>Axolotl</name>
@@ -934,7 +824,7 @@ When Impressive Build enters untapped, trigger an unlocked Construction ability.
         <pt>1/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever an artifact enters under your control, you may gain 1 life and draw a card. Do this only once each turn.</text>
+      <text>Whenever an artifact you control enters, you may gain 1 life and draw a card. Do this only once each turn.</text>
     </card>
     <card>
       <name>Illusioner</name>
@@ -1069,8 +959,7 @@ When Totem Of Undying enters, until end of turn, target creature gets +1/+0 and 
       <tablerow>1</tablerow>
       <text>You may cast Herobrine, Never Removed from your graveyard by sacrificing two artifacts and/or creatures in addition to its other costs.
 [0]: Spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
-[-2]: Destroy target nonland permanent.
-</text>
+[-2]: Destroy target nonland permanent.</text>
       <related>Den MIN</related>
     </card>
     <card>
@@ -1115,7 +1004,7 @@ Creature tokens you control have deathtouch.</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Composter enters, mill three cards, then you may return a card milled this way to your hand.
+      <text>When Composter enters, mill three cards, then you may return a permanent card milled this way to your hand.
 {G}, {T}, Exile three cards from your graveyard: Create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)</text>
       <related>Tool MIN</related>
     </card>
@@ -1207,10 +1096,9 @@ Create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana 
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Choose one or more —
+      <text>Choose one or two. This spells costs {1} more to cast if you choose two —
 • Target creature gains flying, hexproof, and indestructible until end of turn.
-• Build. (Unlock an available Construction ability, then trigger an unlocked ability.)
-Escalate {1} (Pay this cost for each mode chosen beyond the first.)</text>
+• Build. (Unlock an available Construction ability, then trigger an unlocked ability.)</text>
       <related>Construction MIN</related>
     </card>
     <card>
@@ -1285,7 +1173,7 @@ When Dinnerbone enters, switch enchanted creature’s power and toughness until 
       <tablerow>1</tablerow>
       <text>Enchant creature or land
 When jeb enters, mill four cards, then draw a card.
-Enchanted permanent is all colors and has all abilities of lands you control and land cards in your graveyard.</text>
+Enchanted permanent is all colors and has all mana abilities of lands you control and land cards in your graveyard.</text>
     </card>
     <card>
       <name>Surprise Explosion</name>
@@ -1298,7 +1186,7 @@ Enchanted permanent is all colors and has all abilities of lands you control and
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Surprise Explosion deals 2 damage to each creature. Then, spawn trample 2. (Put a trample and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <text>This spell deals 2 damage to each creature. Then, spawn trample 2. (Put a trample and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
       <related>Den MIN</related>
     </card>
     <card>
@@ -1340,7 +1228,7 @@ Function — Target player loses 2 life and you gain 2 life. ({6}: Trigger any n
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Lightning Strike deals 3 damage to any target.</text>
+      <text>This spell deals 3 damage to any target.</text>
     </card>
     <card>
       <name>Exposing Demolition</name>
@@ -1367,7 +1255,7 @@ Function — Target player loses 2 life and you gain 2 life. ({6}: Trigger any n
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your end step, spawn menace 1. (Put a menace and/or a +1/+1 counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
+      <text>At the beginning of your end step, spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
 {1}, {T}, Sacrifice a creature: Draw a card.</text>
     </card>
     <card>
@@ -1401,20 +1289,6 @@ Raid — If you attacked this turn, create two tapped Treasure tokens instead.</
 {R}: Smoking Blaze gets +1/+0 until end of turn.</text>
     </card>
     <card>
-      <name>Piglin Warrior</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>R</colors>
-        <manacost>1R</manacost>
-        <cmc>2</cmc>
-        <type>Creature - Boar Warrior </type>
-        <maintype>Creature</maintype>
-        <pt>3/2</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Piglin Warrior can’t block enchanted or equipped creatures.</text>
-    </card>
-    <card>
       <name>Piglin Brute</name>
       <set rarity="uncommon">MIN</set>
       <prop>
@@ -1441,8 +1315,7 @@ Raid — At the end of combat on your turn, if you attacked this turn, create a 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.
-Apex — If you control a creature with the greatest power among creatures on the battlefield, it deals damage equal to its power to any target.</text>
+      <text>Apex — Gain control of target creature until end of turn. Untap it. It gains haste until end of turn, then it deals damage equal to its power to its owner  if you controlled a creature with the greatest power among creatures on the battlefield as you cast this spell.</text>
     </card>
     <card>
       <name>Cliff Llamas</name>
@@ -1456,7 +1329,7 @@ Apex — If you control a creature with the greatest power among creatures on th
         <pt>4/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever an artifact enters under your control, target creature gains first strike until end of turn.</text>
+      <text>Whenever an artifact you control enters, target creature gains first strike until end of turn.</text>
     </card>
     <card>
       <name>Glow Squid</name>
@@ -1470,7 +1343,7 @@ Apex — If you control a creature with the greatest power among creatures on th
         <pt>1/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Gather — Whenever a permanent with a mana ability enters under your control, tap target artifact or creature an opponent controls. It doesn’t untap during its controller’s next untap step.</text>
+      <text>Gather — Whenever a permanent with a mana ability you control enters, tap target artifact or creature an opponent controls. It doesn’t untap during its controller’s next untap step.</text>
     </card>
     <card>
       <name>Neverending Spawn</name>
@@ -1527,23 +1400,8 @@ Raid — When Crossbow Piglin enters, if you attacked this turn, it deals 2 dama
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Gather — Whenever Coral Reef or a permanent with a mana ability enters under your control, create a 1/1 blue Fish creature token with “This creature can’t be blocked.”</text>
+      <text>Gather — Whenever Coral Reef or a permanent with a mana ability you control enters, create a 1/1 blue Fish creature token with “This creature can’t be blocked.”</text>
       <related>Fish MIN</related>
-    </card>
-    <card>
-      <name>Skulking Shulker</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>U</colors>
-        <manacost>3U</manacost>
-        <cmc>4</cmc>
-        <type>Creature - Elemental </type>
-        <maintype>Creature</maintype>
-        <pt>3/4</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Skulking Shulker has hexproof as long as you control two or more artifacts.
-Whenever Skulking Shulker attacks, another target creature gains flying until end of turn.</text>
     </card>
     <card>
       <name>Smithing Table</name>
@@ -1752,20 +1610,6 @@ Raid — If you attacked this turn, they also lose 2 life and you gain 2 life.</
 {2}: Baby Zombie gets +1/+1 and gains haste until end of turn.</text>
     </card>
     <card>
-      <name>Endermite</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>R</colors>
-        <manacost>R</manacost>
-        <cmc>1</cmc>
-        <type>Creature - Mite </type>
-        <maintype>Creature</maintype>
-        <pt>2/1</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Endermite can’t block.</text>
-    </card>
-    <card>
       <name>Crossbow Shot</name>
       <set rarity="common">MIN</set>
       <prop>
@@ -1776,7 +1620,7 @@ Raid — If you attacked this turn, they also lose 2 life and you gain 2 life.</
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Crossbow Shot deals 3 damage to target attacking or blocking creature.</text>
+      <text>This spell deals 3 damage to target attacking or blocking creature.</text>
     </card>
     <card>
       <name>Polar Bear</name>
@@ -2202,7 +2046,7 @@ At the beginning of each combat, tap up to one target creature.</text>
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Gather — Whenever a permanent with a mana ability enters under your control, Tame Panda gains its mana abilities until end of turn.</text>
+      <text>Gather — Whenever a permanent with a mana ability you control enters, Tame Panda gains its mana abilities until end of turn.</text>
     </card>
     <card>
       <name>Pack Donkey</name>
@@ -2294,21 +2138,6 @@ Function — Return Frost Stray from your graveyard to the battlefield. ({6}: Tr
       <tablerow>1</tablerow>
       <text>At the beginning of your upkeep, you lose 1 life and spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
       <related>Den MIN</related>
-    </card>
-    <card>
-      <name>Mangrove Frog</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>U</colors>
-        <manacost>1UU</manacost>
-        <cmc>3</cmc>
-        <type>Creature - Frog </type>
-        <maintype>Creature</maintype>
-        <pt>3/2</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Mangrove Frog has flying as long as it’s attacking.
-Whenever Mangrove Frog deals combat damage to a player, look at that many cards from the top of your library, put one into your hand, and the rest into your graveyard.</text>
     </card>
     <card>
       <name>Phantom</name>
@@ -2448,7 +2277,7 @@ When The Ender Dragon enters, create an artifact token named End Crystal with �
       <tablerow>2</tablerow>
       <text>First strike, trample
 Ward—Pay 3 life
-Raid — Whenever another creature enters under your control, if you attacked this turn, Ravager deals 2 damage to target player.</text>
+Raid — Whenever another creature you control enters, if you attacked this turn, Ravager deals 2 damage to target player.</text>
     </card>
     <card>
       <name>Lava Strider</name>
@@ -2478,23 +2307,8 @@ When Lava Strider dies, if you’re an explorer, it deals 2 damage to any target
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever Unite the Villagers or a Villager enters under your control, draw a card.
+      <text>Whenever Unite the Villagers or a Villager you control enters, draw a card.
 Villagers you control get +X/+X, where X is the number of Villagers you control.</text>
-    </card>
-    <card>
-      <name>Moobloom</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>W</colors>
-        <manacost>3W</manacost>
-        <cmc>4</cmc>
-        <type>Creature - Plant Ox </type>
-        <maintype>Creature</maintype>
-        <pt>3/4</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Vigilance
-Moobloom has lifelink as long as it’s modified. (Equipment, Auras you control, and counters are modifications.)</text>
     </card>
     <card>
       <name>Missing Block</name>
@@ -2630,21 +2444,6 @@ Counter target spell.</text>
       <related>Zombie Villager MIN</related>
     </card>
     <card>
-      <name>Elder Guardian</name>
-      <set rarity="uncommon">MIN</set>
-      <prop>
-        <colors>W</colors>
-        <manacost>3W</manacost>
-        <cmc>4</cmc>
-        <type>Legendary Artifact Creature - Elder Construct </type>
-        <maintype>Creature</maintype>
-        <pt>4/2</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>First strike, lifelink; ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
-Other creatures and artifacts you control have ward {1}.</text>
-    </card>
-    <card>
       <name>Insect Infestation</name>
       <set rarity="common">MIN</set>
       <prop>
@@ -2669,20 +2468,20 @@ Other creatures and artifacts you control have ward {1}.</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Swoop Down deals 4 damage to target creature. Excess damage is dealt to that creature’s controller instead.</text>
+      <text>This spell deals 4 damage to target creature. Excess damage is dealt to that creature’s controller instead.</text>
     </card>
     <card>
       <name>Charging Strike</name>
       <set rarity="common">MIN</set>
       <prop>
         <colors>R</colors>
-        <manacost>3R</manacost>
-        <cmc>4</cmc>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
         <type>Sorcery</type>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Charging Strike deals 3 damage to any target. Then, spawn trample 3. (Put a trample and/or three +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <text>This spell deals 3 damage to any target. Then, spawn trample 3. (Put a trample and/or three +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
       <related>Den MIN</related>
     </card>
     <card>
@@ -2791,22 +2590,6 @@ Reach</text>
 • Target creature you control deals damage equal to its power to target creature you don’t control.</text>
     </card>
     <card>
-      <name>The Killer Bunny</name>
-      <set rarity="rare">MIN</set>
-      <prop>
-        <colors>RG</colors>
-        <manacost>3RG</manacost>
-        <cmc>5</cmc>
-        <type>Legendary Creature - Rabbit </type>
-        <maintype>Creature</maintype>
-        <pt>4/4</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>This spell can’t be countered.
-Trample, haste
-The Killer Bunny enters with a +1/+1 counter on it for each land card in your graveyard.</text>
-    </card>
-    <card>
       <name>Pink Sheep</name>
       <set rarity="uncommon">MIN</set>
       <prop>
@@ -2819,7 +2602,7 @@ The Killer Bunny enters with a +1/+1 counter on it for each land card in your gr
       </prop>
       <tablerow>2</tablerow>
       <text>{T}: Add one mana of any color.
-Whenever another creature enters under your control for the first time each turn, untap Pink Sheep.</text>
+Whenever another creature you control enters for the first time each turn, untap Pink Sheep.</text>
     </card>
     <card>
       <name>Acid Fireball</name>
@@ -2903,7 +2686,7 @@ Whenever one or more creatures you control deal combat damage to a player, build
       </prop>
       <tablerow>1</tablerow>
       <text>When Shore Lighthouse enters, build. (Unlock an available Construction ability, then trigger an unlocked ability.)
-Whenever one or more lands enter under your control, build. This ability only triggers once each turn.</text>
+Whenever a land you control that doesn’t share a name with another land you control enters, build.</text>
       <related>Construction MIN</related>
     </card>
     <card>
@@ -2976,7 +2759,7 @@ When Oozing is put into a graveyard from the battlefield, create a 2/2 green Ooz
       <tablerow>1</tablerow>
       <text>Flash
 When Defend the Village enters, create a 3/3 colorless Golem artifact creature token with vigilance.
-Whenever you build, you may return Defend the Village to your hand.</text>
+Whenever you build, you may return Defend the Village to its owner’s hand.</text>
       <related>Golem MIN</related>
     </card>
     <card>
@@ -3022,7 +2805,7 @@ Raid — If you attacked this turn, instead scry 3, then you draw three cards an
 When Hoglin leaves the battlefield, sacrifice a Mountain.</text>
     </card>
     <card>
-      <name>No Return</name>
+      <name>One-Way Trip</name>
       <set rarity="rare">MIN</set>
       <prop>
         <colors>W</colors>
@@ -3206,10 +2989,10 @@ When Magma Cube dies, create a 1/1 red Elemental creature token.</text>
         <colors>B</colors>
         <manacost>2B</manacost>
         <cmc>3</cmc>
-        <type>Enchantment</type>
-        <maintype>Enchantment</maintype>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
       </prop>
-      <tablerow>1</tablerow>
+      <tablerow>3</tablerow>
       <text>Function — Put a border counter on Shrinking Worldborder, then each opponent loses life equal to twice the number of border counters on it. You gain that much life. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
@@ -3239,7 +3022,7 @@ Function — Creatures you control get +1/+1 until end of turn. ({6}: Trigger an
         <pt>2/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Gather — Whenever a permanent with a mana ability enters under your control, you may create a 2/1 green Rabbit creature token.</text>
+      <text>Gather — Whenever a permanent with a mana ability you control enters, you may create a 2/1 green Rabbit creature token.</text>
       <related>Rabbit MIN</related>
     </card>
     <card>
@@ -3284,7 +3067,7 @@ Draw two cards and create a tapped Tool token. (It’s an artifact with “{T}: 
       </prop>
       <tablerow>1</tablerow>
       <text>When Equipping Station enters, create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
-Function — Put your choice of a +1/+1, deathtouch, lifelink, or menace counter on target creature. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Put a +1/+1 counter and a deathtouch, lifelink, or menace counter on target creature. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
       <related>Tool MIN</related>
     </card>
     <card>
@@ -3307,8 +3090,8 @@ Draw a card and create a tapped Tool token. (It’s an artifact with “{T}: Add
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>U</colors>
-        <manacost>2U</manacost>
-        <cmc>3</cmc>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
         <type>Instant</type>
         <maintype>Instant</maintype>
       </prop>
@@ -3360,22 +3143,6 @@ Apex — If you control a creature with the greatest power among creatures on th
       <related>Fish MIN</related>
     </card>
     <card>
-      <name>Desert Camel</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>G</colors>
-        <manacost>4GG</manacost>
-        <cmc>6</cmc>
-        <type>Creature - Camel </type>
-        <maintype>Creature</maintype>
-        <pt>1/1</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Trample
-When Desert Camel enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
-Desert Camel gets +1/+1 for each land you control.</text>
-    </card>
-    <card>
       <name>Faithful Companion</name>
       <set rarity="common">MIN</set>
       <prop>
@@ -3388,7 +3155,7 @@ Desert Camel gets +1/+1 for each land you control.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance
-Whenever an artifact enters under your control, Faithful Companion gets +2/+2 until end of turn.</text>
+Whenever an artifact you control enters, Faithful Companion gets +2/+2 until end of turn.</text>
     </card>
     <card>
       <name>Explore</name>
@@ -3460,7 +3227,7 @@ Function — Put each card exiled with Ender Chest into your hand. ({6}: Trigger
       </prop>
       <tablerow>1</tablerow>
       <text>Equipped creature gets +3/+1.
-Spells you cast that target equipped creature cost {1} less to cast.
+Whenever equipped creature becomes the target of a spell or ability you control, add {R}.
 Equip {1}</text>
     </card>
     <card>
@@ -3475,7 +3242,7 @@ Equip {1}</text>
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you build or a land enters under your control, add one mana of any color. (This is not a mana ability.)</text>
+      <text>Whenever you build or a land you control enters, add one mana of any color. (This is not a mana ability.)</text>
     </card>
     <card>
       <name>Rascal</name>
@@ -3582,7 +3349,7 @@ Whenever Village Fletcher attacks, add {R}. This mana can only be spent to cast 
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance
-Whenever another artifact enters under your control, scry 1. If this is the second time this ability triggered this turn, draw a card instead.</text>
+Whenever another artifact you control enters, scry 1. If this is the second time this ability triggered this turn, draw a card instead.</text>
     </card>
     <card>
       <name>Land Claim</name>
@@ -3610,7 +3377,7 @@ Apex — If you control a creature with the greatest power among creatures on th
       </prop>
       <tablerow>1</tablerow>
       <text>Enchant player
-When a creature you control deals combat damage to enchanted player, sacrifice Bad Omen and amass Villagers 3. (Put three +1/+1 counters on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
+Whenever a creature enters under enchanted player’s control, amass Villagers 1. This ability only triggers once each turn. (To amass Villagers 1, put a +1/+1 counter on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
       <related>Villager Army MIN</related>
     </card>
     <card>
@@ -3668,7 +3435,7 @@ Equip {2}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>{T}: Untap target artifact not named Observer.
-Whenever another artifact enters under your control, untap Observer.</text>
+Whenever another artifact you control enters, untap Observer.</text>
     </card>
     <card>
       <name>Spider Jockey</name>
@@ -3711,7 +3478,7 @@ When Spider Jockey dies, spawn reach 2. (Put a reach and/or two +1/+1 counters o
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever another creature enters under you control, you gain 1 life.
+      <text>Whenever another creature you control enters, you gain 1 life.
 At the beginning of your end step, if you gained or lost life this turn, put a +1/+1 counter on target creature.</text>
       <related>Ox MIN</related>
     </card>
@@ -3743,7 +3510,7 @@ As long as you are an explorer, artifacts you control are 3/3 Golem creatures wi
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target creature you control gets twice +X/+X until end of turn.</text>
+      <text>Target creature you control gets thrice +X/+X until end of turn.</text>
     </card>
     <card>
       <name>Repeating Command Chain</name>
@@ -3790,21 +3557,6 @@ Function — Choose one —
       <tablerow>3</tablerow>
       <text>Build four times. (Repeat the following process four times. Unlock an available Construction ability, then trigger an unlocked ability.)</text>
       <related>Construction MIN</related>
-    </card>
-    <card>
-      <name>Zoglin</name>
-      <set rarity="uncommon">MIN</set>
-      <prop>
-        <colors>BR</colors>
-        <manacost>1B/R</manacost>
-        <cmc>2</cmc>
-        <type>Creature - Zombie Boar </type>
-        <maintype>Creature</maintype>
-        <pt>2/1</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Zoglin attacks each combat if able.
-When Zoglin dies, it deals 1 damage to any target.</text>
     </card>
     <card>
       <name>Sift the Loot</name>
@@ -3946,7 +3698,7 @@ Equip {2}</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever Escalating Raid enters or one or more modified creatures you control attack, amass Villagers 1. (Equipment, Auras you control, and counters are modifications. Put a +1/+1 counter on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
+      <text>Whenever Escalating Raid enters or one or more modified creatures you control attack, amass Villagers 1. (Equipment, Auras you control, and counters are modifications. To amass Villagers 1, put a +1/+1 counter on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
       <related>Villager Army MIN</related>
     </card>
     <card>
@@ -3976,7 +3728,7 @@ Equip {2}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>When Exponential Growth enters, create a Food token and a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
-If you would build, you may instead create a token that’s a copy of target token you control.</text>
+Whenever you build, you may create a token that’s a copy of a token you control. Do this only once each turn.</text>
       <related>Tool MIN</related>
       <related>Food MIN</related>
     </card>
@@ -4007,7 +3759,7 @@ When Soft Bed enters, return all permanent cards from your graveyard that were p
       </prop>
       <tablerow>1</tablerow>
       <text>Flash
-When Lightning Rod enters, counter target instant or sorcery spell.
+When Lightning Rod enters, if it was cast, counter target instant or sorcery spell.
 {3}, {T}, Sacrifice Lightning Rod: Copy target instant or sorcery spell you control. You may choose new targets for the copy.</text>
     </card>
     <card>
@@ -4021,7 +3773,8 @@ When Lightning Rod enters, counter target instant or sorcery spell.
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{3}, Sacrifice 11 Music Disc: For each modified creature you control, each opponent loses 1 life and you gain 1 life. Draw a card. Activate only as a sorcery. (Equipment, Auras you control, and counters are modifications.)</text>
+      <text>Whenever a modified creature you control dies, each opponent loses 1 life and you gain 1 life. (Equipment, Auras you control, and counters are modifications.)
+{2}, Sacrifice 11 Music Disc: Draw a card.</text>
     </card>
     <card>
       <name>Pigstep Music Disc</name>
@@ -4034,7 +3787,8 @@ When Lightning Rod enters, counter target instant or sorcery spell.
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{3}, Sacrifice Pigstep Music Disc: Double the number of +1/+1 counters on target creature or Den. Draw a card. Activate only as a sorcery.</text>
+      <text>If you would put one or more +1/+1 counters on a Den or Army you control, put that many counters plus one on it instead.
+{2}, Sacrifice Pigstep Music Disc: Draw a card.</text>
     </card>
     <card>
       <name>Far Music Disc</name>
@@ -4047,7 +3801,8 @@ When Lightning Rod enters, counter target instant or sorcery spell.
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{3}, Sacrifice Far Music Disc: Return any number of land cards from your graveyard to the battlefield tapped. Draw a card. Activate only as a sorcery.</text>
+      <text>At the beginning of your upkeep, you may return target land card from your graveyard to your hand.
+{2}, Sacrifice Far Music Disc: Draw a card.</text>
     </card>
     <card>
       <name>Strad Music Disc</name>
@@ -4060,7 +3815,8 @@ When Lightning Rod enters, counter target instant or sorcery spell.
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{3}, Sacrifice Strad Music Disc: Create two tokens that are copies of target creature token you control. Draw a card. Activate only as a sorcery.</text>
+      <text>Whenever you build, target creature gets +2/+2 until end of turn. Untap it.
+{2}, Sacrifice Strad Music Disc: Draw a card.</text>
     </card>
     <card>
       <name>Mall Music Disc</name>
@@ -4073,7 +3829,8 @@ When Lightning Rod enters, counter target instant or sorcery spell.
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{3}, Sacrifice Mall Music Disc: Trigger any number of Function abilities you control and draw a card. Activate only as a sorcery.</text>
+      <text>Whenever a permanent you control with function enters, trigger its Function ability. This ability only triggers once each turn.
+{2}, Sacrifice Mall Music Disc: Draw a card.</text>
     </card>
     <card>
       <name>Jukebox</name>
@@ -4114,7 +3871,7 @@ Function — Copy each card exiled with Jukebox. You may cast the copies without
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever Skeleton Bowman enters or one or more Dens you control transforms, Skeleton Bowman deals 1 damage to any target.</text>
+      <text>Whenever Skeleton Bowman enters or one or more Dens you control transform, Skeleton Bowman deals 1 damage to any target.</text>
     </card>
     <card>
       <name>Act of Preservation</name>
@@ -4284,7 +4041,7 @@ Lifelink</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Until end of turn, double target creature’s power and it gains first strike. Amass Villagers 1. (Put a +1/+1 counter on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
+      <text>Amass Villagers 1. When you do, until end of turn, double target creature’s power and it gains first strike. (To amass Villagers 1, put a +1/+1 counter on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
       <related>Villager Army MIN</related>
     </card>
     <card>
@@ -4299,7 +4056,7 @@ Lifelink</text>
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever another creature enters under your control for the first time each turn, put a +1/+1 counter on Pig Herd.</text>
+      <text>Whenever another creature you control enters for the first time each turn, put a +1/+1 counter on Pig Herd.</text>
     </card>
     <card>
       <name>The Parrots and the Bats</name>
@@ -4326,7 +4083,7 @@ Search your library for a creature card with mana value X or less, put it onto t
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever a creature enters under your control, put a +1/+1 counter on it for each other creature you control that shares a creature type with it.</text>
+      <text>Whenever a creature you control enters, put a +1/+1 counter on it for each other creature you control that shares a creature type with it.</text>
     </card>
     <card>
       <name>Trading Hall</name>
@@ -4382,7 +4139,7 @@ Search your library for a creature card with mana value X or less, put it onto t
       </prop>
       <tablerow>1</tablerow>
       <text>Equipped creature gets +1/+1.
-Whenever enchanted creature attacks, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)
+Whenever enchanted creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 Equip {2}</text>
     </card>
     <card>
@@ -4429,21 +4186,6 @@ Function — Create two Treasure tokens. ({6}: Trigger any number of Function ab
       <related count="2"> Treasure MIN</related>
     </card>
     <card>
-      <name>Wild Ocelot</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>U</colors>
-        <manacost>U</manacost>
-        <cmc>1</cmc>
-        <type>Creature - Cat </type>
-        <maintype>Creature</maintype>
-        <pt>1/1</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>Wild Ocelot can’t be blocked by creatures with greater power.
-Whenever an artifact enters under your control, you may tap target creature.</text>
-    </card>
-    <card>
       <name>Village Leatherworker</name>
       <set rarity="rare">MIN</set>
       <prop>
@@ -4482,7 +4224,7 @@ At the end of the first combat phase on each of your turns, if a permanent you c
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Return To Sender deals X damage to target creature or planeswalker, where X is the number of creatures that attacked this turn.</text>
+      <text>This spell deals X damage to target creature or planeswalker, where X is the number of creatures that attacked this turn.</text>
     </card>
     <card>
       <name>Cartography Table</name>
@@ -4595,7 +4337,7 @@ Remove three sound counters from Sculk Sensor: Untap target nonland permanent. I
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>If you would create one or more tokens, you may pay {1}. If you do, create those tokens plus an additional 1/1 white Villager creature token. The third time you do so each turn, create an additional 3/3 colorless Golem artifact creature with vigilance instead.</text>
+      <text>If you would create one or more tokens, you may pay {1}. If you do, create those tokens plus an additional 1/1 white Villager creature token. The third time you do so each turn, create an additional 3/3 colorless Golem artifact creature token with vigilance instead.</text>
       <related>Villager MIN</related>
       <related>Golem MIN</related>
     </card>
@@ -4746,7 +4488,7 @@ Equip {4}</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever Equipped Spawn or a creature enters under your control, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
+      <text>Whenever Equipped Spawn or a creature you control enters, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
     </card>
     <card>
       <name>Stone Sword</name>
@@ -4848,20 +4590,6 @@ Equipment you control have “Equip creature token {0}. Activate only once each 
       <text>{1}, Sacrifice another artifact: Draw a card.</text>
     </card>
     <card>
-      <name>Amethyst Geode</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost>2</manacost>
-        <cmc>2</cmc>
-        <type>Artifact</type>
-        <maintype>Artifact</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>Amethyst Geode enters with three crystal counters on it.
-Whenever you attack, you may pay {1} and remove a crystal counter from Amethyst Geode. If you do, draw a card.</text>
-    </card>
-    <card>
       <name>Griefing</name>
       <set rarity="common">MIN</set>
       <prop>
@@ -4943,7 +4671,7 @@ Whenever you attack, you may pay {1} and remove a crystal counter from Amethyst 
       </prop>
       <tablerow>3</tablerow>
       <text>Gather — Create three 1/1 white Cat creature tokens, plus an additional one for each permanent with a mana ability that entered under your control this turn.</text>
-      <related count="2">Cat MIN</related>
+      <related count="3">Cat MIN</related>
     </card>
     <card>
       <name>Mesa Wolf</name>
@@ -5003,21 +4731,6 @@ Whenever you attack, you may pay {1} and remove a crystal counter from Amethyst 
       <tablerow>2</tablerow>
       <text>When Chicken Jockey dies while attacking, target opponent loses 2 life and you create a 1/1 white Bird creature token.</text>
       <related>Bird MIN</related>
-    </card>
-    <card>
-      <name>Netherite Excavation</name>
-      <set rarity="uncommon">MIN</set>
-      <prop>
-        <colors>R</colors>
-        <manacost>1R</manacost>
-        <cmc>2</cmc>
-        <type>Enchantment</type>
-        <maintype>Enchantment</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>Netherite Excavation enters with a gear counter on it.
-Attacking creatures you control get +1/+0 for each gear counter on Netherite Excavation.
-{4}: Put a gear counter on Netherite Excavation. Activate only as a sorcery.</text>
     </card>
     <card>
       <name>Precarious Structure</name>
@@ -5084,7 +4797,7 @@ If a creature an opponent controls would die, exile it instead.</text>
         <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever an artifact enters under your control, target creature you control gains flying until end of turn.</text>
+      <text>Whenever an artifact you control enters, target creature you control gains flying until end of turn.</text>
     </card>
     <card>
       <name>Lobsided Crab</name>
@@ -5108,15 +4821,15 @@ When Lobsided Crab dies, discard a card unless you’re an explorer.</text>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>W</colors>
-        <manacost>1W</manacost>
-        <cmc>2</cmc>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
         <type>Creature - Armadillo </type>
         <maintype>Creature</maintype>
-        <pt>2/1</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Landfall — Whenever a land enters under your control, put a +1/+1 counter on Shy Armadillo.
-When Shy Armadillo dies, put its counters on target creature you control.</text>
+      <text>Landfall — Whenever a land you control enters, put a +1/+1 counter on Shy Armadillo.
+When Shy Armadillo dies, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
     </card>
     <card>
       <name>Trial Spawner</name>
@@ -5340,7 +5053,7 @@ Whenever a land card is put into your graveyard from anywhere, tap target creatu
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}, Put The Dragon Egg on the bottom of your library: Exile target spell you control. Exile cards from the top of your library until you reveal a card that shares a card type with it. You may cast this card without paying its mana cost. Then put the other cards exiled this way on the bottom of your library in a random order.</text>
+      <text>{T}, Put The Dragon Egg on the bottom of its owner’s library: Exile target spell you control. Exile cards from the top of your library until you reveal a card that shares a card type with it. You may cast this card without paying its mana cost. Then put the other cards exiled this way on the bottom of your library in a random order.</text>
     </card>
     <card>
       <name>Stasis Chamber</name>
@@ -5382,39 +5095,294 @@ When Stasis Chamber enters, return target creature to its owner’s hand.
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever an artifact enters under your control, put a +1/+1 counter on Iron Stockpile.
+      <text>Whenever an artifact you control enters, put a +1/+1 counter on Iron Stockpile.
 {2}: Iron Stockpile becomes a 1/1 Golem artifact creature with vigilance until end of turn.</text>
     </card>
     <card>
-      <name>Den MIN</name>
-      <set rarity="common" splitterPath="/Den MIN.png" >MIN</set>
+      <name>Wooded Mountains</name>
+      <set rarity="uncommon">MIN</set>
       <prop>
         <colors></colors>
         <manacost></manacost>
         <cmc>0</cmc>
-        <type>Token Artifact - Den </type>
+        <type>Land - Mountain Forest </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <cipt>1</cipt>
+      <text>({T}: Add {R} or {G}.)
+Wooded Mountains enters tapped.
+When Wooded Mountains enters, you gain 1 life.</text>
+    </card>
+    <card>
+      <name>Woodland Mansion</name>
+      <set rarity="rare">MIN</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <cipt>1</cipt>
+      <text>Woodland Mansion enters tapped unless you control a Swamp, a Mountain, and a Forest.
+When Woodland Mansion enters untapped, spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
+{T}: Add {B}, {R}, or {G}.</text>
+    </card>
+    <card>
+      <name>Redstone Contraption</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <cipt>1</cipt>
+      <text>Redstone Contraption enters tapped unless you control a Plains, an Island, and a Swamp.
+When Redstone Contraption enters untapped, create a Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
+{T}: Add {W}, {U} or {B}.</text>
+    </card>
+    <card>
+      <name>Impressive Build</name>
+      <set rarity="rare">MIN</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <cipt>1</cipt>
+      <text>Impressive Build enters tapped unless you control a Forest, a Plains, and an Island.
+When Impressive Build enters untapped, trigger an unlocked Construction ability.
+{T}: Add {G}, {W}, or {U}.</text>
+    </card>
+    <card>
+      <name>Shulker Box</name>
+      <set rarity="uncommon">MIN</set>
+      <prop>
+        <colors></colors>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
+        <type>Artifact</type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the end of each player’s turn, if that player cast no spells this turn, transform this.
----
-(Back): Army</text>
-      <related attach="transform">Army</related>
+      <text>{1}, {T}: Add {G}, {W}, or {U}.</text>
     </card>
     <card>
-      <name>Army</name>
-      <set rarity="common" splitterPath="/Army.png" >MIN</set>
+      <name>Amethyst Geode</name>
+      <set rarity="common">MIN</set>
       <prop>
-        <colors>B</colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Token Creature - Army </type>
-        <pt>0/0</pt>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Artifact</type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Amethyst Geode enters with three crystal counters on it.
+Whenever you attack, you may pay {1} and remove a crystal counter from Amethyst Geode. If you do, draw a card.</text>
+    </card>
+    <card>
+      <name>Netherite Excavation</name>
+      <set rarity="uncommon">MIN</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Netherite Excavation enters with a gear counter on it.
+Attacking creatures you control have +1/+0 for each gear counter on Netherite Excavation.
+{4}: Put a gear counter on Netherite Excavation. Activate only as a sorcery.</text>
+    </card>
+    <card>
+      <name>Zoglin</name>
+      <set rarity="uncommon">MIN</set>
+      <prop>
+        <colors>BR</colors>
+        <manacost>1B/R</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Zombie Boar </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>(This doesn’t transform back.)
----
-(Front): Den MIN</text>
+      <text>Zoglin attacks each combat if able.
+When Zoglin dies, it deals 1 damage to any target.</text>
+    </card>
+    <card>
+      <name>Endermite</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>R</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Mite </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Endermite can’t block.</text>
+    </card>
+    <card>
+      <name>Copper Golem</name>
+      <set rarity="uncommon">MIN</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Artifact Creature - Golem </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Copper Golem enters with two +1/+1 counters on it.
+{T}, Remove a +1/+1 counter from Copper Golem: Untap another target artifact or creature. If it’s not an artifact, put a +1/+1 counter on it. Activate only as a sorcery.</text>
+    </card>
+    <card>
+      <name>Elder Guardian</name>
+      <set rarity="uncommon">MIN</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Legendary Artifact Creature - Elder Construct </type>
+        <maintype>Creature</maintype>
+        <pt></pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>First strike, lifelink; ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+Other artifacts and creatures you control have ward {1}.</text>
+    </card>
+    <card>
+      <name>Moobloom</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Plant Ox </type>
+        <maintype>Creature</maintype>
+        <pt>3/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+Moobloom has lifelink as long as it’s modified. (Equipment, Auras you control, and counters are modifications.)</text>
+    </card>
+    <card>
+      <name>Mangrove Frog</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1UU</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Frog </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Mangrove Frog has flying as long as it’s attacking.
+Whenever Mangrove Frog deals combat damage to a player, look at that many cards from the top of your library, put one into your hand, and the rest into your graveyard.</text>
+    </card>
+    <card>
+      <name>Skulking Shulker</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>3U</manacost>
+        <cmc>4</cmc>
+        <type>Creature - Elemental </type>
+        <maintype>Creature</maintype>
+        <pt>3/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Skulking Shulker has hexproof as long as you control two or more artifacts.
+Whenever Skulking Shulker attacks, another target creature gains flying and can only block creatures with flying until end of turn.</text>
+    </card>
+    <card>
+      <name>Wild Ocelot</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>U</manacost>
+        <cmc>1</cmc>
+        <type>Creature - Cat </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Wild Ocelot can’t be blocked by creatures with greater power.
+Whenever an artifact enters under your control, you may tap target creature.</text>
+    </card>
+    <card>
+      <name>Piglin Warrior</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Creature - Boar Warrior </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Piglin Warrior can’t block enchanted or equipped creatures.</text>
+    </card>
+    <card>
+      <name>Desert Camel</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>4GG</manacost>
+        <cmc>6</cmc>
+        <type>Creature - Camel </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+When Desert Camel enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Desert Camel gets +1/+1 for each land you control.</text>
+    </card>
+    <card>
+      <name>The Killer Bunny</name>
+      <set rarity="rare">MIN</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>3RG</manacost>
+        <cmc>5</cmc>
+        <type>Legendary Creature - Rabbit </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>This spell can’t be countered.
+Trample, haste
+The Killer Bunny enters with a +1/+1 counter on it for each land card in your graveyard.</text>
+    </card>
+    <card>
+      <name>Village Toolsmith</name>
+      <set rarity="uncommon">MIN</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>1GW</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Villager Artificer </type>
+        <maintype>Creature</maintype>
+        <pt>*/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance
+Village Toolsmith’s power is equal to the number of creatures you control.</text>
     </card>
 
     <!-->Tokens</-->
@@ -5719,19 +5687,6 @@ When this creature dies, it deals 1 damage to any target.</text>
       <token>1</token>
     </card>
     <card>
-      <name>Wastes MIN</name>
-      <set>MIN</set>
-      <prop>
-        <colors></colors>
-        <type>Token Land</type>
-        <maintype>Land</maintype>
-      </prop>
-      <tablerow>0</tablerow>
-      <cipt>1</cipt>
-      <text>{T}: Add {C}.</text>
-      <token>1</token>
-    </card>
-    <card>
       <name>Treasure MIN</name>
       <set>MIN</set>
       <prop>
@@ -5839,6 +5794,40 @@ GWU BUILDING Slowly build up your Construction, giving you access to more abilit
       <tablerow>2</tablerow>
       <text></text>
       <token>1</token>
+    </card>
+    <card>
+      <name>Den MIN</name>
+      <set rarity="common" splitterPath="/Den MIN.png" >MIN</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Token Artifact - Den </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>At the end of each player’s turn, if that player cast no spells this turn, transform this.
+---
+(Back): Army</text>
+      <token>1</token>
+      <related attach="transform">Army MIN</related>
+    </card>
+    <card>
+      <name>Army MIN</name>
+      <set rarity="common" splitterPath="/Army.png" >MIN</set>
+      <prop>
+        <colors>B</colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Token Creature - Army </type>
+        <pt>0/0</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>(This doesn’t transform back.)
+---
+(Front): Den MIN</text>
+      <token>1</token>
+      <related attach="transform">Den</related>
     </card>
 
   </cards>

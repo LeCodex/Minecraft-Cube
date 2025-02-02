@@ -117,15 +117,6 @@
 	        }
 	    },
 	    {
-	        "name": "Copper Golem",
-	        "rarity": "uncommon",
-	        "mana_cost": "{2}{W}",
-	        "type": "Artifact Creature — Golem ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Copper Golem.png"
-	        }
-	    },
-	    {
 	        "name": "Village Shepherd",
 	        "rarity": "rare",
 	        "mana_cost": "{2}{R}{W}{B}",
@@ -207,15 +198,6 @@
 	        }
 	    },
 	    {
-	        "name": "Shulker Box",
-	        "rarity": "uncommon",
-	        "mana_cost": "{3}",
-	        "type": "Artifact",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Shulker Box.png"
-	        }
-	    },
-	    {
 	        "name": "Flower Forest",
 	        "rarity": "uncommon",
 	        "mana_cost": "",
@@ -249,15 +231,6 @@
 	        "type": "Land — Plains Swamp ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Badlands Desert.png"
-	        }
-	    },
-	    {
-	        "name": "Wooded Mountains",
-	        "rarity": "uncommon",
-	        "mana_cost": "",
-	        "type": "Land — Mountain Forest ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Wooded Mountains.png"
 	        }
 	    },
 	    {
@@ -321,15 +294,6 @@
 	        "type": "Land",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Far Lands.png"
-	        }
-	    },
-	    {
-	        "name": "Village Toolsmith",
-	        "rarity": "uncommon",
-	        "mana_cost": "{1}{G}{W}",
-	        "type": "Creature — Villager Artificer ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Village Toolsmith.png"
 	        }
 	    },
 	    {
@@ -432,15 +396,6 @@
 	        }
 	    },
 	    {
-	        "name": "Redstone Contraption",
-	        "rarity": "rare",
-	        "mana_cost": "",
-	        "type": "Land",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Redstone Contraption.png"
-	        }
-	    },
-	    {
 	        "name": "Combat Arena",
 	        "rarity": "rare",
 	        "mana_cost": "",
@@ -450,30 +405,12 @@
 	        }
 	    },
 	    {
-	        "name": "Woodland Mansion",
-	        "rarity": "rare",
-	        "mana_cost": "",
-	        "type": "Land",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Woodland Mansion.png"
-	        }
-	    },
-	    {
 	        "name": "Cherry Grove",
 	        "rarity": "rare",
 	        "mana_cost": "",
 	        "type": "Land",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Cherry Grove.png"
-	        }
-	    },
-	    {
-	        "name": "Impressive Build",
-	        "rarity": "rare",
-	        "mana_cost": "",
-	        "type": "Land",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Impressive Build.png"
 	        }
 	    },
 	    {
@@ -489,7 +426,7 @@
 	        "name": "The Nether",
 	        "rarity": "rare",
 	        "mana_cost": "",
-	        "type": "Land",
+	        "type": "Legendary Enchantment Land — Saga ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/The Nether.png"
 	        }
@@ -783,15 +720,6 @@
 	        }
 	    },
 	    {
-	        "name": "Piglin Warrior",
-	        "rarity": "common",
-	        "mana_cost": "{1}{R}",
-	        "type": "Creature — Boar Warrior ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Piglin Warrior.png"
-	        }
-	    },
-	    {
 	        "name": "Piglin Brute",
 	        "rarity": "uncommon",
 	        "mana_cost": "{2}{R}{R}",
@@ -861,15 +789,6 @@
 	        "type": "Artifact",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Coral Reef.png"
-	        }
-	    },
-	    {
-	        "name": "Skulking Shulker",
-	        "rarity": "common",
-	        "mana_cost": "{3}{U}",
-	        "type": "Creature — Elemental ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Skulking Shulker.png"
 	        }
 	    },
 	    {
@@ -996,15 +915,6 @@
 	        "type": "Creature — Zombie ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Baby Zombie.png"
-	        }
-	    },
-	    {
-	        "name": "Endermite",
-	        "rarity": "common",
-	        "mana_cost": "{R}",
-	        "type": "Creature — Mite ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Endermite.png"
 	        }
 	    },
 	    {
@@ -1332,15 +1242,6 @@
 	        }
 	    },
 	    {
-	        "name": "Mangrove Frog",
-	        "rarity": "common",
-	        "mana_cost": "{1}{U}{U}",
-	        "type": "Creature — Frog ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Mangrove Frog.png"
-	        }
-	    },
-	    {
 	        "name": "Phantom",
 	        "rarity": "common",
 	        "mana_cost": "{2}{B}",
@@ -1440,15 +1341,6 @@
 	        }
 	    },
 	    {
-	        "name": "Moobloom",
-	        "rarity": "common",
-	        "mana_cost": "{3}{W}",
-	        "type": "Creature — Plant Ox ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Moobloom.png"
-	        }
-	    },
-	    {
 	        "name": "Missing Block",
 	        "rarity": "rare",
 	        "mana_cost": "{1}",
@@ -1530,15 +1422,6 @@
 	        }
 	    },
 	    {
-	        "name": "Elder Guardian",
-	        "rarity": "uncommon",
-	        "mana_cost": "{3}{W}",
-	        "type": "Legendary Artifact Creature — Elder Construct ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Elder Guardian.png"
-	        }
-	    },
-	    {
 	        "name": "Insect Infestation",
 	        "rarity": "common",
 	        "mana_cost": "{1}{G}",
@@ -1559,7 +1442,7 @@
 	    {
 	        "name": "Charging Strike",
 	        "rarity": "common",
-	        "mana_cost": "{3}{R}",
+	        "mana_cost": "{2}{R}",
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Charging Strike.png"
@@ -1626,15 +1509,6 @@
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Clear Space.png"
-	        }
-	    },
-	    {
-	        "name": "The Killer Bunny",
-	        "rarity": "rare",
-	        "mana_cost": "{3}{R}{G}",
-	        "type": "Legendary Creature — Rabbit ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/The Killer Bunny.png"
 	        }
 	    },
 	    {
@@ -1773,12 +1647,12 @@
 	        }
 	    },
 	    {
-	        "name": "No Return",
+	        "name": "One-Way Trip",
 	        "rarity": "rare",
 	        "mana_cost": "{1}{W}",
 	        "type": "Sorcery",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/No Return.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/One-Way Trip.png"
 	        }
 	    },
 	    {
@@ -1884,7 +1758,7 @@
 	        "name": "Shrinking Worldborder",
 	        "rarity": "rare",
 	        "mana_cost": "{2}{B}",
-	        "type": "Enchantment",
+	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Shrinking Worldborder.png"
 	        }
@@ -1946,7 +1820,7 @@
 	    {
 	        "name": "Permission Denied",
 	        "rarity": "uncommon",
-	        "mana_cost": "{2}{U}",
+	        "mana_cost": "{1}{U}",
 	        "type": "Instant",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Permission Denied.png"
@@ -1977,15 +1851,6 @@
 	        "type": "Creature — Frog ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Tadpole Knot.png"
-	        }
-	    },
-	    {
-	        "name": "Desert Camel",
-	        "rarity": "common",
-	        "mana_cost": "{4}{G}{G}",
-	        "type": "Creature — Camel ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Desert Camel.png"
 	        }
 	    },
 	    {
@@ -2238,15 +2103,6 @@
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Finish The Base.png"
-	        }
-	    },
-	    {
-	        "name": "Zoglin",
-	        "rarity": "uncommon",
-	        "mana_cost": "{1}{B/R}",
-	        "type": "Creature — Zombie Boar ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Zoglin.png"
 	        }
 	    },
 	    {
@@ -2646,15 +2502,6 @@
 	        }
 	    },
 	    {
-	        "name": "Wild Ocelot",
-	        "rarity": "common",
-	        "mana_cost": "{U}",
-	        "type": "Creature — Cat ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Wild Ocelot.png"
-	        }
-	    },
-	    {
 	        "name": "Village Leatherworker",
 	        "rarity": "rare",
 	        "mana_cost": "{2}{R}{W}",
@@ -2907,15 +2754,6 @@
 	        }
 	    },
 	    {
-	        "name": "Amethyst Geode",
-	        "rarity": "common",
-	        "mana_cost": "{2}",
-	        "type": "Artifact",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Amethyst Geode.png"
-	        }
-	    },
-	    {
 	        "name": "Griefing",
 	        "rarity": "common",
 	        "mana_cost": "{R}",
@@ -3006,15 +2844,6 @@
 	        }
 	    },
 	    {
-	        "name": "Netherite Excavation",
-	        "rarity": "uncommon",
-	        "mana_cost": "{1}{R}",
-	        "type": "Enchantment",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Netherite Excavation.png"
-	        }
-	    },
-	    {
 	        "name": "Precarious Structure",
 	        "rarity": "common",
 	        "mana_cost": "{1}{R}",
@@ -3071,7 +2900,7 @@
 	    {
 	        "name": "Shy Armadillo",
 	        "rarity": "uncommon",
-	        "mana_cost": "{1}{W}",
+	        "mana_cost": "{2}{W}",
 	        "type": "Creature — Armadillo ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Shy Armadillo.png"
@@ -3238,6 +3067,177 @@
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Iron Stockpile.png"
 	        }
+	    },
+	    {
+	        "name": "Wooded Mountains",
+	        "rarity": "uncommon",
+	        "mana_cost": "",
+	        "type": "Land — Mountain Forest ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Wooded Mountains.png"
+	        }
+	    },
+	    {
+	        "name": "Woodland Mansion",
+	        "rarity": "rare",
+	        "mana_cost": "",
+	        "type": "Land",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Woodland Mansion.png"
+	        }
+	    },
+	    {
+	        "name": "Redstone Contraption",
+	        "rarity": "common",
+	        "mana_cost": "",
+	        "type": "Land",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Redstone Contraption.png"
+	        }
+	    },
+	    {
+	        "name": "Impressive Build",
+	        "rarity": "rare",
+	        "mana_cost": "",
+	        "type": "Land",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Impressive Build.png"
+	        }
+	    },
+	    {
+	        "name": "Shulker Box",
+	        "rarity": "uncommon",
+	        "mana_cost": "{2}",
+	        "type": "Artifact",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Shulker Box.png"
+	        }
+	    },
+	    {
+	        "name": "Amethyst Geode",
+	        "rarity": "common",
+	        "mana_cost": "{1}",
+	        "type": "Artifact",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Amethyst Geode.png"
+	        }
+	    },
+	    {
+	        "name": "Netherite Excavation",
+	        "rarity": "uncommon",
+	        "mana_cost": "{1}{R}",
+	        "type": "Enchantment",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Netherite Excavation.png"
+	        }
+	    },
+	    {
+	        "name": "Zoglin",
+	        "rarity": "uncommon",
+	        "mana_cost": "{1}{B/R}",
+	        "type": "Creature — Zombie Boar ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Zoglin.png"
+	        }
+	    },
+	    {
+	        "name": "Endermite",
+	        "rarity": "common",
+	        "mana_cost": "{R}",
+	        "type": "Creature — Mite ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Endermite.png"
+	        }
+	    },
+	    {
+	        "name": "Copper Golem",
+	        "rarity": "uncommon",
+	        "mana_cost": "{2}{W}",
+	        "type": "Artifact Creature — Golem ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Copper Golem.png"
+	        }
+	    },
+	    {
+	        "name": "Elder Guardian",
+	        "rarity": "uncommon",
+	        "mana_cost": "{3}{W}",
+	        "type": "Legendary Artifact Creature — Elder Construct ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Elder Guardian.png"
+	        }
+	    },
+	    {
+	        "name": "Moobloom",
+	        "rarity": "common",
+	        "mana_cost": "{3}{W}",
+	        "type": "Creature — Plant Ox ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Moobloom.png"
+	        }
+	    },
+	    {
+	        "name": "Mangrove Frog",
+	        "rarity": "common",
+	        "mana_cost": "{1}{U}{U}",
+	        "type": "Creature — Frog ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Mangrove Frog.png"
+	        }
+	    },
+	    {
+	        "name": "Skulking Shulker",
+	        "rarity": "common",
+	        "mana_cost": "{3}{U}",
+	        "type": "Creature — Elemental ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Skulking Shulker.png"
+	        }
+	    },
+	    {
+	        "name": "Wild Ocelot",
+	        "rarity": "common",
+	        "mana_cost": "{U}",
+	        "type": "Creature — Cat ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Wild Ocelot.png"
+	        }
+	    },
+	    {
+	        "name": "Piglin Warrior",
+	        "rarity": "common",
+	        "mana_cost": "{1}{R}",
+	        "type": "Creature — Boar Warrior ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Piglin Warrior.png"
+	        }
+	    },
+	    {
+	        "name": "Desert Camel",
+	        "rarity": "common",
+	        "mana_cost": "{4}{G}{G}",
+	        "type": "Creature — Camel ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Desert Camel.png"
+	        }
+	    },
+	    {
+	        "name": "The Killer Bunny",
+	        "rarity": "rare",
+	        "mana_cost": "{3}{R}{G}",
+	        "type": "Legendary Creature — Rabbit ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/The Killer Bunny.png"
+	        }
+	    },
+	    {
+	        "name": "Village Toolsmith",
+	        "rarity": "uncommon",
+	        "mana_cost": "{1}{G}{W}",
+	        "type": "Creature — Villager Artificer ",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Village Toolsmith.png"
+	        }
 	    }
 	]
 	[CubeSlot(15)]
@@ -3247,11 +3247,8 @@
 		1 Village Shepherd
 		1 Amplified Terrain
 		1 Far Lands
-		1 Redstone Contraption
 		1 Combat Arena
-		1 Woodland Mansion
 		1 Cherry Grove
-		1 Impressive Build
 		1 The Nether
 		1 Efficiency Pickaxe
 		1 Cave Spider
@@ -3268,9 +3265,8 @@
 		1 Skeleton Horse
 		1 Zombie's Bite
 		1 Village Farmer
-		1 The Killer Bunny
 		1 Compacting Resources
-		1 No Return
+		1 One-Way Trip
 		1 Dig Straight Down
 		1 TNT Cannon
 		1 Spreading Vines
@@ -3300,6 +3296,9 @@
 		1 Central Map
 		1 Blowing Breeze
 		1 The Dragon Egg
+		1 Woodland Mansion
+		1 Impressive Build
+		1 The Killer Bunny
 		1 Alex, Ready for Battle
 		1 Steve, Quaint Builder
 		1 The End, Dragon's Realm
@@ -3315,25 +3314,21 @@
 		1 Village Fountain
 		1 Flaming Weapons
 		1 Thorns Chestplate
-		1 Copper Golem
 		1 Village Bell
 		1 Pillager's Capture
 		1 Command Block
 		1 Armor Stand
 		1 Mob Spawner
 		1 Warm Campfire
-		1 Shulker Box
 		1 Flower Forest
 		1 River Bed
 		1 Mushroom Island
 		1 Badlands Desert
-		1 Wooded Mountains
 		1 Dark Forest
 		1 Thermal Vent
 		1 Jungle
 		1 Savanna
 		1 Eroded Badlands
-		1 Village Toolsmith
 		1 Igloo Basement
 		1 Ancient City
 		1 Ruined Portal
@@ -3382,7 +3377,6 @@
 		1 Bee Hive
 		1 Creaking
 		1 Drowned
-		1 Elder Guardian
 		1 Snow Golem
 		1 Temple Guardian
 		1 Third Shriek
@@ -3410,7 +3404,6 @@
 		1 Territorial Anger
 		1 Ancient Etchings
 		1 Teleport Out
-		1 Zoglin
 		1 Unpleasant Surprise
 		1 Pillager Horn
 		1 Depth Strider Boots
@@ -3449,7 +3442,6 @@
 		1 Bedrock Wall
 		1 Blast Furnace
 		1 Riding Stack
-		1 Netherite Excavation
 		1 Haste Effect
 		1 Lobsided Crab
 		1 Shy Armadillo
@@ -3467,6 +3459,13 @@
 		1 Stasis Chamber
 		1 Ominous Vault
 		1 Iron Stockpile
+		1 Wooded Mountains
+		1 Shulker Box
+		1 Netherite Excavation
+		1 Zoglin
+		1 Copper Golem
+		1 Elder Guardian
+		1 Village Toolsmith
 		1 Unlit Cave
 		1 Crafting Bench
 		1 Full Set
@@ -3492,12 +3491,10 @@
 		1 Lightning Strike
 		1 Chrysopoeia
 		1 Smoking Blaze
-		1 Piglin Warrior
 		1 Uneasy Alliance
 		1 Cliff Llamas
 		1 Glow Squid
 		1 Potion of Harming
-		1 Skulking Shulker
 		1 Oak Sapling
 		1 Golden Apple
 		1 Ramming Goat
@@ -3508,7 +3505,6 @@
 		1 Village Weaponsmith
 		1 Getting an Upgrade
 		1 Fang Attack
-		1 Endermite
 		1 Crossbow Shot
 		1 Polar Bear
 		1 Husk
@@ -3524,14 +3520,12 @@
 		1 Turtle
 		1 Clear Command
 		1 Fish Bucket
-		1 Mangrove Frog
 		1 Phantom
 		1 Arctic Fox
 		1 Crying Ghast
 		1 Armored Horse
 		1 Sniffer
 		1 Lava Strider
-		1 Moobloom
 		1 Dragon's Breath
 		1 Change Data
 		1 Insect Infestation
@@ -3557,7 +3551,6 @@
 		1 Isn't it Iron Pick
 		1 Fire Charge
 		1 Tadpole Knot
-		1 Desert Camel
 		1 Faithful Companion
 		1 Explore
 		1 Wind Charge
@@ -3586,10 +3579,8 @@
 		1 Copper Brush
 		1 Spyglass
 		1 Collect
-		1 Wild Ocelot
 		1 Return To Sender
 		1 Stone Sword
-		1 Amethyst Geode
 		1 Griefing
 		1 Low Durability
 		1 Fake Abandon
@@ -3601,4 +3592,13 @@
 		1 Precarious Structure
 		1 Emperor Penguin
 		1 TNT Block
+		1 Redstone Contraption
+		1 Amethyst Geode
+		1 Endermite
+		1 Moobloom
+		1 Mangrove Frog
+		1 Skulking Shulker
+		1 Wild Ocelot
+		1 Piglin Warrior
+		1 Desert Camel
 	

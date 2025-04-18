@@ -866,7 +866,7 @@ Raid — At the beginning of your end step, if you attacked this turn, put a +1/
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Apex — At the beginning of combat on your turn, put a +1/+1 counter on a creature you control. Then, that creature gains trample until end of turn if you control a creature with the greatest power among creatures on the battlefield.</text>
+      <text>Apex — At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then, that creature gains trample until end of turn if you control a creature with the greatest power among creatures on the battlefield.</text>
     </card>
     <card>
       <name>Iron Anvil</name>
@@ -910,7 +910,7 @@ Equip {2}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>When Efficiency Pickaxe enters, attach it to target creature you control.
-Equipped creature gets +2/+1. Whenever it attacks, you may destroy target artifact or enchantment.
+Equipped creature gets +2/+1. Whenever it attacks, you may sacrifice Efficiency Pickaxe. If you do, destroy target artifact or enchantment.
 Equip {2}</text>
     </card>
     <card>
@@ -956,7 +956,7 @@ When Totem Of Undying enters, until end of turn, target creature gets +1/+0 and 
       </prop>
       <tablerow>1</tablerow>
       <text>You may cast Herobrine, Never Removed from your graveyard by sacrificing two artifacts and/or creatures in addition to its other costs.
-[0]: Spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
+[0]: Spawn deathtouch 2. (Put a deathtouch and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
 [-2]: Destroy target nonland permanent.</text>
       <related>Den MIN</related>
     </card>
@@ -1183,7 +1183,7 @@ Enchanted permanent is all colors and has all mana abilities of lands you contro
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>This spell deals 2 damage to each creature. Then, spawn trample 2. (Put a trample and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <text>This spell deals 3 damage to each creature. Then, spawn trample 3. (Put a trample and/or three +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
       <related>Den MIN</related>
     </card>
     <card>
@@ -1340,7 +1340,7 @@ Raid — At the end of combat on your turn, if you attacked this turn, create a 
         <pt>1/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Gather — Whenever a permanent you control with a mana ability enters, tap target artifact or creature an opponent controls. It doesn’t untap during its controller’s next untap step.</text>
+      <text>Gather — Whenever a permanent with a mana ability you control enters, tap target artifact or creature you don’t control.</text>
     </card>
     <card>
       <name>Neverending Spawn</name>
@@ -1484,11 +1484,12 @@ Whenever you cast a noncreature spell, create a 2/1 blue and red Spirit creature
         <cmc>3</cmc>
         <type>Creature - Villager Cleric </type>
         <maintype>Creature</maintype>
-        <pt>2/3</pt>
+        <pt>1/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Deathtouch
-Function — Create a 1/1 white Villager creature token. It gains this ability. You gain 1 life. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+      <text>Deathtouch, lifelink
+Whenever you gain life, target creature gains deathtouch and lifelink until end of turn. This ability only triggers once each turn.</text>
+      <related>Villager MIN</related>
     </card>
     <card>
       <name>Village Nitwit</name>
@@ -1723,7 +1724,7 @@ When Wither Skeleton enters, suit up. (You may reveal an Equipment you own from 
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Enter the Cave enters, spawn reach 2. (Put a reach and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
+      <text>When Enter the Cave enters, spawn reach 3. (Put a reach and/or three +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
 Creature tokens you control get +1/+1.</text>
       <related>Den MIN</related>
     </card>
@@ -2168,13 +2169,13 @@ Whenever a creature you control deals combat damage to a player, each opponent l
 {1}, {T}: Add one mana of any color.</text>
     </card>
     <card>
-      <name>Small Chicken</name>
+      <name>Happy Ghast</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>U</colors>
         <manacost>1U</manacost>
         <cmc>2</cmc>
-        <type>Creature - Bird </type>
+        <type>Creature - Spirit </type>
         <maintype>Creature</maintype>
         <pt>2/1</pt>
       </prop>
@@ -2211,7 +2212,7 @@ As long as you’re an explorer, other creatures you control have flying.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
-1RR: Crying Ghast deals 1 damage to target player.</text>
+1RR: Crying Ghast deals 1 damage to target player or planeswalker.</text>
     </card>
     <card>
       <name>Armored Horse</name>
@@ -2348,7 +2349,7 @@ Whenever you play a land or cast a spell from anywhere but your hand, Nether Por
       <tablerow>3</tablerow>
       <text>Choose one —
 • Sacrifice an artifact or creature. If you do, return target creature card from your graveyard to the battlefield.
-• Spawn menace 4. (Put a menace and/or four +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+• Spawn menace 6. (Put a menace and/or six +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
       <related>Den MIN</related>
     </card>
     <card>
@@ -3455,7 +3456,7 @@ Whenever another artifact you control enters, untap Observer.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Reach
-When Spider Jockey dies, spawn reach 2. (Put a reach and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+When Spider Jockey dies, spawn reach 4. (Put a reach and/or four +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
       <related>Den MIN</related>
     </card>
     <card>
@@ -3907,20 +3908,6 @@ Flying, menace, deathtouch
 At the beginning each player’s upkeep, that player sacrifices a permanent.</text>
     </card>
     <card>
-      <name>Debug World</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>W</colors>
-        <manacost>2W</manacost>
-        <cmc>3</cmc>
-        <type>Enchantment</type>
-        <maintype>Enchantment</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>When Debug World enters, you scry 3 and gain 3 life.
-Function — Scry 2, then draw a card. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
-    </card>
-    <card>
       <name>Jeb Door</name>
       <set rarity="uncommon">MIN</set>
       <prop>
@@ -4356,7 +4343,7 @@ Remove three sound counters from Sculk Sensor: Untap target nonland permanent. I
       </prop>
       <tablerow>1</tablerow>
       <text>When Enchanting Table enters, you gain 3 life and draw a card.
-Whenever you attack, you may pay 2 life. If you do, target attacking gains double strike until end of turn.</text>
+Whenever you attack, you may pay 2 life. If you do, target attacking creature gains double strike until end of turn.</text>
       <related>Tool MIN</related>
     </card>
     <card>
@@ -4504,8 +4491,8 @@ Equip {4}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Stone Sword enters, you may pay {1}. If you do, create a 1/1 black Skeleton Warrior creature token, then attach Stone Sword to it.
-Enchanted creature gets +1/+1 and has deathtouch.
+      <text>When Stone Sword enters, you may pay {1}. If you do, create a 1/1 black Skeleton Warrior creature token with deathtouch, then attach Stone Sword to it.
+Enchanted creature gets +1/+1.
 Equip {1}</text>
       <related>Skeleton Warrior MIN</related>
     </card>
@@ -4689,7 +4676,7 @@ Equipment you control have “Equip creature token {0}. Activate only once each 
       </prop>
       <tablerow>2</tablerow>
       <text>1W: Mesa Wolf becomes a Dog with base power and toughness 3/3.
-2W: If Mesa Wolf is a Dog, put a +1/+1 and lifelink counter on it. (Multiple instances of lifelink are redundant.)</text>
+2W: If Mesa Wolf is a Dog, put a +1/+1 counter on it. You gain 2 life.</text>
     </card>
     <card>
       <name>Brewing Stand</name>
@@ -4758,7 +4745,7 @@ Equipment you control have “Equip creature token {0}. Activate only once each 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy up to X artifacts with mana value X or less.</text>
+      <text>Destroy X target artifacts.</text>
     </card>
     <card>
       <name>Herd Spawning</name>
@@ -4844,7 +4831,7 @@ When Shy Armadillo dies, suit up. (You may reveal an Equipment you own from outs
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Trial Spawner enters, spawn trample 2. (Put a trample and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
+      <text>When Trial Spawner enters, spawn trample 4. (Put a trample and/or four +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
 Whenever a Den you control transforms, exile the top card of your library. Until your next end step, you may play it.</text>
       <related>Den MIN</related>
     </card>
@@ -4950,7 +4937,7 @@ Search your library for an artifact card, reveal it, put it into your hand, then
 🧱🧱: Trap in the tower
 The owner of target permanent puts it on the top or bottom of their library.
 🧱🧱🧱: Activate it
-Take an extra turn after this one.</text>
+Take an extra turn after this one. Skip the untap step of that turn.</text>
     </card>
     <card>
       <name>Spleef Arena</name>
@@ -5281,7 +5268,7 @@ When Impressive Build enters untapped, you may exile target Construction you con
       </prop>
       <tablerow>1</tablerow>
       <text>Amethyst Geode enters with three crystal counters on it.
-Whenever you attack, you may pay {1} and remove a crystal counter from Amethyst Geode. If you do, draw a card.</text>
+Raid — {1}, {T}, Remove a crystal counter from Amethyst Geode: Draw a card. Activate only if you attacked this turn.</text>
     </card>
     <card>
       <name>Netherite Excavation</name>
@@ -5478,6 +5465,22 @@ The Killer Bunny enters with a +1/+1 counter on it for each land card in your gr
       <text>Vigilance
 When Village Toolsmith enters, create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
 Gather — Whenever a permanent you control with a mana ability enters, put a +1/+1 counter on Village Toolsmith.</text>
+    </card>
+    <card>
+      <name>Small Chicken</name>
+      <set rarity="uncommon">MIN</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature - Bird </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Function — Create a 1/1 white Bird creature token. It gains this ability. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+      <related>Explorer MIN</related>
     </card>
 
     <!-->Tokens</-->
@@ -5739,7 +5742,7 @@ When this creature dies, it deals 1 damage to any target.</text>
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text></text>
+      <text>Deathtouch</text>
       <token>1</token>
     </card>
     <card>

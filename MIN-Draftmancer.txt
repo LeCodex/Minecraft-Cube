@@ -81,15 +81,6 @@
 	        }
 	    },
 	    {
-	        "name": "Fish",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Fish ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Fish.png"
-	        }
-	    },
-	    {
 	        "name": "Wooly Sheep",
 	        "rarity": "common",
 	        "mana_cost": "{2}{G}",
@@ -141,15 +132,6 @@
 	        "type": "Legendary Planeswalker — Steve ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Steve, Quaint Builder.png"
-	        }
-	    },
-	    {
-	        "name": "Villager",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Villager ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Villager.png"
 	        }
 	    },
 	    {
@@ -216,30 +198,12 @@
 	        }
 	    },
 	    {
-	        "name": "Golem",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Artifact Creature — Golem ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Golem.png"
-	        }
-	    },
-	    {
 	        "name": "Pillager's Capture",
 	        "rarity": "uncommon",
 	        "mana_cost": "{2}{B}",
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Pillager's Capture.png"
-	        }
-	    },
-	    {
-	        "name": "Spirit",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Spirit ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Spirit.png"
 	        }
 	    },
 	    {
@@ -639,15 +603,6 @@
 	        }
 	    },
 	    {
-	        "name": "Bat",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Bat ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Bat.png"
-	        }
-	    },
-	    {
 	        "name": "Closed Server",
 	        "rarity": "rare",
 	        "mana_cost": "{3}{W}{W}",
@@ -1026,30 +981,12 @@
 	        }
 	    },
 	    {
-	        "name": "Bear",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Bear ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Bear.png"
-	        }
-	    },
-	    {
 	        "name": "Pillager Raid",
 	        "rarity": "rare",
 	        "mana_cost": "{2}{B}",
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Pillager Raid.png"
-	        }
-	    },
-	    {
-	        "name": "Villager Army",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Villager Army ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Villager Army.png"
 	        }
 	    },
 	    {
@@ -1113,15 +1050,6 @@
 	        "type": "Creature — Bird ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Jungle Parrot.png"
-	        }
-	    },
-	    {
-	        "name": "Tool",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Artifact — Tool ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Tool.png"
 	        }
 	    },
 	    {
@@ -1377,12 +1305,12 @@
 	        }
 	    },
 	    {
-	        "name": "Small Chicken",
+	        "name": "Happy Ghast",
 	        "rarity": "uncommon",
 	        "mana_cost": "{1}{U}",
-	        "type": "Creature — Bird ",
+	        "type": "Creature — Spirit ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Small Chicken.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Happy Ghast.png"
 	        }
 	    },
 	    {
@@ -1422,30 +1350,12 @@
 	        }
 	    },
 	    {
-	        "name": "Insect",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Insect ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Insect.png"
-	        }
-	    },
-	    {
 	        "name": "The Ender Dragon",
 	        "rarity": "mythic",
 	        "mana_cost": "{3}{B}{R}{G}",
 	        "type": "Legendary Creature — Elder Dragon ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/The Ender Dragon.png"
-	        }
-	    },
-	    {
-	        "name": "End Crystal",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Artifact",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/End Crystal.png"
 	        }
 	    },
 	    {
@@ -1530,15 +1440,6 @@
 	        }
 	    },
 	    {
-	        "name": "Skeleton Archer",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Skeleton Archer ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Skeleton Archer.png"
-	        }
-	    },
-	    {
 	        "name": "Change Data",
 	        "rarity": "common",
 	        "mana_cost": "{U}{U}",
@@ -1563,15 +1464,6 @@
 	        "type": "Sorcery",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Zombie's Bite.png"
-	        }
-	    },
-	    {
-	        "name": "Zombie",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Zombie ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Zombie.png"
 	        }
 	    },
 	    {
@@ -1764,24 +1656,6 @@
 	        }
 	    },
 	    {
-	        "name": "Medium Slime",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Ooze ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Medium Slime.png"
-	        }
-	    },
-	    {
-	        "name": "Small Slime",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Ooze ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Small Slime.png"
-	        }
-	    },
-	    {
 	        "name": "Defend the Village",
 	        "rarity": "common",
 	        "mana_cost": "{3}{W}",
@@ -1953,15 +1827,6 @@
 	        }
 	    },
 	    {
-	        "name": "Rabbit",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Rabbit ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Rabbit.png"
-	        }
-	    },
-	    {
 	        "name": "Trip the Wire",
 	        "rarity": "common",
 	        "mana_cost": "{1}{W}",
@@ -2013,15 +1878,6 @@
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Growing Pack.png"
-	        }
-	    },
-	    {
-	        "name": "Wolf",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Wolf ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Wolf.png"
 	        }
 	    },
 	    {
@@ -2229,15 +2085,6 @@
 	        "type": "Creature — Skeleton Spider ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Spider Jockey.png"
-	        }
-	    },
-	    {
-	        "name": "Explorer",
-	        "rarity": "mythic",
-	        "mana_cost": "",
-	        "type": "Token Emblem — Explorer ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Explorer.png"
 	        }
 	    },
 	    {
@@ -2517,15 +2364,6 @@
 	        "type": "Legendary Creature — Horror ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/The Wither.png"
-	        }
-	    },
-	    {
-	        "name": "Debug World",
-	        "rarity": "common",
-	        "mana_cost": "{2}{W}",
-	        "type": "Enchantment",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Debug World.png"
 	        }
 	    },
 	    {
@@ -2871,24 +2709,6 @@
 	        }
 	    },
 	    {
-	        "name": "Ox",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Ox ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Ox.png"
-	        }
-	    },
-	    {
-	        "name": "Bird",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Bird ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Bird.png"
-	        }
-	    },
-	    {
 	        "name": "Diamond Gear",
 	        "rarity": "uncommon",
 	        "mana_cost": "{3}",
@@ -2913,15 +2733,6 @@
 	        "type": "Artifact — Equipment ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Stone Sword.png"
-	        }
-	    },
-	    {
-	        "name": "Skeleton Warrior",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Skeleton Warrior ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Skeleton Warrior.png"
 	        }
 	    },
 	    {
@@ -2958,15 +2769,6 @@
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Awaited Hatching.png"
-	        }
-	    },
-	    {
-	        "name": "Beast",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Beast ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Beast.png"
 	        }
 	    },
 	    {
@@ -3042,15 +2844,6 @@
 	        }
 	    },
 	    {
-	        "name": "Cat",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Cat ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Cat.png"
-	        }
-	    },
-	    {
 	        "name": "Mesa Wolf",
 	        "rarity": "common",
 	        "mana_cost": "{1}{W}",
@@ -3123,15 +2916,6 @@
 	        }
 	    },
 	    {
-	        "name": "Human",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Human ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Human.png"
-	        }
-	    },
-	    {
 	        "name": "Emperor Penguin",
 	        "rarity": "common",
 	        "mana_cost": "{2}{U}",
@@ -3165,24 +2949,6 @@
 	        "type": "Artifact",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Trial Spawner.png"
-	        }
-	    },
-	    {
-	        "name": "Treasure",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Artifact — Treasure ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Treasure.png"
-	        }
-	    },
-	    {
-	        "name": "Food",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Artifact — Food ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Food.png"
 	        }
 	    },
 	    {
@@ -3294,15 +3060,6 @@
 	        }
 	    },
 	    {
-	        "name": "Elemental",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Elemental ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Elemental.png"
-	        }
-	    },
-	    {
 	        "name": "TNT Block",
 	        "rarity": "common",
 	        "mana_cost": "{4}",
@@ -3345,63 +3102,6 @@
 	        "type": "Artifact",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Iron Stockpile.png"
-	        }
-	    },
-	    {
-	        "name": "Boar",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Boar ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Boar.png"
-	        }
-	    },
-	    {
-	        "name": "Zombie Villager",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Zombie Villager ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Zombie Villager.png"
-	        }
-	    },
-	    {
-	        "name": "Den MIN",
-	        "mana_cost": "",
-	        "type": "Token Artifact — Den ",
-	        "image_uris": {
-	            "en": "Den MIN.png"
-	        },
-	        "printed names": {
-	            "en": "Den MIN"
-	        },
-	        "back": {
-	            "name": "Army",
-	            "printed_names": {
-	                "en": "Army"
-	            },
-	            "image_uris": {
-	                "en": "Army.png"
-	            },
-	            "type": "Token Creature — Army "
-	        }
-	    },
-	    {
-	        "name": "MIN DRAFT ARCHETYPES",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Archetypes",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/MIN DRAFT ARCHETYPES.png"
-	        }
-	    },
-	    {
-	        "name": "Golem Horror",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Artifact Creature — Golem Horror ",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Golem Horror.png"
 	        }
 	    },
 	    {
@@ -3576,12 +3276,12 @@
 	        }
 	    },
 	    {
-	        "name": "Turtle",
-	        "rarity": "common",
-	        "mana_cost": "",
-	        "type": "Token Creature — Turtle ",
+	        "name": "Small Chicken",
+	        "rarity": "uncommon",
+	        "mana_cost": "{2}{W}",
+	        "type": "Creature — Bird ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Turtle.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Small Chicken.png"
 	        }
 	    }
 	]
@@ -3722,7 +3422,7 @@
 		1 Pack Donkey
 		1 Wild Fox
 		1 Frost Stray
-		1 Small Chicken
+		1 Happy Ghast
 		1 Bee Hive
 		1 Creaking
 		1 Drowned
@@ -3812,6 +3512,7 @@
 		1 Copper Golem
 		1 Elder Guardian
 		1 Village Toolsmith
+		1 Small Chicken
 		1 Unlit Cave
 		1 Crafting Bench
 		1 Full Set
@@ -3918,7 +3619,6 @@
 		1 Protection Chestplate
 		1 Skeleton Bowman
 		1 Act of Preservation
-		1 Debug World
 		1 Lava Lake
 		1 Planned for It
 		1 Pig Herd
@@ -3938,7 +3638,6 @@
 		1 Precarious Structure
 		1 Emperor Penguin
 		1 TNT Block
-		1 Den MIN
 		1 Redstone Contraption
 		1 Amethyst Geode
 		1 Endermite

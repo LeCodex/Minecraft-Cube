@@ -20,8 +20,8 @@
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Unlit Cave enters or leaves the battlefield, spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+      <text>When Unlit Cave enters or leaves the battlefield, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Crafting Bench</name>
@@ -169,9 +169,9 @@ Equip {2}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Sunken Stronghold enters, spawn menace 1, then spawn trample 1, then spawn reach 1. (Put any number of a menace counter, a trample counter, a reach counter, and three +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
-At the beginning of your end step, transform a Den you control.</text>
-      <related>Den MIN</related>
+      <text>When Sunken Stronghold enters, spawn menace, trample, and deathtouch 3. (Create a 3/3 black Horde creature token with menace, trample, deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
+At the beginning of your end step, target Horde you control loses decayed. (This effect lasts indefinitely.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Floating Allay</name>
@@ -384,7 +384,7 @@ Whenever you gain or lose life during your turn, amass Villagers 1. (Put a +1/+1
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Mob Spawner enters, spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
+      <text>When Mob Spawner enters, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
 {1}, {T}: Add {B}, {R}, or {G}.</text>
     </card>
     <card>
@@ -716,7 +716,7 @@ When Ocean Monument enters, surveil 1.</text>
       <cipt>1</cipt>
       <text>({T}: Add {R} or {W}.)
 Abandoned Mineshaft enters tapped.
-When Abandoned Mineshaft enters, you gain 1 life.</text>
+When Abandoned Mineshaft enters, surveil 1.</text>
     </card>
     <card>
       <name>Desert Well</name>
@@ -956,9 +956,9 @@ When Totem Of Undying enters, until end of turn, target creature gets +1/+0 and 
       </prop>
       <tablerow>1</tablerow>
       <text>You may cast Herobrine, Never Removed from your graveyard by sacrificing two artifacts and/or creatures in addition to its other costs.
-[0]: Spawn deathtouch 2. (Put a deathtouch and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
+[0]: Spawn first strike 2. (Create a 2/2 black Horde creature token with first strike and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
 [-2]: Destroy target nonland permanent.</text>
-      <related>Den MIN</related>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Sculk Spread</name>
@@ -987,9 +987,9 @@ Gather — If a permanent you control with a mana ability entered this turn, dra
       </prop>
       <tablerow>2</tablerow>
       <text>Reach, deathtouch
-When Cave Spider enters, spawn reach 2. (Put a reach and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
-Creature tokens you control have deathtouch.</text>
-      <related>Den MIN</related>
+When Cave Spider enters, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
+Creature tokens you control can block as though they didn’t have decayed.</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Composter</name>
@@ -1179,12 +1179,12 @@ Enchanted permanent is all colors and has all mana abilities of lands you contro
         <colors>R</colors>
         <manacost>2R</manacost>
         <cmc>3</cmc>
-        <type>Sorcery</type>
-        <maintype>Sorcery</maintype>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>This spell deals 3 damage to each creature. Then, spawn trample 3. (Put a trample and/or three +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+      <text>This spell deals 2 damage to each creature. Then, spawn trample 2. (Create a 2/2 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Kill for Drops</name>
@@ -1238,8 +1238,8 @@ Function — Target player loses 2 life and you gain 2 life. ({6}: Trigger any n
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target artifact. If you controlled that artifact, spawn trample 4. (Put a trample and/or four +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+      <text>Destroy target artifact. If you controlled that artifact, spawn trample 4. (Create a 4/4 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Mob Farm</name>
@@ -1252,7 +1252,7 @@ Function — Target player loses 2 life and you gain 2 life. ({6}: Trigger any n
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your end step, spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
+      <text>At the beginning of your end step, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
 {1}, {T}, Sacrifice a creature: Draw a card.</text>
     </card>
     <card>
@@ -1353,9 +1353,9 @@ Raid — At the end of combat on your turn, if you attacked this turn, create a 
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>If you would put one or more counters on a creature or Den you control, put twice that many counters on it instead.
-At the beginning of your end step, spawn reach 1. (Put a reach and/or a +1/+1 counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+      <text>If you would create one or more tokens, create that many tokens plus an additional one.
+At the beginning of your end step, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Potion of Harming</name>
@@ -1532,8 +1532,7 @@ Whenever you gain life, target creature gains deathtouch and lifelink until end 
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Zombie Villager dies, spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+      <text>When Zombie Villager dies, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
     </card>
     <card>
       <name>Village Cartographer</name>
@@ -1678,7 +1677,7 @@ When Turn to Data enters, create a tapped Tool token. (It’s an artifact with �
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Iron Hopper enters, choose one — Draw a card, then discard a card; or create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
+      <text>When Iron Hopper enters, choose one — Draw a card; or create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
 Function — Draw a card. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
       <related>Tool MIN</related>
     </card>
@@ -1695,8 +1694,8 @@ Function — Draw a card. ({6}: Trigger any number of Function abilities you con
       </prop>
       <tablerow>2</tablerow>
       <text>Deathtouch
-When Husk enters, spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+When Husk enters, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Wither Skeleton</name>
@@ -1724,9 +1723,9 @@ When Wither Skeleton enters, suit up. (You may reveal an Equipment you own from 
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Enter the Cave enters, spawn reach 3. (Put a reach and/or three +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
+      <text>When Enter the Cave enters, spawn deathtouch 3. (Create a 3/3 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
 Creature tokens you control get +1/+1.</text>
-      <related>Den MIN</related>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Village Butcher</name>
@@ -1888,7 +1887,7 @@ Whenever one or more attacking or blocking creatures die, create a Treasure toke
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Creatures you don’t control get -1/-1 until end of turn. Transform all Dens you control.</text>
+      <text>All non-Horde creatures get -2/-2 until end of turn. Hordes you control lose decayed. (This effect lasts indefinitely.)</text>
     </card>
     <card>
       <name>Critical Strike</name>
@@ -2135,8 +2134,8 @@ Function — Return Frost Stray from your graveyard to the battlefield. ({6}: Tr
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your upkeep, you lose 1 life and spawn menace 2. (Put a menace and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+      <text>At the beginning of your upkeep, you lose 1 life and spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Phantom</name>
@@ -2349,8 +2348,8 @@ Whenever you play a land or cast a spell from anywhere but your hand, Nether Por
       <tablerow>3</tablerow>
       <text>Choose one —
 • Sacrifice an artifact or creature. If you do, return target creature card from your graveyard to the battlefield.
-• Spawn menace 6. (Put a menace and/or six +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+• Spawn menace 6. (Create a 6/6 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Dragon&apos;s Breath</name>
@@ -2453,8 +2452,8 @@ Counter target spell.</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target artifact or enchantment. Spawn reach 2. (Put a reach and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+      <text>Destroy target artifact or enchantment. Spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Swoop Down</name>
@@ -2480,8 +2479,8 @@ Counter target spell.</text>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>This spell deals 3 damage to any target. Then, spawn trample 3. (Put a trample and/or three +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+      <text>This spell deals 3 damage to any target. Then, spawn trample 3. (Create a 3/3 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Snow Golem</name>
@@ -2882,8 +2881,8 @@ When Bogged Skeleton dies, it deals 1 damage to any target.</text>
       </prop>
       <tablerow>3</tablerow>
       <text>Target creature gets +1/+2 and gains reach until end of turn. Untap it.
-Spawn reach 2. (Put a reach and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+Spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Don&apos;t Look</name>
@@ -3245,7 +3244,7 @@ Equip {1}</text>
         <cmc>2</cmc>
         <type>Creature - Plant Elemental </type>
         <maintype>Creature</maintype>
-        <pt>1/1</pt>
+        <pt>2/1</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Whenever a land or Construction you control enters, add one mana of any color. (This isn’t a mana ability.)</text>
@@ -3308,8 +3307,8 @@ Whenever Rascal deals combat damage to a player, choose one —
         <pt>6/6</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Zombie Giant dies, spawn menace 6. (Put a menace and/or six +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+      <text>When Zombie Giant dies, spawn menace 6. (Create a 6/6 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Mooshroom Herd</name>
@@ -3456,8 +3455,8 @@ Whenever another artifact you control enters, untap Observer.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Reach
-When Spider Jockey dies, spawn reach 4. (Put a reach and/or four +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+When Spider Jockey dies, spawn deathtouch 3. (Create a 3/3 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Territorial Anger</name>
@@ -3470,7 +3469,7 @@ When Spider Jockey dies, spawn reach 4. (Put a reach and/or four +1/+1 counters 
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Apex — Whenever a creature you control attacks, if it has the greatest power among creatures on the battlefield, target creature can’t block this turn. That creature attacks during its controller’s next combat phase if able.</text>
+      <text>Apex — Whenever a creature you control attacks, if you control a creature with the greatest power among creatures on the battlefield, target creature can’t block this turn. That creature attacks during its controller’s next combat phase if able.</text>
     </card>
     <card>
       <name>Brown Mooshroom</name>
@@ -3502,7 +3501,7 @@ At the beginning of your end step, if you gained or lost life this turn, put a +
       <text>Travel (If there are eight or more lands among your battlefield and graveyard, you’re an explorer for the rest of the game.)
 When Ancient Etchings enters, create two tapped Treasure tokens.
 As long as you are an explorer, artifacts you control are 3/3 Golem creatures with vigilance in addition to their other types.</text>
-      <related>Treasure MIN</related>
+      <related count="2">Treasure MIN</related>
       <related>Explorer MIN</related>
     </card>
     <card>
@@ -3588,8 +3587,8 @@ Raid — If you attacked this turn, instead search your library for a card, put 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Discard your hand, then draw three cards and spawn trample 2. (Put a trample and/or two +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
-      <related>Den MIN</related>
+      <text>Discard your hand, then draw three cards and spawn trample 2. (Create a 2/2 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Elytras</name>
@@ -3876,7 +3875,7 @@ Function — Copy each card exiled with Jukebox. You may cast the copies without
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever Skeleton Bowman enters or one or more Dens you control transform, Skeleton Bowman deals 1 damage to any target.</text>
+      <text>Whenever Skeleton Bowman enters or a Horde you control attacks, Skeleton Bowman deals 1 damage to any target.</text>
     </card>
     <card>
       <name>Act of Preservation</name>
@@ -3974,7 +3973,7 @@ Equip {4}</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>2G: Spawn reach 1. For each counter on target creature, put an additional counter of that type on the spawned Den. (Put a reach and/or a +1/+1 counter on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)</text>
+      <text>2G: Spawn deathtouch X, where X is target creature’s power. (Create a X/X black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
     </card>
     <card>
       <name>Planned for It</name>
@@ -4831,9 +4830,9 @@ When Shy Armadillo dies, suit up. (You may reveal an Equipment you own from outs
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Trial Spawner enters, spawn trample 4. (Put a trample and/or four +1/+1 counters on a Den you control. If you don’t control one, first create a Den artifact token. When a player casts no spells on their turn, it transforms into a 0/0 black Army.)
-Whenever a Den you control transforms, exile the top card of your library. Until your next end step, you may play it.</text>
-      <related>Den MIN</related>
+      <text>When Trial Spawner enters, spawn trample 4. (Create a 4/4 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
+Whenever a Horde you control dies, exile the top card of your library. Until your next end step, you may play it.</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Beacon Platform</name>
@@ -4937,15 +4936,15 @@ Search your library for an artifact card, reveal it, put it into your hand, then
 🧱🧱: Trap in the tower
 The owner of target permanent puts it on the top or bottom of their library.
 🧱🧱🧱: Activate it
-Take an extra turn after this one. Skip the untap step of that turn.</text>
+Each player may shuffle their hand and graveyard into their library. Each player who does so draws seven cards.</text>
     </card>
     <card>
       <name>Spleef Arena</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>U</colors>
-        <manacost>U</manacost>
-        <cmc>1</cmc>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
         <type>Artifact - Construction </type>
         <maintype>Artifact</maintype>
       </prop>
@@ -4953,7 +4952,7 @@ Take an extra turn after this one. Skip the untap step of that turn.</text>
       <text>Gain the next level as a sorcery to add its ability.
 ({X}: You get X brick counters. Activate each ability in any order, only once, as a sorcery.)
 🧱: Gather snow
-Target creature gets -3/-0 for as long as you control Spleef Arena.
+Target creature gets -4/-0 for as long as you control Spleef Arena.
 🧱🧱: Shovel the floor
 Distribute three stun counters among any number of target creatures you don’t control. Tap each of them.
 🧱🧱🧱: Win the round
@@ -4975,7 +4974,7 @@ Draw a card for each tapped creature target opponent controls.</text>
 🧱: Place the chests
 Draw two cards, then discard a card.
 🧱🧱: Retrieve an item
-Return up to one target instant, or sorcery card from your graveyard to your hand.
+Return up to one target instant or sorcery card from your graveyard to your hand.
 🧱🧱🧱: Add sorting
 This artifact gains “Whenever you draw a card, put a +1/+1 counter on target creature you control.”</text>
     </card>
@@ -5147,38 +5146,6 @@ Whenever a land card is put into your graveyard from anywhere, you may tap targe
 {2}: Iron Stockpile becomes a 1/1 Golem artifact creature with vigilance until end of turn.</text>
     </card>
     <card>
-      <name>Den MIN</name>
-      <set rarity="common" splitterPath="/Den MIN.png" >MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Token Artifact - Den </type>
-        <maintype>Artifact</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>At the end of each player’s turn, if that player cast no spells this turn, transform this.
----
-(Back): Army</text>
-      <related attach="transform">Army</related>
-    </card>
-    <card>
-      <name>Army</name>
-      <set rarity="common" splitterPath="/Army.png" >MIN</set>
-      <prop>
-        <colors>B</colors>
-        <manacost></manacost>
-        <cmc>0</cmc>
-        <type>Token Creature - Army </type>
-        <pt>0/0</pt>
-      </prop>
-      <tablerow>2</tablerow>
-      <text>(This doesn’t transform back.)
----
-(Front): Den MIN</text>
-      <related attach="transform">Den</related>
-    </card>
-    <card>
       <name>Wooded Mountains</name>
       <set rarity="uncommon">MIN</set>
       <prop>
@@ -5207,7 +5174,7 @@ When Wooded Mountains enters, you gain 1 life.</text>
       <tablerow>0</tablerow>
       <cipt>1</cipt>
       <text>Woodland Mansion enters tapped unless you control a Swamp, a Mountain, and a Forest.
-When Woodland Mansion enters untapped, transform up to one target Den.
+When Woodland Mansion enters untapped, target Horde you control loses decayed. (This effect lasts indefinitely.)
 {T}: Add {B}, {R}, or {G}.</text>
     </card>
     <card>
@@ -5892,6 +5859,20 @@ GWU BUILDING Slowly build up your Construction, giving you access to more abilit
       </prop>
       <tablerow>2</tablerow>
       <text>Hexproof</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Horde MIN</name>
+      <set>MIN</set>
+      <prop>
+        <colors>B</colors>
+        <type>Token Creature - Horde </type>
+        <maintype>Creature</maintype>
+        <pt>*/*</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Decayed (This creature can’t block. When it attacks, sacrifice it at end of combat.)
+When a player casts no spells on their turn, this creature loses decayed. (This lasts indefinitely.)</text>
       <token>1</token>
     </card>
 

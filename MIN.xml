@@ -111,19 +111,18 @@ Equipped creature gets +2/+0 and has trample and first strike as long as it’s 
 Equip {2}</text>
     </card>
     <card>
-      <name>Thorns Chestplate</name>
+      <name>Thorny Dissuasion</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>B</colors>
-        <manacost>1B</manacost>
-        <cmc>2</cmc>
-        <type>Artifact - Equipment </type>
-        <maintype>Artifact</maintype>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
       </prop>
-      <tablerow>1</tablerow>
-      <text>When Thorns Chestplate enters, attach it to target creature you control.
-Equipped creature gets +1/+1 and has lifelink and ward—Pay 3 life.
-Equip {2}</text>
+      <tablerow>3</tablerow>
+      <text>Target creature gets +1/+2 and gains deathtouch until end of turn.
+Suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
     </card>
     <card>
       <name>Impaling Trident</name>
@@ -386,6 +385,7 @@ Whenever you gain or lose life during your turn, amass Villagers 1. (Put a +1/+1
       <tablerow>1</tablerow>
       <text>When Mob Spawner enters, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
 {1}, {T}: Add {B}, {R}, or {G}.</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Warm Campfire</name>
@@ -900,7 +900,7 @@ Equip {2}</text>
     </card>
     <card>
       <name>Efficiency Pickaxe</name>
-      <set rarity="rare">MIN</set>
+      <set rarity="uncommon">MIN</set>
       <prop>
         <colors>W</colors>
         <manacost>1W</manacost>
@@ -910,23 +910,23 @@ Equip {2}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>When Efficiency Pickaxe enters, attach it to target creature you control.
-Equipped creature gets +2/+1. Whenever it attacks, you may sacrifice Efficiency Pickaxe. If you do, destroy target artifact or enchantment.
+Equipped creature gets +1/+1 for each artifact you control.
 Equip {2}</text>
     </card>
     <card>
-      <name>Soul Speed Boots</name>
+      <name>Soul Speed</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>R</colors>
-        <manacost>R</manacost>
-        <cmc>1</cmc>
-        <type>Artifact - Equipment </type>
-        <maintype>Artifact</maintype>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Soul Speed Boots enters, attach it to target creature you control.
-Equipped creature gets +1/+1 and has haste. Whenever you cast a noncreature spell, put a +1/+1 counter on it.
-Equip {1}</text>
+      <text>When Soul Speed enters, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)
+Whenever you cast a noncreature spell, put a +1/+1 counter on target creature you control.
+Modified creatures you control have haste. (Equipment, Auras you control, and counters are modifications.)</text>
     </card>
     <card>
       <name>Totem Of Undying</name>
@@ -983,7 +983,7 @@ Gather — If a permanent you control with a mana ability entered this turn, dra
         <cmc>4</cmc>
         <type>Creature - Spider </type>
         <maintype>Creature</maintype>
-        <pt>2/4</pt>
+        <pt>1/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Reach, deathtouch
@@ -1096,7 +1096,8 @@ Create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana 
       <tablerow>3</tablerow>
       <text>Choose one or two. This spells costs {1} more to cast if you choose two —
 • Target creature gains flying, hexproof, and indestructible until end of turn.
-• Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+• You get 🧱🧱 (two brick counters).</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Replace with Air</name>
@@ -1253,7 +1254,8 @@ Function — Target player loses 2 life and you gain 2 life. ({6}: Trigger any n
       </prop>
       <tablerow>1</tablerow>
       <text>At the beginning of your end step, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
-{1}, {T}, Sacrifice a creature: Draw a card.</text>
+{2}, {T}, Sacrifice a creature: Draw a card.</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Chrysopoeia</name>
@@ -1723,7 +1725,7 @@ When Wither Skeleton enters, suit up. (You may reveal an Equipment you own from 
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Enter the Cave enters, spawn deathtouch 3. (Create a 3/3 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
+      <text>When Enter the Cave enters, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
 Creature tokens you control get +1/+1.</text>
       <related>Horde MIN</related>
     </card>
@@ -2017,6 +2019,7 @@ Function — Target creature gets -2/-2 until end of turn. ({6}: Trigger any num
       <tablerow>2</tablerow>
       <text>Defender
 Whenever Turtle blocks, you get 🧱 (a brick counter).</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Ink Squid</name>
@@ -2671,11 +2674,12 @@ Whenever Enderman deals combat damage to a player, gain control of target noncre
       <text>Gain the next level as a sorcery to add its ability.
 ({X}: You get X brick counters. Activate each ability in any order, only once, as a sorcery.)
 🧱: Change dimension
-Shuffle your hand and graveyard into your library, then draw three cards.
+Return target nonland permanent to its owner’s hand.
 🧱🧱: Place ice blocks
 Artifact spells you cast this turn cost {3} less to cast.
 🧱🧱🧱: Boat across
 Creatures you control get +1/+1 and gain menace and vigilance until end of turn.</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Shore Lighthouse</name>
@@ -2696,6 +2700,7 @@ Search your library for a basic land card, put it onto the battlefield tapped, t
 Put a reach and two +1/+1 counters on target creature.
 🧱🧱🧱: Light it up
 This artifact gains “Whenever a land you control enters, proliferate.” (To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Village Mason</name>
@@ -2973,6 +2978,7 @@ When Magma Cube dies, create a 1/1 red Elemental creature token.</text>
       <tablerow>3</tablerow>
       <text>You create a 1/1 white Villager creature token and get 🧱 (a brick counter).</text>
       <related>Villager MIN</related>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Flying Machine</name>
@@ -3065,8 +3071,8 @@ Draw two cards and create a tapped Tool token. (It’s an artifact with “{T}: 
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>B</colors>
-        <manacost>1B</manacost>
-        <cmc>2</cmc>
+        <manacost>B</manacost>
+        <cmc>1</cmc>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
       </prop>
@@ -3074,6 +3080,7 @@ Draw two cards and create a tapped Tool token. (It’s an artifact with “{T}: 
       <text>When Equipping Station enters, create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
 Function — Put a +1/+1 counter and a deathtouch, lifelink, or menace counter on target creature. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
       <related>Tool MIN</related>
+      <related>Rework</related>
     </card>
     <card>
       <name>Isn&apos;t it Iron Pick</name>
@@ -3416,7 +3423,7 @@ Function — Pufferfish has base power and toughness 6/6 until end of turn. ({6}
     </card>
     <card>
       <name>Iron Shovel</name>
-      <set rarity="uncommon">MIN</set>
+      <set rarity="rare">MIN</set>
       <prop>
         <colors>W</colors>
         <manacost>1W</manacost>
@@ -3425,7 +3432,8 @@ Function — Pufferfish has base power and toughness 6/6 until end of turn. ({6}
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +1/+1 for each artifact you control.
+      <text>Iron Shovel enters with a charge counter on it.
+Equipped creature gets +2/+1. Whenever it attacks, you may remove a charge counter from Iron Shovel. If you do, destroy target artifact or enchantment.
 Equip {2}</text>
     </card>
     <card>
@@ -3561,6 +3569,7 @@ Function — Choose one —
       </prop>
       <tablerow>3</tablerow>
       <text>Search your library and/or hand for a Construction card, put it onto the battlefield, then shuffle. Then you get 🧱🧱 (two brick counters) for each Construction you control.</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Sift the Loot</name>
@@ -3677,19 +3686,19 @@ If you control two or more artifacts, draw a card.</text>
 Enchanted permanent can’t attack or block, and its activated abilities can’t be activated.</text>
     </card>
     <card>
-      <name>Depth Strider Boots</name>
+      <name>Dungeon Chest</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>W</colors>
         <manacost>W</manacost>
         <cmc>1</cmc>
-        <type>Artifact - Equipment </type>
+        <type>Artifact</type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Depth Strider Boots enters, attach it to target creature you control.
-Equipped creature gets +1/+1 and has vigilance. Whenever it attacks, scry 1.
-Equip {2}</text>
+      <text>When Dungeon Chest enters, create a 1/1 black Skeleton creature token.
+Whenever a creature you control dies, you may sacrifice Dungeon Chest. If you do, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
+      <related>Skeleton MIN</related>
     </card>
     <card>
       <name>Escalating Raid</name>
@@ -3702,7 +3711,7 @@ Equip {2}</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever Escalating Raid enters or one or more modified creatures you control attack, amass Villagers 1. (Equipment, Auras you control, and counters are modifications. To amass Villagers 1, put a +1/+1 counter on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
+      <text>Whenever Escalating Raid enters or one or more modified creatures you control attack, amass Villagers 2. (Equipment, Auras you control, and counters are modifications. To amass Villagers 2, put two +1/+1 counters on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
       <related>Villager Army MIN</related>
     </card>
     <card>
@@ -3791,7 +3800,7 @@ When Lightning Rod enters, if it was cast, counter target instant or sorcery spe
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>If you would put one or more +1/+1 counters on a Den or Army you control, put that many counters plus one on it instead.
+      <text>Hordes you control enter with two additional +1/+1 counters on them.
 {2}, Sacrifice Pigstep Music Disc: Draw a card.</text>
     </card>
     <card>
@@ -3973,7 +3982,7 @@ Equip {4}</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>2G: Spawn deathtouch X, where X is target creature’s power. (Create a X/X black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>2G: Spawn deathtouch X, where X is the power of target creature you control. (Create a X/X black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
     </card>
     <card>
       <name>Planned for It</name>
@@ -4254,7 +4263,7 @@ At the end of your first combat phase each turn, untap all modified creatures yo
       </prop>
       <tablerow>1</tablerow>
       <text>When Clone Command enters, create a token that’s a copy of target creature, except it’s a 1/1 artifact creature.
-Function — Create a token that’s a copy of another target artifact. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Create a token that’s a copy of another target token you control. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Potion Throw</name>
@@ -4520,7 +4529,8 @@ Equip {1}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}, Sacrifice an artifact or enchantment: Suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
+      <text>When Grindstone enters, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)
+{T}, Unattach an Equipment attached to a creature you control: You draw a card and lose 1 life.</text>
     </card>
     <card>
       <name>Prepared Incursion</name>
@@ -4853,6 +4863,7 @@ Destroy target creature with power 4 or greater.
 Untap each other artifact or creature you control.
 🧱🧱🧱: Light the beam
 This artifact gains “Creatures you control get +2/+2.”</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Faction Base</name>
@@ -4873,6 +4884,7 @@ You gain 5 life and draw a card.
 Exile any number of target creatures you control, then return them to the battlefield.
 🧱🧱🧱: Close the doors
 This artifact gains “Whenever a creature attacks, you gain 1 life.”</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Town Square</name>
@@ -4896,6 +4908,7 @@ For each of up to three target tokens you control, create a token that’s a cop
       <related>Villager MIN</related>
       <related>Food MIN</related>
       <related>Golem MIN</related>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Watchful Outpost</name>
@@ -4917,14 +4930,15 @@ Return target artifact or creature card with mana value 3 or less from your grav
 🧱🧱🧱: Watch over
 Create a 1/1 Villager creature token for each Plains you control.</text>
       <related>Villager MIN</related>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Clocktower</name>
       <set rarity="rare">MIN</set>
       <prop>
         <colors>U</colors>
-        <manacost>1U</manacost>
-        <cmc>2</cmc>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
         <type>Artifact - Construction </type>
         <maintype>Artifact</maintype>
       </prop>
@@ -4937,6 +4951,7 @@ Search your library for an artifact card, reveal it, put it into your hand, then
 The owner of target permanent puts it on the top or bottom of their library.
 🧱🧱🧱: Activate it
 Each player may shuffle their hand and graveyard into their library. Each player who does so draws seven cards.</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Spleef Arena</name>
@@ -4957,6 +4972,7 @@ Target creature gets -4/-0 for as long as you control Spleef Arena.
 Distribute three stun counters among any number of target creatures you don’t control. Tap each of them.
 🧱🧱🧱: Win the round
 Draw a card for each tapped creature target opponent controls.</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Storage System</name>
@@ -4977,6 +4993,7 @@ Draw two cards, then discard a card.
 Return up to one target instant or sorcery card from your graveyard to your hand.
 🧱🧱🧱: Add sorting
 This artifact gains “Whenever you draw a card, put a +1/+1 counter on target creature you control.”</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Archery Range</name>
@@ -4998,6 +5015,7 @@ Target creature you control gets +2/+0 until end of turn, then deals damage equa
 🧱🧱🧱: Restock arrows
 This artifact gains “Whenever you attack or block with one or more creatures, put a +1/+1 counter on each of them.”</text>
       <related>Ox MIN</related>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Deep Mine</name>
@@ -5018,8 +5036,9 @@ Mill four cards. You may put a permanent card from among the cards milled this w
 Create two 2/2 black Zombie creature tokens.
 🧱🧱🧱: Smelt the ores
 Create three Treasure tokens.</text>
-      <related>Zombie MIN</related>
-      <related>Treasure MIN</related>
+      <related count="2">Zombie MIN</related>
+      <related count="3">Treasure MIN</related>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Wood Camp</name>
@@ -5040,6 +5059,7 @@ Destroy target artifact or enchantment. Draw a card.
 Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
 🧱🧱🧱: Rest for a night
 Untap each creature you control. They gain indestructible and hexproof until the beginning of your next turn.</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Central Map</name>
@@ -5060,6 +5080,7 @@ You get 🧱 (a brick counter) for each Construction you control.
 Reveal the the top three cards of your library. Put any number of creature, land, and artifact cards from among them into your hand, then put the rest into your graveyard.
 🧱🧱🧱: Begin projects
 Put any number of Construction cards from your hand onto the battlefield. You get 🧱🧱 for each card put onto the battlefield this way.</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Blowing Breeze</name>
@@ -5222,6 +5243,7 @@ When Impressive Build enters untapped, you may exile target Construction you con
       <tablerow>1</tablerow>
       <text>When Shulker Box enters, you get 🧱🧱 (two brick counters).
 {1}, {T}: Add {G}, {W}, or {U}.</text>
+      <related>Brick Reserve MIN</related>
     </card>
     <card>
       <name>Amethyst Geode</name>
@@ -5873,6 +5895,31 @@ GWU BUILDING Slowly build up your Construction, giving you access to more abilit
       <tablerow>2</tablerow>
       <text>Decayed (This creature can’t block. When it attacks, sacrifice it at end of combat.)
 When a player casts no spells on their turn, this creature loses decayed. (This lasts indefinitely.)</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Brick Reserve MIN</name>
+      <set>MIN</set>
+      <prop>
+        <colors></colors>
+        <type>Reminder</type>
+        <maintype>Reminder</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Skeleton MIN</name>
+      <set>MIN</set>
+      <prop>
+        <colors>B</colors>
+        <type>Token Creature - Skeleton </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
       <token>1</token>
     </card>
 

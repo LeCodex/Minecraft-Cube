@@ -63,12 +63,12 @@
 	        }
 	    },
 	    {
-	        "name": "Thorns Chestplate",
+	        "name": "Thorny Dissuasion",
 	        "rarity": "uncommon",
-	        "mana_cost": "{1}{B}",
-	        "type": "Artifact — Equipment ",
+	        "mana_cost": "{B}",
+	        "type": "Instant",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Thorns Chestplate.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Thorny Dissuasion.png"
 	        }
 	    },
 	    {
@@ -487,7 +487,7 @@
 	    },
 	    {
 	        "name": "Efficiency Pickaxe",
-	        "rarity": "rare",
+	        "rarity": "uncommon",
 	        "mana_cost": "{1}{W}",
 	        "type": "Artifact — Equipment ",
 	        "image_uris": {
@@ -495,12 +495,12 @@
 	        }
 	    },
 	    {
-	        "name": "Soul Speed Boots",
+	        "name": "Soul Speed",
 	        "rarity": "uncommon",
-	        "mana_cost": "{R}",
-	        "type": "Artifact — Equipment ",
+	        "mana_cost": "{1}{R}",
+	        "type": "Enchantment",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Soul Speed Boots.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Soul Speed.png"
 	        }
 	    },
 	    {
@@ -1802,7 +1802,7 @@
 	    {
 	        "name": "Equipping Station",
 	        "rarity": "uncommon",
-	        "mana_cost": "{1}{B}",
+	        "mana_cost": "{B}",
 	        "type": "Artifact",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Equipping Station.png"
@@ -2017,7 +2017,7 @@
 	    },
 	    {
 	        "name": "Iron Shovel",
-	        "rarity": "uncommon",
+	        "rarity": "rare",
 	        "mana_cost": "{1}{W}",
 	        "type": "Artifact — Equipment ",
 	        "image_uris": {
@@ -2178,12 +2178,12 @@
 	        }
 	    },
 	    {
-	        "name": "Depth Strider Boots",
+	        "name": "Dungeon Chest",
 	        "rarity": "uncommon",
 	        "mana_cost": "{W}",
-	        "type": "Artifact — Equipment ",
+	        "type": "Artifact",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Depth Strider Boots.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Dungeon Chest.png"
 	        }
 	    },
 	    {
@@ -2945,7 +2945,7 @@
 	    {
 	        "name": "Clocktower",
 	        "rarity": "rare",
-	        "mana_cost": "{1}{U}",
+	        "mana_cost": "{2}{U}",
 	        "type": "Artifact — Construction ",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Clocktower.png"
@@ -3250,7 +3250,6 @@
 		1 Combat Arena
 		1 Cherry Grove
 		1 The Nether
-		1 Efficiency Pickaxe
 		1 Cave Spider
 		1 Closed Server
 		1 Pillager Raid
@@ -3275,6 +3274,7 @@
 		1 Shrinking Worldborder
 		1 Golden Sword
 		1 Wandering Trader
+		1 Iron Shovel
 		1 Finish The Base
 		1 Sift the Loot
 		1 Escalating Raid
@@ -3316,7 +3316,7 @@
 		1 The End Fountain
 		1 Village Fountain
 		1 Flaming Weapons
-		1 Thorns Chestplate
+		1 Thorny Dissuasion
 		1 Village Bell
 		1 Pillager's Capture
 		1 Command Block
@@ -3346,7 +3346,8 @@
 		1 Illusioner
 		1 Zombified Piglin
 		1 Raid Captain
-		1 Soul Speed Boots
+		1 Efficiency Pickaxe
+		1 Soul Speed
 		1 Totem Of Undying
 		1 Composter
 		1 Silverfish
@@ -3401,14 +3402,13 @@
 		1 Mooshroom Herd
 		1 Village Fletcher
 		1 Tuff Golem
-		1 Iron Shovel
 		1 Observer
 		1 Territorial Anger
 		1 Ancient Etchings
 		1 Teleport Out
 		1 Unpleasant Surprise
 		1 Pillager Horn
-		1 Depth Strider Boots
+		1 Dungeon Chest
 		1 11 Music Disc
 		1 Pigstep Music Disc
 		1 Far Music Disc

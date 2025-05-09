@@ -1002,7 +1002,7 @@ Creature tokens you control can block as though they didn’t have decayed.</tex
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Composter enters, mill three cards, then you may return a permanent card milled this way to your hand.
+      <text>When Composter enters, mill three cards, then you may return a permanent card from your graveyard to your hand.
 {G}, {T}, Exile three cards from your graveyard: Create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)</text>
       <related>Tool MIN</related>
     </card>
@@ -1050,7 +1050,7 @@ Function — Return all cards you own exiled by Closed Server to the battlefield
       <tablerow>2</tablerow>
       <text>Flash
 When Silverfish enters, if it’s not a token, choose one —
-• Destroy target artifact.
+• Destroy target enchantment or artifact.
 • Create a token that’s a copy of Silverfish.</text>
     </card>
     <card>
@@ -1535,6 +1535,7 @@ Whenever you gain life, target creature gains deathtouch and lifelink until end 
       </prop>
       <tablerow>2</tablerow>
       <text>When Zombie Villager dies, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Village Cartographer</name>
@@ -2245,7 +2246,7 @@ At the beginning of combat on your turn, if you’re an explorer, untap all crea
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance
-When Sniffer enters, mill four cards. You may return a creature or land card from among them into your hand.</text>
+When Sniffer enters, mill three cards. You may return a creature or land card from your graveyard into your hand.</text>
     </card>
     <card>
       <name>The Ender Dragon</name>
@@ -2568,11 +2569,11 @@ Reach</text>
         <colors>U</colors>
         <manacost>1U</manacost>
         <cmc>2</cmc>
-        <type>Sorcery</type>
-        <maintype>Sorcery</maintype>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Reveal cards from the top of your library until you reveal a land card, then put those cards into your graveyard. When you do, create a black X/X Golem Horror artifact creature token, where X is the number of land cards in your graveyard.</text>
+      <text>Reveal cards from the top of your library until you reveal a land card, then put those cards into your graveyard When you do, create a black X/X Golem Horror artifact creature token, where X is the number of land cards in your graveyard.</text>
       <related>Golem Horror MIN</related>
     </card>
     <card>
@@ -3702,7 +3703,7 @@ Whenever a creature you control dies, you may sacrifice Dungeon Chest. If you do
     </card>
     <card>
       <name>Escalating Raid</name>
-      <set rarity="rare">MIN</set>
+      <set rarity="uncommon">MIN</set>
       <prop>
         <colors>W</colors>
         <manacost>1W</manacost>
@@ -3711,7 +3712,8 @@ Whenever a creature you control dies, you may sacrifice Dungeon Chest. If you do
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever Escalating Raid enters or one or more modified creatures you control attack, amass Villagers 2. (Equipment, Auras you control, and counters are modifications. To amass Villagers 2, put two +1/+1 counters on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
+      <text>When Escalating Raid enters, amass Villagers 2. (Put two +1/+1 counters on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)
+Whenever one or more modified creatures you control attack, amass Villagers 1. (Equipment, Auras you control, and counters are modifications.)</text>
       <related>Villager Army MIN</related>
     </card>
     <card>
@@ -3757,7 +3759,7 @@ Whenever you activate a floor ability of a Construction you control, return Expo
       </prop>
       <tablerow>1</tablerow>
       <text>Flash
-When Soft Bed enters, return all permanent cards from your graveyard that were put there this turn to the battlefield.
+When Soft Bed enters, return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.
 {3}, {T}, Sacrifice Soft Bed: Exile each artifact token or each creature token.</text>
     </card>
     <card>
@@ -3888,7 +3890,7 @@ Function — Copy each card exiled with Jukebox. You may cast the copies without
     </card>
     <card>
       <name>Act of Preservation</name>
-      <set rarity="common">MIN</set>
+      <set rarity="uncommon">MIN</set>
       <prop>
         <colors>G</colors>
         <manacost>1G</manacost>
@@ -3897,7 +3899,7 @@ Function — Copy each card exiled with Jukebox. You may cast the copies without
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your end step, you may pay {2} or 🧱. If you do, for each creature you control, untap it and put a +1/+1 counter on it.</text>
+      <text>At the beginning of your end step, you may pay {2} or 🧱. If you do, you may return a permanent card from your graveyard to your hand.</text>
     </card>
     <card>
       <name>The Wither</name>
@@ -3982,7 +3984,8 @@ Equip {4}</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>2G: Spawn deathtouch X, where X is the power of target creature you control. (Create a X/X black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>2G: Spawn deathtouch X, where X is the power of target creature you control. Sacrifice Moody Weather at the beginning of the next end step. (Create a X/X black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Planned for It</name>
@@ -4025,7 +4028,7 @@ Whenever you activate a floor ability of a Construction you control, return Reso
         <pt>4/5</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>This spell costs {2} less to cast if you gained or lost life this turn.
+      <text>This spell costs {1} less to cast if you gained or lost life this turn.
 Lifelink</text>
     </card>
     <card>
@@ -4397,6 +4400,7 @@ Whenever an artifact you control enters, return Strip Mining to its owner’s ha
 • Create two 1/1 white Bird creature tokens. Put a flying counter on one of them.
 • Create a 2/2 blue Turtle creature token with hexproof.</text>
       <related>Ox MIN</related>
+      <related>Turtle MIN</related>
       <related count="2">Bird MIN</related>
     </card>
     <card>
@@ -5056,7 +5060,7 @@ Create three Treasure tokens.</text>
 🧱: Light a campfire
 Destroy target artifact or enchantment. Draw a card.
 🧱🧱: Place some tents
-Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+Return up to two target permanent cards from your graveyard to your hand.
 🧱🧱🧱: Rest for a night
 Untap each creature you control. They gain indestructible and hexproof until the beginning of your next turn.</text>
       <related>Brick Reserve MIN</related>
@@ -5095,8 +5099,8 @@ Put any number of Construction cards from your hand onto the battlefield. You ge
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
-Whenever Blowing Breeze attacks, mill three cards.
-Whenever a land card is put into your graveyard from anywhere, you may tap target creature and put a stun counter on it.</text>
+Whenever Blowing Breeze attacks, you may mill three cards.
+Whenever a land card is put into your graveyard from anywhere for the first time each turn, you may tap target creature and put a stun counter on it.</text>
     </card>
     <card>
       <name>TNT Block</name>
@@ -5320,7 +5324,7 @@ When Zoglin dies, it deals 1 damage to any target.</text>
     </card>
     <card>
       <name>Elder Guardian</name>
-      <set rarity="uncommon">MIN</set>
+      <set rarity="rare">MIN</set>
       <prop>
         <colors>W</colors>
         <manacost>3W</manacost>
@@ -5448,12 +5452,13 @@ The Killer Bunny enters with a +1/+1 counter on it for each land card in your gr
         <cmc>3</cmc>
         <type>Creature - Villager Artificer </type>
         <maintype>Creature</maintype>
-        <pt>0/3</pt>
+        <pt>0/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Vigilance
 When Village Toolsmith enters, create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
 Gather — Whenever a permanent you control with a mana ability enters, put a +1/+1 counter on Village Toolsmith.</text>
+      <related>Tool MIN</related>
     </card>
     <card>
       <name>Small Chicken</name>

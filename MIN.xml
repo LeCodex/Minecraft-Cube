@@ -328,6 +328,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
 When Village Bell enters, create two 1/1 white Villager creature tokens. You gain 2 life.
 Function — Create a 3/3 colorless Golem artifact creature token with vigilance. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
       <related count="2">Villager MIN</related>
+      <related>Golem MIN</related>
     </card>
     <card>
       <name>Pillager&apos;s Capture</name>
@@ -1490,7 +1491,7 @@ Whenever you cast a noncreature spell, create a 2/1 blue and red Spirit creature
       </prop>
       <tablerow>2</tablerow>
       <text>Deathtouch, lifelink
-Whenever you gain life, target creature gains deathtouch and lifelink until end of turn. This ability only triggers once each turn.</text>
+{1}, Pay 3 life: Target creature gains deathtouch and lifelink until end of turn. Activate only as a sorcery.</text>
       <related>Villager MIN</related>
     </card>
     <card>
@@ -2176,11 +2177,11 @@ Whenever a creature you control deals combat damage to a player, each opponent l
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>U</colors>
-        <manacost>1U</manacost>
-        <cmc>2</cmc>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
         <type>Creature - Spirit </type>
         <maintype>Creature</maintype>
-        <pt>2/1</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Travel (If there are eight or more lands among your battlefield and graveyard, you’re an explorer for the rest of the game.)
@@ -2498,7 +2499,7 @@ Counter target spell.</text>
         <pt>0/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>{2/W}, {T}: Tap target creature.
+      <text>{2}, {T}: Tap target creature.
 {U}: Untap Snow Golem.</text>
     </card>
     <card>
@@ -2977,7 +2978,7 @@ When Magma Cube dies, create a 1/1 red Elemental creature token.</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>You create a 1/1 white Villager creature token and get 🧱 (a brick counter).</text>
+      <text>You create a 1/1 white Villager creature token, gain 1 life, and get 🧱 (a brick counter).</text>
       <related>Villager MIN</related>
       <related>Brick Reserve MIN</related>
     </card>
@@ -3252,10 +3253,10 @@ Equip {1}</text>
         <cmc>2</cmc>
         <type>Creature - Plant Elemental </type>
         <maintype>Creature</maintype>
-        <pt>2/1</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever a land or Construction you control enters, add one mana of any color. (This isn’t a mana ability.)</text>
+      <text>Whenever a Construction you control enters, add one mana of any color. (This isn’t a mana ability.)</text>
     </card>
     <card>
       <name>Rascal</name>
@@ -4423,12 +4424,12 @@ Whenever an artifact you control enters, return Strip Mining to its owner’s ha
         <colors>WUB</colors>
         <manacost>1WUB</manacost>
         <cmc>4</cmc>
-        <type>Artifact</type>
+        <type>Artifact - Tool </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>If you would tap a nonland permanent for mana, it produces twice as much of that mana instead.
-Activated abilities of nonland permanents your opponents control cost an additional 2 life to activate.</text>
+      <text>When World Eater enters, choose a nonland permanent type, then exile up to one target permanent of that type. For each other card type, exile up to one target card of that type from a graveyard.
+{T}: Add X {C}, where X is the number of cards exiled with World Eater. This mana can’t be spent to cast nonartifact spells.</text>
     </card>
     <card>
       <name>Iceologer</name>
@@ -5080,11 +5081,12 @@ Untap each creature you control. They gain indestructible and hexproof until the
 ({X}: You get X brick counters. Activate each ability in any order, only once, as a sorcery.)
 🧱: Collect resources
 You get 🧱 (a brick counter) for each Construction you control.
-🧱🧱: Plan out placement
-Reveal the the top three cards of your library. Put any number of creature, land, and artifact cards from among them into your hand, then put the rest into your graveyard.
-🧱🧱🧱: Begin projects
-Put any number of Construction cards from your hand onto the battlefield. You get 🧱🧱 for each card put onto the battlefield this way.</text>
+🧱🧱: Begin projects
+Reveal the top four cards of your library. Put any number of creature, land, and artifact cards from among them into your hand, then put the rest into your graveyard.
+🧱🧱🧱: Embellish them
+Exile any number of other target Constructions you control, then return them to the battlefield under your control.</text>
       <related>Brick Reserve MIN</related>
+      <related>Resource, blink</related>
     </card>
     <card>
       <name>Blowing Breeze</name>
@@ -5436,7 +5438,7 @@ Desert Camel gets +1/+1 for each land you control.</text>
         <cmc>5</cmc>
         <type>Legendary Creature - Rabbit </type>
         <maintype>Creature</maintype>
-        <pt>4/4</pt>
+        <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>This spell can’t be countered.

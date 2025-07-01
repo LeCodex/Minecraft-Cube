@@ -795,7 +795,8 @@ When Cherry Grove enters untapped, draw two cards, then discard two cards.
         <maintype>Land</maintype>
       </prop>
       <tablerow>0</tablerow>
-      <text>{T}: Add CC. The End deals 2 damage to you.</text>
+      <text>If The End would enter, if you control less than five other lands, instead put it into its owner’s graveyard, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{T}: Add CC.</text>
     </card>
     <card>
       <name>The Nether</name>
@@ -812,6 +813,7 @@ When Cherry Grove enters untapped, draw two cards, then discard two cards.
 I — The Nether deals 1 damage to you and gains “{T}: Add {C}.”
 II — At the beginning of the next end step, if a creature died this turn, create a Treasure token.
 III — If The Nether is untapped, search your library for a land card with a basic land type, put it onto the battlefield, then shuffle.</text>
+      <related>Treasure MIN</related>
     </card>
     <card>
       <name>Axolotl</name>
@@ -1708,11 +1710,11 @@ Apex — As long as you control a creature with the greatest power or tied for t
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>U</colors>
-        <manacost>4U</manacost>
-        <cmc>5</cmc>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
         <type>Creature - Bird </type>
         <maintype>Creature</maintype>
-        <pt>4/4</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
@@ -2133,11 +2135,11 @@ Whenever a creature you control deals combat damage to a player, each opponent l
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>U</colors>
-        <manacost>2U</manacost>
-        <cmc>3</cmc>
+        <manacost>4U</manacost>
+        <cmc>5</cmc>
         <type>Creature - Spirit </type>
         <maintype>Creature</maintype>
-        <pt>2/2</pt>
+        <pt>4/4</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Travel (If there are eight or more lands among your battlefield and graveyard, you’re an explorer for the rest of the game.)
@@ -2375,7 +2377,7 @@ When Skeleton Horse dies, create four 1/1 black Skeleton Archer creature tokens 
 Counter target spell.</text>
     </card>
     <card>
-      <name>Drowned</name>
+      <name>Drowned Sailor</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>B</colors>
@@ -2386,8 +2388,8 @@ Counter target spell.</text>
         <pt>1/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you gain or lose life during your turn, put a +1/+1 counter on Drowned.
-2U: Drowned can’t be blocked this turn.</text>
+      <text>Whenever you gain or lose life during your turn, put a +1/+1 counter on Drowned Sailor.
+2U: Drowned Sailor can’t be blocked this turn.</text>
     </card>
     <card>
       <name>Zombie&apos;s Bite</name>
@@ -2618,7 +2620,8 @@ Whenever Enderman deals combat damage to a player, gain control of target noncre
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Change Dimension
 Return target nonland permanent to its owner’s hand.
 🧱🧱: Place Ice Blocks
@@ -2639,7 +2642,8 @@ Creatures you control get +1/+1 and gain menace and vigilance until end of turn.
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Search for a Spot
 Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 🧱🧱: Build the Floors
@@ -2876,7 +2880,7 @@ When Magma Cube dies, create a 1/1 red Elemental creature token.</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{3}: Flying Machine becomes a 0/0 Construct artifact creature with flying and haste. Put three +1/+1 counters on it. Activate only once during each of your turns.</text>
+      <text>{3}: Put three +1/+1 counters on Flying Machine. It becomes a 0/0 Construct artifact creature with flying and haste. Activate only once during each of your turns.</text>
     </card>
     <card>
       <name>Shrinking Worldborder</name>
@@ -3612,7 +3616,7 @@ When Lightning Rod enters, if it was cast, counter target instant or sorcery spe
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever a modified creature you control dies, each opponent loses 1 life and you gain 1 life. (Equipment, Auras you control, and counters are modifications.)
+      <text>Whenever a modified creature you control attacks, each opponent loses 1 life and you gain 1 life. (Equipment, Auras you control, and counters are modifications.)
 {2}, Sacrifice 11 Music Disc: Draw a card.</text>
     </card>
     <card>
@@ -3870,19 +3874,6 @@ Lifelink</text>
       <tablerow>3</tablerow>
       <text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature’s color.)
 Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.</text>
-    </card>
-    <card>
-      <name>Player Heads</name>
-      <set rarity="uncommon">MIN</set>
-      <prop>
-        <colors></colors>
-        <manacost>3</manacost>
-        <cmc>3</cmc>
-        <type>Artifact</type>
-        <maintype>Artifact</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>Whenever a creature you control enters, put a +1/+1 counter on it for each other creature you control that shares a creature type with it.</text>
     </card>
     <card>
       <name>Trading Hall</name>
@@ -4575,11 +4566,12 @@ Whenever a Horde you control dies, exile the top card of your library. Until you
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Get a Nether Star
 Destroy target creature with power 4 or greater.
 🧱🧱: Build the Base
-Untap each other artifact or creature you control.
+Untap each other artifact or each other creature you control.
 🧱🧱🧱: Light the Beam
 This artifact gains “Creatures you control get +2/+2.”</text>
       <related>Brick Reserve MIN</related>
@@ -4596,7 +4588,8 @@ This artifact gains “Creatures you control get +2/+2.”</text>
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Stock Up
 You gain 5 life and draw a card.
 🧱🧱: Hide Inside
@@ -4617,7 +4610,8 @@ This artifact gains “Whenever a creature attacks, you gain 1 life.”</text>
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Do Some Trades
 Create a 1/1 white Villager creature token and a Food token.
 🧱🧱: Summon a Golem
@@ -4641,7 +4635,8 @@ For each of up to three target tokens you control, create a token that’s a cop
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Find the Ruins
 Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.
 🧱🧱: Repossess it
@@ -4663,7 +4658,8 @@ Create a 1/1 Villager creature token for each Plains you control.</text>
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Design the System
 Search your library for an artifact card, reveal it, put it into your hand, then shuffle.
 🧱🧱: Trap in the Tower
@@ -4684,11 +4680,12 @@ Each player may shuffle their hand and graveyard into their library. Each player
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Gather Snow
 Target creature gets -3/-0 for as long as you control Spleef Arena.
 🧱🧱: Shovel the Floor
-Tap up to three creatures you don’t control. Put a stun counter on each of them.
+Tap up to three target creatures you don’t control. Put a stun counter on each of them.
 🧱🧱🧱: Win the Round
 Draw a card for each tapped creature target opponent controls.</text>
       <related>Brick Reserve MIN</related>
@@ -4705,7 +4702,8 @@ Draw a card for each tapped creature target opponent controls.</text>
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get {X} brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Place the Chests
 Draw two cards, then discard a card.
 🧱🧱: Retrieve an Item
@@ -4726,7 +4724,8 @@ This artifact gains “Whenever you draw a card, put a +1/+1 counter on target c
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Acquire Targets
 Create a 3/3 green Ox creature token.
 🧱🧱: Practice Aim
@@ -4748,7 +4747,8 @@ This artifact gains “Whenever you attack or block with one or more creatures, 
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Dig Down
 Mill four cards. You may put a permanent card from among the cards milled this way into your hand.
 🧱🧱: Open a Cave
@@ -4771,7 +4771,8 @@ Create three Treasure tokens.</text>
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get X brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Light a Campfire
 Destroy target artifact or enchantment. Draw a card.
 🧱🧱: Place Some Tents
@@ -4792,7 +4793,8 @@ Untap each creature you control. They gain indestructible and hexproof until the
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get X brick counters. Once per turn, as a sorcery, you may activate a floor ability you haven’t activated yet.)
+({X}: You get {X} brick counters.)
+({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Collect Resources
 You get 🧱 (a brick counter) for each Construction you control.
 🧱🧱: Begin Projects
@@ -5363,8 +5365,9 @@ When Classic Superflat enters, put a +1/+1 counter on target creature you contro
         <maintype>Land</maintype>
       </prop>
       <tablerow>0</tablerow>
-      <text>{T}: Add {C}.
-{3}: Deep Dark becomes a 3/3 Golem Horror artifact creature with ward {2} until end of turn. It’s still a land. (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
+      <text>Ward {2} (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+{T}: Add {C}.
+{3}: Deep Dark becomes a 3/3 Golem Horror artifact creature until end of turn. It’s still a land.</text>
     </card>
     <card>
       <name>Tunneler&apos;s Dream</name>
@@ -5532,6 +5535,21 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       </prop>
       <tablerow>0</tablerow>
       <text></text>
+    </card>
+    <card>
+      <name>Copper Brush</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors></colors>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+        <type>Artifact - Equipment </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +1/+1.
+Whenever enchanted creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Equip {1}</text>
     </card>
 
     <!-->Tokens</-->

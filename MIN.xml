@@ -34,8 +34,8 @@
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}, Sacrifice a nontoken artifact: Create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)</text>
-      <related>Tool MIN</related>
+      <text>{1}, {T}: Add one mana of any color.
+Tools you control have “{T}: Add one mana of any color.”</text>
     </card>
     <card>
       <name>Flaming Weapons</name>
@@ -249,7 +249,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <text>Search your library for two basic land cards, put one onto the battlefield tapped and the other in your graveyard, then shuffle.</text>
     </card>
     <card>
-      <name>Plains</name>
+      <name>Plains_MIN1</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -262,7 +262,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <text></text>
     </card>
     <card>
-      <name>Island</name>
+      <name>Island_MIN1</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -275,7 +275,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <text></text>
     </card>
     <card>
-      <name>Swamp</name>
+      <name>Swamp_MIN1</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -288,7 +288,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <text></text>
     </card>
     <card>
-      <name>Mountain</name>
+      <name>Mountain_MIN1</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -301,7 +301,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <text></text>
     </card>
     <card>
-      <name>Forest</name>
+      <name>Forest_MIN1</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -346,7 +346,7 @@ Whenever you gain or lose life during your turn, amass Villagers 1. (Put a +1/+1
       <related>Villager Army MIN</related>
     </card>
     <card>
-      <name>Command Block</name>
+      <name>Sticky Piston</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors></colors>
@@ -356,7 +356,7 @@ Whenever you gain or lose life during your turn, amass Villagers 1. (Put a +1/+1
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Command Block enters, create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
+      <text>When Sticky Piston enters, create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
 {1}, {T}: Add {W}, {U}, or {B}.</text>
       <related>Tool MIN</related>
     </card>
@@ -1083,7 +1083,7 @@ When Silverfish enters, if it’s not a token, choose one —
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Choose one or two. This spells costs {1} more to cast if you choose two —
+      <text>Choose one or both. This spells costs {1} more to cast if you choose both —
 • Target creature gains flying, hexproof, and indestructible until end of turn.
 • You get 🧱🧱 (two brick counters).</text>
       <related>Brick Reserve MIN</related>
@@ -1143,7 +1143,7 @@ When Dinnerbone enters, switch enchanted creature’s power and toughness until 
       </prop>
       <tablerow>1</tablerow>
       <text>Enchant creature or land
-When jeb enters, mill four cards, then draw a card.
+When jeb_ enters, mill four cards, then draw a card.
 Enchanted permanent is all colors and has all mana abilities of lands you control and land cards in your graveyard.</text>
     </card>
     <card>
@@ -1317,20 +1317,6 @@ Raid — At the end of combat on your turn, if you attacked this turn, create a 
       <text>If you would create one or more tokens, create that many tokens plus an additional one.
 At the beginning of your end step, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
       <related>Horde MIN</related>
-    </card>
-    <card>
-      <name>Potion of Harming</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>B</colors>
-        <manacost>1B</manacost>
-        <cmc>2</cmc>
-        <type>Instant</type>
-        <maintype>Instant</maintype>
-      </prop>
-      <tablerow>3</tablerow>
-      <text>Target creature gets -2/-2 until end of turn.
-Raid — Target creature gets -4/-4 instead if you attacked this turn.</text>
     </card>
     <card>
       <name>Crossbow Piglin</name>
@@ -1815,15 +1801,15 @@ Whenever one or more attacking or blocking creatures die, create a Treasure toke
       <set rarity="rare">MIN</set>
       <prop>
         <colors>W</colors>
-        <manacost>3W</manacost>
-        <cmc>4</cmc>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Hero of the Village enters and at the beginning of your end step, create a 1/1 white Villager creature token. If you gained or lost life this turn, create two of those tokens instead.</text>
+      <text>Whenever you gain or lose life during your turn, put a quest counter on Hero of the Village.
+Sacrifice Hero of the Village: Create a 1/1 white Villager creature token for each quest counter on it. Activate only as a sorcery. </text>
       <related>Villager MIN</related>
-      <related>Golem MIN</related>
     </card>
     <card>
       <name>Kick</name>
@@ -2087,7 +2073,7 @@ Function — Return Frost Stray from your graveyard to the battlefield. ({6}: Tr
       <related>Fish MIN</related>
     </card>
     <card>
-      <name>Midnight Siege</name>
+      <name>Outpost Defense</name>
       <set rarity="rare">MIN</set>
       <prop>
         <colors>B</colors>
@@ -2097,12 +2083,12 @@ Function — Return Frost Stray from your graveyard to the battlefield. ({6}: Tr
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your upkeep, you lose 1 life and spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
-      <related>Horde MIN</related>
+      <text>When Outpost Defense enters and at the beginning of your upkeep, you lose 1 life and amass Villagers 1. (Put a +1/+1 counter on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
+      <related>Villager Army MIN</related>
     </card>
     <card>
       <name>Phantom</name>
-      <set rarity="common">MIN</set>
+      <set rarity="uncommon">MIN</set>
       <prop>
         <colors>B</colors>
         <manacost>2B</manacost>
@@ -2113,7 +2099,7 @@ Function — Return Frost Stray from your graveyard to the battlefield. ({6}: Tr
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
-Whenever a creature you control deals combat damage to a player, each opponent loses 1 life and you gain 1 life.</text>
+Unblocked attacking black creatures you control have lifelink.</text>
     </card>
     <card>
       <name>Arctic Fox</name>
@@ -2269,11 +2255,11 @@ When Lava Strider dies, if you’re an explorer, it deals 2 damage to any target
       </prop>
       <tablerow>1</tablerow>
       <text>Hexproof
-When How Did We Get Here enters, search your library for a card, put it into your hand, then shuffle.
+When How Did We Get Here? enters, search your library for a card, put it into your hand, then shuffle.
 At the beginning of your upkeep, if you have activated your Function this game, are an explorer, and control an Equipment, a Horde, and a Construction, you win the game.</text>
     </card>
     <card>
-      <name>Missing Block</name>
+      <name>Command Block</name>
       <set rarity="rare">MIN</set>
       <prop>
         <colors></colors>
@@ -2283,7 +2269,7 @@ At the beginning of your upkeep, if you have activated your Function this game, 
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{2}, {T}, Sacrifice Missing Block: Search your library for an artifact or basic land card, reveal it, put it into your hand, then shuffle.</text>
+      <text>{2}, {T}, Sacrifice Command Block: Search your library for an artifact or basic land card, reveal it, put it into your hand, then shuffle.</text>
     </card>
     <card>
       <name>Nether Portal</name>
@@ -2377,7 +2363,7 @@ When Skeleton Horse dies, create four 1/1 black Skeleton Archer creature tokens 
 Counter target spell.</text>
     </card>
     <card>
-      <name>Drowned Sailor</name>
+      <name>Drowned Zombie</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>B</colors>
@@ -2388,8 +2374,8 @@ Counter target spell.</text>
         <pt>1/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you gain or lose life during your turn, put a +1/+1 counter on Drowned Sailor.
-2U: Drowned Sailor can’t be blocked this turn.</text>
+      <text>Whenever you gain or lose life during your turn, Drowned Zombie gets +1/+1 until end of turn.
+Pay 2 life: Drowned Zombie can’t be blocked this turn.</text>
     </card>
     <card>
       <name>Zombie&apos;s Bite</name>
@@ -3830,8 +3816,9 @@ Whenever you activate a floor ability of a Construction you control, return Reso
         <pt>4/5</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>This spell costs {1} less to cast if you gained or lost life this turn.
-Lifelink</text>
+      <text>Menace
+Whenever another creature you control dies, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <related>Horde MIN</related>
     </card>
     <card>
       <name>Fang Defense</name>
@@ -4116,7 +4103,6 @@ Remove three sound counters from Sculk Sensor: Untap target nonland permanent. I
       <tablerow>1</tablerow>
       <text>When Enchanting Table enters, you gain 3 life and draw a card.
 Whenever you attack, you may pay 2 life. If you do, target attacking creature gains double strike until end of turn.</text>
-      <related>Tool MIN</related>
     </card>
     <card>
       <name>Minecart Network</name>
@@ -4702,7 +4688,7 @@ Draw a card for each tapped creature target opponent controls.</text>
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get {X} brick counters.)
+({X}: You get X brick counters.)
 ({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Place the Chests
 Draw two cards, then discard a card.
@@ -4793,7 +4779,7 @@ Untap each creature you control. They gain indestructible and hexproof until the
       </prop>
       <tablerow>1</tablerow>
       <text>Gain the next level as a sorcery to add its ability.
-({X}: You get {X} brick counters.)
+({X}: You get X brick counters.)
 ({T}: Activate a floor ability you haven’t activated yet, in any order, only as a sorcery.)
 🧱: Collect Resources
 You get 🧱 (a brick counter) for each Construction you control.
@@ -5472,7 +5458,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
 {2}, {T}, Sacrifice The Void: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles.</text>
     </card>
     <card>
-      <name>Plains</name>
+      <name>Plains_MIN2</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -5485,7 +5471,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       <text></text>
     </card>
     <card>
-      <name>Island</name>
+      <name>Island_MIN2</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -5498,7 +5484,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       <text></text>
     </card>
     <card>
-      <name>Swamp</name>
+      <name>Swamp_MIN2</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -5511,7 +5497,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       <text></text>
     </card>
     <card>
-      <name>Mountain</name>
+      <name>Mountain_MIN2</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -5524,7 +5510,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       <text></text>
     </card>
     <card>
-      <name>Forest</name>
+      <name>Forest_MIN2</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -5550,6 +5536,20 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       <text>Equipped creature gets +1/+1.
 Whenever enchanted creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 Equip {1}</text>
+    </card>
+    <card>
+      <name>Potion of Harming</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Target creature gets -2/-2 until end of turn.
+Raid — Target creature gets -4/-4 instead if you attacked this turn.</text>
     </card>
 
     <!-->Tokens</-->

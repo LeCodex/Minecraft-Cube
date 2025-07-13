@@ -162,12 +162,12 @@
 	        }
 	    },
 	    {
-	        "name": "Command Block",
+	        "name": "Sticky Piston",
 	        "rarity": "uncommon",
 	        "mana_cost": "{2}",
 	        "type": "Artifact",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Command Block.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Sticky Piston.png"
 	        }
 	    },
 	    {
@@ -738,15 +738,6 @@
 	        }
 	    },
 	    {
-	        "name": "Potion of Harming",
-	        "rarity": "common",
-	        "mana_cost": "{1}{B}",
-	        "type": "Instant",
-	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Potion of Harming.png"
-	        }
-	    },
-	    {
 	        "name": "Crossbow Piglin",
 	        "rarity": "uncommon",
 	        "mana_cost": "{4}{R}",
@@ -1037,7 +1028,7 @@
 	    {
 	        "name": "Hero of the Village",
 	        "rarity": "rare",
-	        "mana_cost": "{3}{W}",
+	        "mana_cost": "{2}{W}",
 	        "type": "Enchantment",
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Hero of the Village.png"
@@ -1206,17 +1197,17 @@
 	        }
 	    },
 	    {
-	        "name": "Midnight Siege",
+	        "name": "Outpost Defense",
 	        "rarity": "rare",
 	        "mana_cost": "{1}{B}",
 	        "type": "Enchantment",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Midnight Siege.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Outpost Defense.png"
 	        }
 	    },
 	    {
 	        "name": "Phantom",
-	        "rarity": "common",
+	        "rarity": "uncommon",
 	        "mana_cost": "{2}{B}",
 	        "type": "Creature — Spirit ",
 	        "image_uris": {
@@ -1314,12 +1305,12 @@
 	        }
 	    },
 	    {
-	        "name": "Missing Block",
+	        "name": "Command Block",
 	        "rarity": "rare",
 	        "mana_cost": "{1}",
 	        "type": "Artifact",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Missing Block.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Command Block.png"
 	        }
 	    },
 	    {
@@ -1377,12 +1368,12 @@
 	        }
 	    },
 	    {
-	        "name": "Drowned Sailor",
+	        "name": "Drowned Zombie",
 	        "rarity": "uncommon",
 	        "mana_cost": "{1}{B}",
 	        "type": "Creature — Zombie ",
 	        "image_uris": {
-	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Drowned Sailor.png"
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Drowned Zombie.png"
 	        }
 	    },
 	    {
@@ -3238,6 +3229,15 @@
 	        "image_uris": {
 	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Copper Brush.png"
 	        }
+	    },
+	    {
+	        "name": "Potion of Harming",
+	        "rarity": "common",
+	        "mana_cost": "{1}{B}",
+	        "type": "Instant",
+	        "image_uris": {
+	            "en": "https://raw.githubusercontent.com/LeCodex/Minecraft-Cube/main/MIN-files/Potion of Harming.png"
+	        }
 	    }
 	]
 	[CubeSlot(15)]
@@ -3256,9 +3256,9 @@
 		1 Vindicator
 		1 Hero of the Village
 		1 Large Slime
-		1 Midnight Siege
+		1 Outpost Defense
 		1 Ravager
-		1 Missing Block
+		1 Command Block
 		1 Nether Portal
 		1 Zombie Reinforcements
 		1 Skeleton Horse
@@ -3320,7 +3320,7 @@
 		1 Thorny Dissuasion
 		1 Village Bell
 		1 Pillager's Capture
-		1 Command Block
+		1 Sticky Piston
 		1 Armor Stand
 		1 Mob Spawner
 		1 Warm Campfire
@@ -3377,10 +3377,11 @@
 		1 Pack Donkey
 		1 Wild Fox
 		1 Frost Stray
+		1 Phantom
 		1 Happy Ghast
 		1 Bee Hive
 		1 Creaking
-		1 Drowned Sailor
+		1 Drowned Zombie
 		1 Snow Golem
 		1 Temple Guardian
 		1 Third Shriek
@@ -3503,7 +3504,6 @@
 		1 Uneasy Alliance
 		1 Cliff Llamas
 		1 Glow Squid
-		1 Potion of Harming
 		1 Oak Sapling
 		1 Golden Apple
 		1 Ramming Goat
@@ -3529,7 +3529,6 @@
 		1 Turtle
 		1 Clear Command
 		1 Fish Bucket
-		1 Phantom
 		1 Arctic Fox
 		1 Crying Ghast
 		1 Armored Horse
@@ -3601,3 +3600,5 @@
 		1 Piglin Warrior
 		1 Desert Camel
 		1 Copper Brush
+		1 Potion of Harming
+	

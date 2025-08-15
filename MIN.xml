@@ -20,7 +20,7 @@
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Unlit Cave enters or leaves the battlefield, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>When Unlit Cave enters or leaves the battlefield, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -107,7 +107,7 @@ Equip {2}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>When Piercing Crossbow enters, attach it to target creature you control.
-Equipped creature gets +2/+0 and has trample and first strike as long as it’s your turn.
+Equipped creature gets +2/+0, and has trample and first strike as long as it’s your turn.
 Equip {2}</text>
     </card>
     <card>
@@ -249,7 +249,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <text>Search your library for two basic land cards, put one onto the battlefield tapped and the other in your graveyard, then shuffle.</text>
     </card>
     <card>
-      <name>Plains_MIN1</name>
+      <name>Plains MIN1</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -262,7 +262,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <text></text>
     </card>
     <card>
-      <name>Island_MIN1</name>
+      <name>Island MIN1</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -275,7 +275,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <text></text>
     </card>
     <card>
-      <name>Swamp_MIN1</name>
+      <name>Swamp MIN1</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -288,7 +288,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <text></text>
     </card>
     <card>
-      <name>Mountain_MIN1</name>
+      <name>Mountain MIN1</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -301,7 +301,7 @@ Whenever a creature you don’t control becomes the target of a spell or ability
       <text></text>
     </card>
     <card>
-      <name>Forest_MIN1</name>
+      <name>Forest MIN1</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -385,7 +385,7 @@ Whenever you gain or lose life during your turn, amass Villagers 1. (Put a +1/+1
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Mob Spawner enters, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
+      <text>When Mob Spawner enters, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)
 {1}, {T}: Add {B}, {R}, or {G}.</text>
       <related>Horde MIN</related>
     </card>
@@ -841,7 +841,8 @@ III — If The Nether is untapped, search your library for a land card with a ba
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Illusioner enters, you may exile another target nontoken artifact or creature you control. If you do, create two tokens that are copies of it, except they have menace if they’re a creature.</text>
+      <text>Menace
+When Illusioner enters, you may exile another target nontoken artifact or creature you control. If you do, create two tokens that are copies of it, except they have menace if they’re a creature.</text>
     </card>
     <card>
       <name>Zombified Piglin</name>
@@ -991,7 +992,7 @@ Gather — If a permanent you control with a mana ability entered this turn, dra
       </prop>
       <tablerow>2</tablerow>
       <text>Reach, deathtouch
-When Cave Spider enters, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
+When Cave Spider enters, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)
 Creature tokens you control can block as though they didn’t have decayed.</text>
       <related>Horde MIN</related>
     </card>
@@ -1055,7 +1056,7 @@ Function — Return all cards you own exiled by Closed Server to the battlefield
       <text>Flash
 When Silverfish enters, if it’s not a token, choose one —
 • Destroy target enchantment or artifact.
-• Create a token that’s a copy of Silverfish.</text>
+• Create a token that’s a copy of target creature you control with the highest power or tied for the highest power.</text>
     </card>
     <card>
       <name>Tamed Cat</name>
@@ -1117,21 +1118,6 @@ When Unload enters, if you control two or more artifacts, tap enchanted creature
 Enchanted creature doesn’t untap during its controller’s untap step.</text>
     </card>
     <card>
-      <name>Dinnerbone</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>U</colors>
-        <manacost>U</manacost>
-        <cmc>1</cmc>
-        <type>Enchantment - Aura </type>
-        <maintype>Enchantment</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>Flash
-Enchant creature
-When Dinnerbone enters, switch enchanted creature’s power and toughness until Dinnerbone leaves the battlefield.</text>
-    </card>
-    <card>
       <name>jeb</name>
       <set rarity="common">MIN</set>
       <prop>
@@ -1157,7 +1143,7 @@ Enchanted permanent is all colors and has all mana abilities of lands you contro
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>This spell deals 2 damage to each creature. Then, spawn trample 2. (Create a 2/2 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>This spell deals 2 damage to each creature. Then, spawn trample 2. (Create a 2/2 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -1198,7 +1184,7 @@ Function — Target player loses 2 life and you gain 2 life. ({6}: Trigger any n
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target artifact. If you controlled that artifact, spawn trample 4. (Create a 4/4 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>Destroy target artifact. If you controlled that artifact, spawn trample 4. (Create a 4/4 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -1212,7 +1198,7 @@ Function — Target player loses 2 life and you gain 2 life. ({6}: Trigger any n
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your end step, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
+      <text>At the beginning of your end step, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)
 {2}, {T}, Sacrifice a creature: Draw a card.</text>
       <related>Horde MIN</related>
     </card>
@@ -1273,7 +1259,8 @@ Raid — At the end of combat on your turn, if you attacked this turn, create a 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Apex — Gain control of target creature until end of turn. Untap it. It gains haste until end of turn, then it deals damage equal to its power to its owner  if you controlled a creature with the greatest power or tied for the greatest power as you cast this spell.</text>
+      <text>Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.
+Apex —That creature deals damage equal to its power to its owner if you controlled a creature with the greatest power or tied for the greatest power as you cast this spell.</text>
     </card>
     <card>
       <name>Cliff Llamas</name>
@@ -1315,7 +1302,7 @@ Raid — At the end of combat on your turn, if you attacked this turn, create a 
       </prop>
       <tablerow>1</tablerow>
       <text>If you would create one or more tokens, create that many tokens plus an additional one.
-At the beginning of your end step, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+At the beginning of your end step, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -1387,7 +1374,7 @@ At the beginning of your end step, put a +1/+1 counter on target creature you co
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target creature gets +2/+2 and gains trample until end of turn. Untap it.</text>
+      <text>Target creature gets +2/+2 and gains trample until end of turn. Untap it. If it has decayed, it loses decayed. (This effect lasts indefinitely.)</text>
     </card>
     <card>
       <name>Ramming Goat</name>
@@ -1436,7 +1423,6 @@ Whenever you cast a noncreature spell, create a 2/1 blue and red Spirit creature
       <tablerow>2</tablerow>
       <text>Deathtouch, lifelink
 {1}, Pay 3 life: Target creature gains deathtouch and lifelink until end of turn. Activate only as a sorcery.</text>
-      <related>Villager MIN</related>
     </card>
     <card>
       <name>Village Nitwit</name>
@@ -1479,7 +1465,7 @@ Whenever you cast a noncreature spell, create a 2/1 blue and red Spirit creature
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Zombie Villager dies, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>When Zombie Villager dies, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -1537,7 +1523,7 @@ When Village Weaponsmith enters, target creature gets +2/+0 and gains haste unti
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target opponent sacrifices a creature.
+      <text>Choose creature or enchantment. Target opponent sacrifices a permanent of that type of their choice.
 Raid — If you attacked this turn, they also lose 2 life and you gain 2 life.</text>
     </card>
     <card>
@@ -1554,19 +1540,6 @@ Raid — If you attacked this turn, they also lose 2 life and you gain 2 life.</
       <tablerow>2</tablerow>
       <text>Ward—Pay life equal to Baby Zombie’s power (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays life equal to Baby Zombie’s power.)
 {2}: Baby Zombie gets +1/+1 and gains haste until end of turn.</text>
-    </card>
-    <card>
-      <name>Crossbow Shot</name>
-      <set rarity="common">MIN</set>
-      <prop>
-        <colors>W</colors>
-        <manacost>W</manacost>
-        <cmc>1</cmc>
-        <type>Instant</type>
-        <maintype>Instant</maintype>
-      </prop>
-      <tablerow>3</tablerow>
-      <text>This spell deals 3 damage to target attacking or blocking creature.</text>
     </card>
     <card>
       <name>Polar Bear</name>
@@ -1642,7 +1615,7 @@ Function — Draw a card. ({6}: Trigger any number of Function abilities you con
       </prop>
       <tablerow>2</tablerow>
       <text>Deathtouch
-When Husk enters, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+When Husk enters, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -1671,7 +1644,7 @@ When Wither Skeleton enters, suit up. (You may reveal an Equipment you own from 
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Enter the Cave enters, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
+      <text>When Enter the Cave enters, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)
 Creature tokens you control get +1/+1.</text>
       <related>Horde MIN</related>
     </card>
@@ -1733,7 +1706,8 @@ Apex — Whenever Vindicator attacks, if you control a creature with the greates
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Meadow Cow enters, search your library for a basic Plains card, reveal it, put it into your hand, then shuffle. If you gained or lost life this turn, search for two of those cards instead.</text>
+      <text>When Meadow Cow enters, search your library for a basic Plains card, reveal it, put it into your hand, then shuffle.
+Landfall — Whenever a land you control enters, you gain 1 life.</text>
     </card>
     <card>
       <name>Banished Witch</name>
@@ -1793,8 +1767,8 @@ Function — Creatures you control can’t be blocked this turn. ({6}: Trigger a
       <tablerow>1</tablerow>
       <text>When Victory Celebration enters, create a 3/3 red Boar creature token.
 Whenever one or more attacking or blocking creatures die, create a Treasure token and exile the top card of your library. You may play it until the end of your next turn.</text>
-      <related>Treasure MIN</related>
       <related>Boar MIN</related>
+      <related>Treasure MIN</related>
     </card>
     <card>
       <name>Hero of the Village</name>
@@ -1822,7 +1796,7 @@ Sacrifice Hero of the Village: Create a 1/1 white Villager creature token for ea
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Return target artifact or creature to its owner’s hand. If its mana value was 3 or less, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+      <text>Return target nonland permanent to its owner’s hand. If its mana value was 3 or less, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
     </card>
     <card>
       <name>Time Command</name>
@@ -1896,17 +1870,15 @@ Apex — If you control a creature with the greatest power or tied for the great
       <name>Spectator Mode</name>
       <set rarity="common">MIN</set>
       <prop>
-        <colors>W</colors>
-        <manacost>W</manacost>
+        <colors>U</colors>
+        <manacost>U</manacost>
         <cmc>1</cmc>
         <type>Enchantment - Aura </type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
       <text>Enchant creature
-Enchanted creature has defender.
-Prevent all damage that would be dealt by enchanted creature.
-Function — Exile enchanted creature. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Enchanted creature is a colorless 1/1 Spirit creature and loses all other abilities, colors, and types.</text>
     </card>
     <card>
       <name>Void Command</name>
@@ -2282,8 +2254,9 @@ At the beginning of your upkeep, if you have activated your Function this game, 
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Nether Portal enters, exile the top two cards of your library. Until the end of your next turn, you may play those cards.
-Whenever you play a land or cast a spell from anywhere but your hand, Nether Portal deals 1 damage to target player.</text>
+      <text>Travel (If there are eight or more lands among your battlefield and graveyard, you’re an explorer for the rest of the game.)
+When Nether Portal enters, exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+{T}: Nether Portal deals 1 damage to target player. Activate only if you’re an explorer.</text>
     </card>
     <card>
       <name>Zombie Reinforcements</name>
@@ -2298,7 +2271,7 @@ Whenever you play a land or cast a spell from anywhere but your hand, Nether Por
       <tablerow>3</tablerow>
       <text>Choose one —
 • Sacrifice an artifact or creature. If you do, return target creature card from your graveyard to the battlefield.
-• Spawn menace 6. (Create a 6/6 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+• Spawn menace 6. (Create a 6/6 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -2314,7 +2287,7 @@ Whenever you play a land or cast a spell from anywhere but your hand, Nether Por
       <tablerow>1</tablerow>
       <text>Enchant creature
 Enchanted creature has deathtouch. 
-Apex — When Dragon’s Breath enters, if you control a creature with the greatest power or tied for the greatest power, enchanted creature deals damage equal to its power to target creature.</text>
+Apex — When Dragon’s Breath enters, if you control a creature with the greatest power or tied for the greatest power, destroy up to one target artifact or enchantment.</text>
     </card>
     <card>
       <name>Creaking</name>
@@ -2388,7 +2361,9 @@ Pay 2 life: Drowned Zombie can’t be blocked this turn.</text>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target creature. Its controller creates a 2/2 black Zombie Villager creature token.</text>
+      <text>Choose one —
+• Destroy target creature. Its controller creates a 2/2 black Zombie Villager creature token.
+• Target opponent sacrifices an enchantment of their choice.</text>
       <related>Zombie Villager MIN</related>
     </card>
     <card>
@@ -2402,7 +2377,7 @@ Pay 2 life: Drowned Zombie can’t be blocked this turn.</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target artifact or enchantment. Spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>Destroy target artifact or enchantment. Spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -2429,7 +2404,7 @@ Pay 2 life: Drowned Zombie can’t be blocked this turn.</text>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>This spell deals 3 damage to any target. Then, spawn trample 3. (Create a 3/3 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>This spell deals 3 damage to any target. Then, spawn trample 3. (Create a 3/3 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -2563,7 +2538,7 @@ Whenever another creature you control enters for the first time each turn, untap
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target creature. Whenever its controller casts a spell this turn, they lose 2 life.</text>
+      <text>Destroy target creature or enchantment. Whenever its controller casts a spell this turn, they lose 2 life.</text>
     </card>
     <card>
       <name>Enderman</name>
@@ -2790,7 +2765,7 @@ When Bogged Skeleton dies, it deals 1 damage to any target.</text>
       </prop>
       <tablerow>3</tablerow>
       <text>Target creature gets +1/+2 and gains reach until end of turn. Untap it.
-Spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+Spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -3047,7 +3022,7 @@ When Wind Charge enters, target creature gains flying until end of turn. Untap i
     </card>
     <card>
       <name>Forest Fire</name>
-      <set rarity="common">MIN</set>
+      <set rarity="uncommon">MIN</set>
       <prop>
         <colors>R</colors>
         <manacost>1R</manacost>
@@ -3056,8 +3031,8 @@ When Wind Charge enters, target creature gains flying until end of turn. Untap i
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Destroy target land. Its controller searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.
-Draw a card.</text>
+      <text>Travel (If there are eight or more lands among your battlefield and graveyard, you’re an explorer for the rest of the game.)
+Destroy target artifact. If you’re an explorer, destroy up to two target artifacts instead.</text>
     </card>
     <card>
       <name>Ender Chest</name>
@@ -3144,7 +3119,7 @@ Equip {1}</text>
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Wandering Trader enters, for each of artifact, creature, enchantment, instant or sorcery, and land, search your library for card of that type, reveal them, then shuffle. Put any number of them into your graveyard and the rest on top of your library in any order. Then, draw a card.</text>
+      <text>When Wandering Trader enters, search your library for a card of each card type, reveal them, then shuffle. Put any number of them into your graveyard and the rest on top of your library in any order. Then, draw a card.</text>
     </card>
     <card>
       <name>Zombie Giant</name>
@@ -3158,7 +3133,7 @@ Equip {1}</text>
         <pt>6/6</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Zombie Giant dies, spawn menace 6. (Create a 6/6 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>When Zombie Giant dies, spawn menace 6. (Create a 6/6 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -3228,12 +3203,12 @@ Apex — If you control a creature with the greatest power or tied for the great
         <colors>B</colors>
         <manacost>1B</manacost>
         <cmc>2</cmc>
-        <type>Enchantment - Aura Curse </type>
+        <type>Enchantment</type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Enchant player
-At the beginning of combat on your turn, if enchanted player has more life than you, amass Villagers 2. (Put two +1/+1 counters on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
+      <text>Whenever a creature you control dies, put an omen counter on Bad Omen.
+Sacrifice Bad Omen: Amass Villagers 1 for each omen counter on it. Activate only as a sorcery. (To amass Villagers 1, put a +1/+1 counter on an Army you control. It’s also a Villager. If you don’t control an Army, create a 0/0 black Villager Army creature token first.)</text>
       <related>Villager Army MIN</related>
     </card>
     <card>
@@ -3307,7 +3282,7 @@ Whenever another artifact you control enters, untap Observer.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>Reach
-When Spider Jockey dies, spawn deathtouch 3. (Create a 3/3 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+When Spider Jockey dies, spawn deathtouch 3. (Create a 3/3 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -3337,7 +3312,6 @@ When Spider Jockey dies, spawn deathtouch 3. (Create a 3/3 black Horde creature 
       <tablerow>2</tablerow>
       <text>Whenever another creature you control enters, you gain 1 life.
 At the beginning of your end step, if you gained or lost life this turn, put a +1/+1 counter on target creature.</text>
-      <related>Ox MIN</related>
     </card>
     <card>
       <name>Ancient Etchings</name>
@@ -3387,19 +3361,18 @@ Function — Choose one —
 • Untap all nonland permanents you control.</text>
     </card>
     <card>
-      <name>Teleport Out</name>
+      <name>Debug World</name>
       <set rarity="uncommon">MIN</set>
       <prop>
-        <colors>U</colors>
-        <manacost>2U</manacost>
-        <cmc>3</cmc>
-        <type>Instant</type>
-        <maintype>Instant</maintype>
+        <colors>W</colors>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
       </prop>
-      <tablerow>3</tablerow>
-      <text>Choose one —
-• Counter target creature spell. Draw a card.
-• Choose a creature type. Return each creature of that type to its owner’s hand.</text>
+      <tablerow>1</tablerow>
+      <text>When Debug World enters, scry 2.
+Function — Exile up to two artifacts and/or enchantments you control, then return those cards to the battlefield under their owner’s control. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Finish The Base</name>
@@ -3440,7 +3413,7 @@ Raid — If you attacked this turn, instead search your library for a card, put 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Discard your hand, then draw three cards and spawn trample 2. (Create a 2/2 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>Discard your hand, then draw three cards and spawn trample 2. (Create a 2/2 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -3484,7 +3457,7 @@ Equip {2}</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target creature gets +4/+0 until end of turn. Whenever a creature dies this turn, exile the top card of your library. You may play it until the end of your next turn.</text>
+      <text>Target creature gets +3/+0 and gains first strike until end of turn. If it’s attacking, destroy up to one target artifact.</text>
     </card>
     <card>
       <name>Pillager Horn</name>
@@ -3716,7 +3689,7 @@ Function — Copy each card exiled with Jukebox. You may cast the copies without
       <tablerow>2</tablerow>
       <text>You may sacrifice three black creatures instead of paying The Wither’s mana cost. 
 Flying, menace, deathtouch
-At the beginning each player’s upkeep, that player sacrifices a permanent.</text>
+At the beginning each player’s upkeep, that player sacrifices a permanent of their choice.</text>
     </card>
     <card>
       <name>Jeb Door</name>
@@ -3730,7 +3703,7 @@ At the beginning each player’s upkeep, that player sacrifices a permanent.</te
       </prop>
       <tablerow>1</tablerow>
       <text>When Jeb Door enters, untap up to two artifacts and/or lands.
-Function — Exile up to two artifacts and/or creatures you control, then return those cards to the battlefield under their owner’s control. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+Function — Untap up to two artifacts and/or lands. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Lava Lake</name>
@@ -3772,7 +3745,7 @@ Equip {4}</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>2G: Spawn deathtouch X, where X is the power of target creature you control. Sacrifice Moody Weather at the beginning of the next end step. (Create a X/X black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+      <text>2G: Spawn deathtouch X, where X is the power of target creature you control. Sacrifice Moody Weather at the beginning of the next end step. (Create a X/X black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -3817,7 +3790,7 @@ Whenever you activate a floor ability of a Construction you control, return Reso
       </prop>
       <tablerow>2</tablerow>
       <text>Menace
-Whenever another creature you control dies, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)</text>
+Whenever another creature you control dies, spawn menace 2. (Create a 2/2 black Horde creature token with menace and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -3901,7 +3874,7 @@ Search your library for a creature card with mana value X or less, put it onto t
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When The End Fountain enters, target player sacrifices a creature.
+      <text>When The End Fountain enters, target player sacrifices a creature of their choice.
 {6}, {T}, Sacrifice The End Fountain: Discard your hand, then draw seven cards.</text>
     </card>
     <card>
@@ -3979,14 +3952,14 @@ At the end of your first combat phase each turn, untap all modified creatures yo
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors></colors>
-        <manacost>1</manacost>
-        <cmc>1</cmc>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{2}, Discard a land card: Draw a card.
-{2}, Discard a nonland card: Search your library for basic land card, reveal it, put it into your hand, then shuffle.</text>
+      <text>{1}, Discard a land card: Draw a card.
+{1}, Discard a nonland card: Search your library for basic land card, reveal it, put it into your hand, then shuffle.</text>
     </card>
     <card>
       <name>Hired Help</name>
@@ -4040,8 +4013,8 @@ Whenever you gain or lose life during your turn, each opponent loses 1 life.</te
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Discard a card, then draw two cards and create a Treasure token.
-Apex — Pilfer the Bastion costs {1} less to cast if you control a creature with the greatest power or tied for the greatest power.</text>
+      <text>Apex — Pilfer the Bastion costs {1} less to cast if you control a creature with the greatest power or tied for the greatest power.
+Discard a card, then draw two cards and create a Treasure token.</text>
       <related>Treasure MIN</related>
     </card>
     <card>
@@ -4147,8 +4120,8 @@ Whenever an artifact you control enters, return Strip Mining to its owner’s ha
 • Create two 1/1 white Bird creature tokens. Put a flying counter on one of them.
 • Create a 2/2 blue Turtle creature token with hexproof.</text>
       <related>Ox MIN</related>
-      <related>Turtle MIN</related>
       <related count="2">Bird MIN</related>
+      <related>Turtle MIN</related>
     </card>
     <card>
       <name>Spawn Egg</name>
@@ -4210,7 +4183,6 @@ When World Eater enters, exile up to one target nonland permanent. For each card
 At the beginning of your upkeep, choose one. If you’re an explorer, you may choose both instead —
 • Draw a card.
 • Target creature gets +4/+3 until end of turn.</text>
-      <related count="2">Treasure MIN</related>
       <related>Explorer MIN</related>
     </card>
     <card>
@@ -4283,7 +4255,7 @@ Equip {1}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>When Grindstone enters, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)
-{T}, Unattach an Equipment attached to a creature you control: You draw a card and lose 1 life.</text>
+Whenever an Equipment you control enters, destroy target enchantment you don’t control.</text>
     </card>
     <card>
       <name>Prepared Incursion</name>
@@ -4366,21 +4338,21 @@ Equipment you control have “Equip creature token {0}. Activate only once each 
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Each player sacrifices a creature. If you sacrificed a creature this way, each opponent also discards a card.</text>
+      <text>Each player sacrifices a creature of their choice. If you sacrificed a creature this way, each opponent also discards a card.</text>
     </card>
     <card>
       <name>A Complete Catalogue</name>
-      <set rarity="common">MIN</set>
+      <set rarity="uncommon">MIN</set>
       <prop>
         <colors>G</colors>
-        <manacost>3G</manacost>
-        <cmc>4</cmc>
-        <type>Sorcery</type>
-        <maintype>Sorcery</maintype>
+        <manacost>1GG</manacost>
+        <cmc>3</cmc>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
       </prop>
-      <tablerow>3</tablerow>
-      <text>Gather — Create three 1/1 white Cat creature tokens, plus an additional one for each permanent you control with a mana ability that entered this turn.</text>
-      <related count="3">Cat MIN</related>
+      <tablerow>1</tablerow>
+      <text>Gather — Whenever a permanent you control with a mana ability enters, put a variant counter on A Complete Catalogue, then create a 1/1 white Cat creature token for each variant counter on it. Then if it has five or more variant counters on it, sacrifice it.</text>
+      <related>Cat MIN</related>
     </card>
     <card>
       <name>Mesa Wolf</name>
@@ -4536,7 +4508,7 @@ When Shy Armadillo dies, suit up. (You may reveal an Equipment you own from outs
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Trial Spawner enters, spawn trample 4. (Create a 4/4 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed.)
+      <text>When Trial Spawner enters, spawn trample 4. (Create a 4/4 black Horde creature token with trample and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)
 Whenever a Horde you control dies, exile the top card of your library. Until your next end step, you may play it.</text>
       <related>Horde MIN</related>
     </card>
@@ -4811,8 +4783,8 @@ Whenever a land card is put into your graveyard from anywhere for the first time
       <set rarity="common">MIN</set>
       <prop>
         <colors></colors>
-        <manacost>4</manacost>
-        <cmc>4</cmc>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
       </prop>
@@ -4824,27 +4796,28 @@ Whenever a land card is put into your graveyard from anywhere for the first time
       <set rarity="rare">MIN</set>
       <prop>
         <colors></colors>
-        <manacost>3</manacost>
-        <cmc>3</cmc>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
         <type>Legendary Artifact</type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{T}, Put The Dragon Egg on the bottom of its owner’s library: Exile target spell you control. Exile cards from the top of your library until you reveal a card that shares a card type with it. You may cast this card without paying its mana cost. Then put the other cards exiled this way on the bottom of your library in a random order.</text>
+      <text>{1}, {T}, Discard a card: Reveal cards from the top of your library until you reveal a card that shares a card type with the discarded card. Put that card into your hand and the rest on the bottom of your library in a random order.</text>
     </card>
     <card>
       <name>Stasis Chamber</name>
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors></colors>
-        <manacost>3</manacost>
-        <cmc>3</cmc>
+        <manacost>2</manacost>
+        <cmc>2</cmc>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>When Stasis Chamber enters, return target creature to its owner’s hand.
-{2}, {T}: Return Stasis Chamber to its owner’s hand. Activate only as a sorcery.</text>
+      <text>Flash
+When Stasis Chamber enters, return target creature you control to its owner’s hand.
+{3}, {T}: Return Stasis Chamber to its owner’s hand. Activate only as a sorcery.</text>
     </card>
     <card>
       <name>Ominous Vault</name>
@@ -5427,7 +5400,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{1}, {T}: Exile another target land you control, then return that card to the battlefield under your control.</text>
+{2}, {T}: Exile another target land you control, then return that card to the battlefield under your control.</text>
     </card>
     <card>
       <name>Skyblock</name>
@@ -5458,7 +5431,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
 {2}, {T}, Sacrifice The Void: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles.</text>
     </card>
     <card>
-      <name>Plains_MIN2</name>
+      <name>Plains MIN2</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -5471,7 +5444,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       <text></text>
     </card>
     <card>
-      <name>Island_MIN2</name>
+      <name>Island MIN2</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -5484,7 +5457,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       <text></text>
     </card>
     <card>
-      <name>Swamp_MIN2</name>
+      <name>Swamp MIN2</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -5497,7 +5470,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       <text></text>
     </card>
     <card>
-      <name>Mountain_MIN2</name>
+      <name>Mountain MIN2</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -5510,7 +5483,7 @@ When Flat Overworld enters, put up to one target card from your graveyard on top
       <text></text>
     </card>
     <card>
-      <name>Forest_MIN2</name>
+      <name>Forest MIN2</name>
       <set rarity="">MIN</set>
       <prop>
         <colors></colors>
@@ -5550,6 +5523,33 @@ Equip {1}</text>
       <tablerow>3</tablerow>
       <text>Target creature gets -2/-2 until end of turn.
 Raid — Target creature gets -4/-4 instead if you attacked this turn.</text>
+    </card>
+    <card>
+      <name>Crossbow Shot</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Crossbow Shot deals 3 damage to target attacking or blocking creature.</text>
+    </card>
+    <card>
+      <name>Roll Back</name>
+      <set rarity="common">MIN</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Return target noncreature, nonland permanent to its owner’s hand.
+Draw a card.</text>
     </card>
 
     <!-->Tokens</-->

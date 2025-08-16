@@ -34,8 +34,7 @@
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{1}, {T}: Add one mana of any color.
-Tools you control have “{T}: Add one mana of any color.”</text>
+      <text>{T}, Tap an untapped artifact or land you control: Add one mana of any color.</text>
     </card>
     <card>
       <name>Flaming Weapons</name>
@@ -1295,14 +1294,13 @@ Apex —That creature deals damage equal to its power to its owner if you contro
       <set rarity="mythic">MIN</set>
       <prop>
         <colors>G</colors>
-        <manacost>3GG</manacost>
-        <cmc>5</cmc>
+        <manacost>2GG</manacost>
+        <cmc>4</cmc>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>If you would create one or more tokens, create that many tokens plus an additional one.
-At the beginning of your end step, spawn deathtouch 2. (Create a 2/2 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
+      <text>At the beginning of your end step, put a mob counter on Neverending Spawn, then spawn deathtouch X, where X is the number of mob counters on it. (Create a X/X black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -1836,7 +1834,7 @@ Apex — If you control a creature with the greatest power or tied for the great
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Look at the top four cards of your library. You may reveal an artifact, creature, or land card among them and put it into your hand. Put the rest on the bottom of your library.</text>
+      <text>Look at the top four cards of your library. You may reveal an artifact, creature, or land card among them and put it into your hand. Put the rest into your graveyard.</text>
     </card>
     <card>
       <name>Ruthless Predation</name>
@@ -1878,7 +1876,7 @@ Apex — If you control a creature with the greatest power or tied for the great
       </prop>
       <tablerow>1</tablerow>
       <text>Enchant creature
-Enchanted creature is a colorless 1/1 Spirit creature and loses all other abilities, colors, and types.</text>
+Enchanted creature loses all abilities and is a colorless 1/1 Spirit creature. (It loses all other colors, card types, creature types, and names.)</text>
     </card>
     <card>
       <name>Void Command</name>
@@ -1941,7 +1939,7 @@ Whenever Turtle blocks, you get 🧱 (a brick counter).</text>
     </card>
     <card>
       <name>Ink Squid</name>
-      <set rarity="uncommon">MIN</set>
+      <set rarity="common">MIN</set>
       <prop>
         <colors>U</colors>
         <manacost>2U</manacost>
@@ -1951,7 +1949,7 @@ Whenever Turtle blocks, you get 🧱 (a brick counter).</text>
         <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever Ink Squid attacks, creature tokens you control can’t be blocked this turn unless defending player pays {1} for each one they block.</text>
+      <text>When Ink Squid dies, you may return target creature to its owner’s hand.</text>
     </card>
     <card>
       <name>Tame Panda</name>
@@ -2494,7 +2492,7 @@ Reach</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Reveal cards from the top of your library until you reveal a land card, then put those cards into your graveyard. When you do, create a black X/X Golem Horror artifact creature token, where X is the number of land cards in your graveyard.</text>
+      <text>Reveal cards from the top of your library until you reveal a land card, then put those cards into your graveyard. When you do, create an X/X black Golem Horror artifact creature token, where X is the number of land cards in your graveyard.</text>
       <related>Golem Horror MIN</related>
     </card>
     <card>
@@ -2916,7 +2914,7 @@ Draw two cards and create a tapped Tool token. (It’s an artifact with “{T}: 
       <text>When Equipping Station enters, create a tapped Tool token. (It’s an artifact with “{T}: Add {C}. This mana can’t be spent to cast nonartifact spells.”)
 Function — Put a +1/+1 counter and a deathtouch, lifelink, or menace counter on target creature. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
       <related>Tool MIN</related>
-      <related>Rework</related>
+      <related>Rework?</related>
     </card>
     <card>
       <name>Isn&apos;t it Iron Pick</name>
@@ -2973,7 +2971,8 @@ Apex — If you control a creature with the greatest power or tied for the great
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever you cast a noncreature spell, create a 1/1 blue Fish creature token with “This creature can’t be blocked.”</text>
+      <text>When Tadpole Knot enters, create a 1/1 blue Fish creature token with “This creature can’t be blocked.”
+Crabs, Fishes, Frogs, Turtles, Squids, and Whales you control have “{1}, {T}: Add {U}.”</text>
       <related>Fish MIN</related>
     </card>
     <card>
@@ -3296,7 +3295,7 @@ When Spider Jockey dies, spawn deathtouch 3. (Create a 3/3 black Horde creature 
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Apex — Whenever a creature you control attacks, if you control a creature with the greatest power or tied for the greatest power, target creature can’t block this turn. That creature attacks during its controller’s next combat phase if able.</text>
+      <text>Apex — Whenever a creature you control with the greatest power or tied for the greatest power attacks, target creature can’t block this turn. That creature attacks during its controller’s next combat phase if able.</text>
     </card>
     <card>
       <name>Brown Mooshroom</name>
@@ -3636,7 +3635,7 @@ When Lightning Rod enters, if it was cast, counter target instant or sorcery spe
     </card>
     <card>
       <name>Jukebox</name>
-      <set rarity="uncommon">MIN</set>
+      <set rarity="rare">MIN</set>
       <prop>
         <colors>B</colors>
         <manacost>1B</manacost>
@@ -3645,8 +3644,8 @@ When Lightning Rod enters, if it was cast, counter target instant or sorcery spe
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{X}, {T}: Exile target artifact, enchantment, instant, or sorcery card from an opponent’s graveyard with mana value X.
-Function — Copy each card exiled with Jukebox. You may cast the copies without paying their mana cost. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
+      <text>{T}: Exile target card from an opponent’s graveyard.
+Function — Put a disc counter on a nonland card exiled with Jukebox. For as long as that card remains exiled, you may cast it and you may spend mana as though it were mana of any color to cast it. ({6}: Trigger any number of Function abilities you control, only as a sorcery.)</text>
     </card>
     <card>
       <name>Skeleton Bowman</name>
@@ -3667,13 +3666,15 @@ Function — Copy each card exiled with Jukebox. You may cast the copies without
       <set rarity="uncommon">MIN</set>
       <prop>
         <colors>G</colors>
-        <manacost>1G</manacost>
-        <cmc>2</cmc>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of your end step, you may pay {2} or 🧱. If you do, you may return a permanent card from your graveyard to your hand.</text>
+      <text>Landfall — Whenever Act of Preservation or a land you control enters, choose one —
+• You get 🧱 (a brick counter).
+• Put target permanent card from your graveyard on top of your library.</text>
     </card>
     <card>
       <name>The Wither</name>
@@ -3745,7 +3746,8 @@ Equip {4}</text>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>2G: Spawn deathtouch X, where X is the power of target creature you control. Sacrifice Moody Weather at the beginning of the next end step. (Create a X/X black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)</text>
+      <text>1G, Discard a card: Spawn deathtouch 3. (Create a 3/3 black Horde creature token with deathtouch and decayed. It can’t block and is sacrificed after attacking. When a player casts no spells on their turn, it loses decayed forever.)
+Whenever a creature you control with power 3 or more dies, draw a card.</text>
       <related>Horde MIN</related>
     </card>
     <card>
@@ -4205,13 +4207,15 @@ Equip {4}</text>
       <set rarity="rare">MIN</set>
       <prop>
         <colors>R</colors>
-        <manacost>2R</manacost>
-        <cmc>3</cmc>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
         <type>Enchantment</type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever Equipped Spawn or a creature you control enters, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)</text>
+      <text>When Equipped Spawn enters, suit up. (You may reveal an Equipment you own from outside the game and put it into your hand, or put a +1/+1 counter on a creature.)
+Whenever you cast an Equipment spell, you may create a 2/2 black Zombie creature token.</text>
+      <related>Zombie MIN</related>
     </card>
     <card>
       <name>Stone Sword</name>
@@ -5311,7 +5315,7 @@ When Classic Superflat enters, put a +1/+1 counter on target creature you contro
       </prop>
       <tablerow>0</tablerow>
       <text>{T}: Add {C}.
-{1}, {T}: Scry 2. Activate only if a permanent you control became the target of a spell or ability you don’t control this turn.</text>
+{1}, {T}: Scry 2. Activate only if you or a permanent you control became the target of a spell or ability you don’t control this turn.</text>
     </card>
     <card>
       <name>Deep Dark</name>
